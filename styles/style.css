@@ -1,4 +1,7 @@
-
+@font-face{
+	font-family: simsun;
+	src: url(../fonts/SimSun.ttf);
+}
 @font-face{
 	font-family: castellar;
 	src: url(../fonts/castellar.ttf);
@@ -28,6 +31,7 @@ time, mark, audio, video {
 body{
 	background-color: white;
 	font-family: kozgopro;
+	height: 5px;
 }
 
 .container{
@@ -151,6 +155,7 @@ footer{
 	  right: 0;
 	  bottom: 0;
 	  left: 0;
+	  top:-14px;
 	  text-align: center;
 	  min-width: 1024px;
 }
@@ -159,20 +164,12 @@ div#banner{
   width:100%;
   height:200px;
   margin:0 auto;
-  z-index: 2;
-
-  background-image: url(../img/home/sea.png);
-  background-position: 120% 70px,0px 0px,0px 0px;
+  background-image: url(../img/footer/sea.png);
+  background-position: 120% 0px,0px 0px,0px 0px;
   background-repeat: repeat-x; 
   animation: animate-background linear 70s infinite;
 }
 
-#sea{
-  position: relative;
-  image-repeat:repeat-x;
-  margin:120% 70px,0px 0px,0px 0px;
-  animation: sea linear 70s infinite;
-}
 
 #boat{
   position: relative;
@@ -181,7 +178,7 @@ div#banner{
   animation: boat 5s infinite;
 }
 
-@keyframes sea{
+@keyframes animate-background{
   from{background-position: -120% 0px,0px 0px,0px 0px;}
   to{background-position: 0 0px,-1000px 0px,-500px 0px;}
 }
