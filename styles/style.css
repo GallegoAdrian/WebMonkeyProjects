@@ -136,13 +136,21 @@ a:hover{
 	flex-direction:column;
 	justify-content:space-around;
 	align-items:center;
-	font-size: 2em;
 	text-transform: uppercase;
 	font-family: nSimsum;
 	height: 750px;
 	background-image: url(../img/home/slider.jpg);
 	background-repeat: no-repeat;
+	color: #07469f;
+	font-size: 43px;
+	
 }
+#slider h1{
+	padding-top: 20PX;
+	font-weight: normal;
+	transform: scaleY(1.5);
+}
+
 
  #arrow{
 	cursor: pointer;
