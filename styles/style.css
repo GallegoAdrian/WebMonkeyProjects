@@ -188,6 +188,7 @@ div#banner{
 	height: 450px;
 	background-image: url(../img/menus/marisco.jpg);
 	background-repeat: no-repeat;
+	background-size: 100%;
 }
 
 .container-info{
