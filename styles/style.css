@@ -170,6 +170,29 @@ div#banner{
   animation: animate-background linear 70s infinite;
 }
 
+.container .slider-menus{
+	height: 450px;
+	background-image: url(../img/menus/marisco.jpg);
+	background-repeat: no-repeat;
+}
+
+.container-info{
+	height: 1024px;
+	padding: 10px;
+	font-size: 20px;
+	background-color: #e6e6ff;
+}
+
+.container-info h1{
+	text-align: center;
+	background-color: #9999ff;
+}
+
+.bottom-title{
+	height: 1400px;
+	background-color: #3333ff;
+}
+
 
 #boat{
   position: relative;
