@@ -131,7 +131,7 @@ a:hover{
 	cursor: pointer;
 }
 
-#slider{
+.img-home{
 	display: flex;
 	flex-direction:column;
 	justify-content:space-around;
@@ -145,37 +145,43 @@ a:hover{
 	font-size: 43px;
 	
 }
-#slider h1{
-	padding-top: 20PX;
+.img-home h1{
+	padding-top: 20px;
 	font-weight: normal;
 	transform: scaleY(1.5);
 }
 
 
  #arrow{
+ 	position:relative;
 	cursor: pointer;
+	margin-bottom: 100px;
 	-webkit-animation: 3s arrow infinite ease;
-    animation: 3s arrow infinite ease;
-} 
+	animation: 3s arrow infinite ease;
+}
+
+#arrow img{
+	height: 95px;
+}
 
 footer{
-	  position: relative;
-	  right: 0;
-	  bottom: 0;
-	  left: 0;
-	  top:-14px;
-	  text-align: center;
-	  min-width: 1024px;
+	position: relative;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	top:-14px;
+	text-align: center;
+	min-width: 1024px;
 }
 
 div#banner{
-  width:100%;
-  height:200px;
-  margin:0 auto;
-  background-image: url(../img/footer/sea.png);
-  background-position: 120% 0px,0px 0px,0px 0px;
-  background-repeat: repeat-x; 
-  animation: animate-background linear 70s infinite;
+	width:100%;
+	height:200px;
+	margin:0 auto;
+	background-image: url(../img/footer/sea.png);
+	background-position: 120% 0px,0px 0px,0px 0px;
+	background-repeat: repeat-x; 
+	animation: animate-background linear 70s infinite;
 }
 
 .container .slider-menus{
@@ -203,15 +209,37 @@ div#banner{
 
 
 #boat{
-  position: relative;
-  width:100px;
-  margin:-43px 0px 0px 0%;
-  animation: boat 5s infinite;
+	position: relative;
+	width:100px;
+	margin:-43px 0px 0px 0%;
+	animation: boat 5s infinite;
 }
 
 @keyframes animate-background{
+	from{background-position: -120% 0px,0px 0px,0px 0px;}
+	to{background-position: 0 0px,-1000px 0px,-500px 0px;}
+}
+
+/*@keyframes arrow{
   from{background-position: -120% 0px,0px 0px,0px 0px;}
   to{background-position: 0 0px,-1000px 0px,-500px 0px;}
+}*/
+
+@-webkit-keyframes arrow {
+    0%,100% {
+        top:10px;
+    }
+    50% {
+        top:30px;
+    }
+}
+@keyframes arrow {
+    0%,100% {
+        top:10px;
+    }
+    50% {
+        top:30px;
+    }
 }
 
 /*Animacion que carlos no quiere que pongamos

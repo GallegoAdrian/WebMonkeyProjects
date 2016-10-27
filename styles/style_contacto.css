@@ -2,3 +2,9 @@
         height: 400px;
         width: 50%;
 }
+#img{
+	background-image: url(../img/contact/header.jpg);
+	background-size: 100%;
+	background-repeat: no-repeat;
+	height: 450px;
+}
