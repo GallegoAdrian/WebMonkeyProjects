@@ -47,7 +47,7 @@
 	padding-top:10px;
 }
 
-div:nth-of-type(2){
+/*div:nth-of-type(2){
 	background-color: #4E5066;
 	height:64px;
 }
@@ -61,7 +61,7 @@ div:nth-of-type(2) img{
 div:nth-of-type(2) span{
 	font-size: 1.8em;
 	padding-top: 10px;
-}
+}*/
 
 
 .day-weather img{

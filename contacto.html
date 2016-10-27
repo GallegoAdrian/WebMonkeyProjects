@@ -11,6 +11,8 @@
 
     <link rel="stylesheet" type="text/css" href="styles/style_contacto.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCh0soCsAPDdeSY5e5Uwqy31jBni7pcsac&callback=initMap"></script>
+    <script type="text/javascript" src="js/map.js"></script>
   </head>
   <body>
     <div class="container">
@@ -62,10 +64,19 @@
       </div>
       <div id="slider">
       </div>
+      <div id="content">
+        <div id="map"></div>
+          <form action="http://maps.google.com/maps" method="get" target="_blank">
+         <label for="saddr">Enter your location</label>
+         <input type="text" name="saddr" />
+         <input type="hidden" name="daddr" value="Palamós, Girona, Espanya" />
+         <input type="submit" value="Get directions" />
+      </form>
+      </div>
     </div>
     <footer>
        <div id="banner">
-           <img id="boat" src="img/footer/boat.png">  
+           <img id="boat" src="img/footer/boat.png">
        </div>
     </footer>
     <script type="text/javascript" src="js/header.js"></script>
