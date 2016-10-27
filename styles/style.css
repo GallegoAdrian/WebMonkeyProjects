@@ -175,12 +175,17 @@ div#banner{
   position: relative;
   width:100px;
   margin:-43px 0px 0px 0%;
-  animation: boat 5s infinite;
 }
 
 @keyframes animate-background{
   from{background-position: -120% 0px,0px 0px,0px 0px;}
   to{background-position: 0 0px,-1000px 0px,-500px 0px;}
+}
+
+@keyframes arrow{
+    0%   {top:0px;-webkit-transform: rotate(-5deg);}
+    50%  {top:20px;-webkit-transform: rotate(3.5deg);}
+    100% {top:30px; -webkit-transform: rotate(-5deg);}
 }
 
 /*Animacion que carlos no quiere que pongamos
