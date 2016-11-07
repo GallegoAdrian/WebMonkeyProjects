@@ -9,17 +9,16 @@
 	.done(function( searchResultsData ) {
 
 		var weatherPalamos = searchResultsData.list;
-		console.log(weatherPalamos);
 		var weatherDay = '';
 		var weatherOfWeek = '';
 		var dayText = moment().locale("ca").format('LL');
-		var toDay = moment().format('L');
+		var toDay = moment().locale("ca").format('ll');
 		var concat='';
+
+		toDay = toDay.substr(0,6);
 
 		var day = '<div class="to-day">' + dayText + '</div>';
 		myFunctions.putDataInHtml(day);
-
-		toDay = toDay.substr(3, 2);
 
 		$.each ( weatherPalamos, function ( index, oWeatherPalamos) {
 			concat += myFunctions.weatherOfDay(weatherDay,  weatherOfWeek , toDay, oWeatherPalamos);

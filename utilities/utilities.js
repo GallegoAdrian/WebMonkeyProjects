@@ -24,17 +24,11 @@ function iconsWeather(icon){
 
 function weatherOfDay(weatherDay,  weatherOfWeek , day, oWeatherPalamos){
 
-	var date = moment.unix(oWeatherPalamos.dt).locale("ca").format('LLL');
+	var date = moment.unix(oWeatherPalamos.dt).locale("ca").format('ll');
 	var hour = moment.unix(oWeatherPalamos.dt).locale("ca").format('LT');
-	var otherFormatDate = moment.unix(oWeatherPalamos.dt).format('ll');
-	var dayWeather = moment.unix(oWeatherPalamos.dt).format('L');
-	console.log(hour);
-	weatherDay += '<p>'+oWeatherPalamos.weather[0].description+'</p>';
-	otherFormatDate = otherFormatDate.substr(0,6);
-	dayWeather = dayWeather.substr(3, 2);
 
-	if(date.indexOf(dayWeather) > -1 && otherFormatDate.indexOf(day) > -1 && hour !== '2:00' && hour !== '5:00'){
-		console.log(iconsWeather(oWeatherPalamos.weather[0].icon));
+	if(date.indexOf(day) > -1 && hour != '1:00' && hour != '4:00' && hour != '7:00'){
+
 		weatherOfWeek += '<div class="day-weather"><img src="img/weatherIconsSvg/'+
 							iconsWeather(oWeatherPalamos.weather[0].icon)+'"/>' + '<span>'+
 							oWeatherPalamos.main.temp_max +' °C'+' '+ hour +'h'+'</span></div>';
