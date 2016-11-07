@@ -28,7 +28,6 @@ function weatherOfDay(weatherDay,  weatherOfWeek , day, oWeatherPalamos){
 	var hour = moment.unix(oWeatherPalamos.dt).locale("ca").format('LT');
 
 	if(date.indexOf(day) > -1 && hour != '1:00' && hour != '4:00' && hour != '7:00'){
-
 		weatherOfWeek += '<div class="day-weather"><img src="img/weatherIconsSvg/'+
 							iconsWeather(oWeatherPalamos.weather[0].icon)+'"/>' + '<span>'+
 							oWeatherPalamos.main.temp_max +' °C'+' '+ hour +'h'+'</span></div>';
