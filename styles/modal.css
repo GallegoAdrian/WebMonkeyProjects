@@ -47,7 +47,10 @@
 	padding-top:10px;
 }
 
+/*div:nth-of-type(2){
+=======
 .day-weather:nth-of-type(2){
+>>>>>>> 0cf0dadd3722695b9bf80256fe6dd8446009a315
 	background-color: #4E5066;
 	height:64px;
 }
@@ -61,7 +64,7 @@
 .day-weather:nth-of-type(2) span{
 	font-size: 1.8em;
 	padding-top: 10px;
-}
+}*/
 
 
 .day-weather img{
