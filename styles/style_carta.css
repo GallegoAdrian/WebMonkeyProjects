@@ -28,21 +28,26 @@
 .plato{
 	height: 100px;
 	width: 944px;
+	border: 2px solid blue;
 }
 .titulo_plato{	
 	width: 700px;
 	float: left;
+	border: 2px solid red;
 }
 
 .desc_plato{	
 	width: 700px;
 	float: left;
+	border: 2px solid yellow;
 }
 
 .foto_plato{
+	width:100px;
 	height: 100px;
-	float: right;
+	float: left;
 	padding:20px;
+	border: 2px solid black;
 }
 	
 ul {
