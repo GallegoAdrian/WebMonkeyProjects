@@ -1,6 +1,127 @@
-.square-menus{
-		float: left;
+.container {
+	height:1300px;
+}
+.bottom-title{
+		height: auto;
+		display: flex;
+		justify-content: center;
+		flex-wrap: wrap;
+}
+.bottom-title .square-menus{
 		width: 300px;
 		height: 300px;
-		background-color: red;
+		margin: 10px;
+		font-size: 15px;
+		text-align: center;
+		border:solid 2px #7b7b7b;
+		color: #7b7b7b;
+		font-family: Playfair Display;
+}
+.bottom-title .square-menus:hover{
+		border:solid 2px #81c483;
+		color: black;
+		cursor: pointer;
+}
+.bottom-title .square-menus p,h3,ul, .iconos{
+	padding: 10px;
 	}
+.bottom-title .square-menus h3{
+		font-size: 25px;
+		font-family: Playfair Display;
+}
+.bottom-title .square-menus ul{
+		list-style-type: none;
+		line-height: 20px;
+		display: none;
+}
+.bottom-title .square-menus .iconos{
+	width: 40px;
+	height: 40px;
+	}
+/*////////////Slider Menús///////////////*/
+
+#slider {
+    position:relative;
+	width:1024px;
+	height:450px;
+}
+#slider_content{	
+    z-index:0;
+}
+
+#slider img {
+    position:absolute;
+    top:0;
+    left:0;
+    z-index:1;
+	width:1024px;
+	height:450px;
+}
+
+#slider img.active {
+	width:1024px;
+	height:450px;
+    z-index:2;
+}
+
+#slider img.last-active {
+	width:1024px;
+	height:450px;
+    z-index:3;
+}
+
+/* /////////// MODAL MENÚS////////////////*
+
+/* Modal (background) */
+.modalMenu {
+    display: none; 
+    position: fixed;
+    z-index: 12;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+   /* padding-bottom: 6%;*/
+   	overflow-y:auto;
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0,0.4);
+}
+
+/* Modal Contentenido */
+.modal-content-menu {
+    background-color: #F4E9CE;
+    margin: 2% auto; 
+    padding: 20px;
+    border: 1px solid #888;
+    width: 600px;
+    text-align: center;
+}
+
+.modal-content-menu p{
+	font-size: 15px;
+}
+.modal-content-menu ul{
+	list-style-type: none;
+}
+.modal-content-menu li{
+	list-style-type: none;
+	border:5px;
+}
+.modal-content-menu .iconos {
+	width: 40px;
+	height: 40px;
+}
+/* Boton cerrar */
+.close2{
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+.close2:hover,
+.close2:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+

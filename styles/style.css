@@ -59,6 +59,7 @@ header{
 	color: white;
 	font-style: white;
 	background-color: none;
+	z-index: 3;
 }
 .nbg a, .nbg p{
 	color: white;
@@ -200,14 +201,11 @@ div#banner{
 
 .container-info h1{
 	text-align: center;
-	background-color: #9999ff;
 }
 
 .bottom-title{
 	height: 1400px;
-	background-color: #3333ff;
 }
-
 
 #boat{
 	position: relative;
