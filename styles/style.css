@@ -58,7 +58,7 @@ header{
 	background: rgba(255,255,255,0);
 	color: white;
 	font-style: white;
-	background-color: none;
+	background-image: url(../img/header/degradado.png);
 	z-index: 3;
 }
 .nbg a, .nbg p{
