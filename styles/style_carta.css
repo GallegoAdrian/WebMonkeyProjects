@@ -11,7 +11,6 @@
 
 #carta {
 	width: 968px;
-	padding-bottom: 50px;
 }
 
 #carta h2{
@@ -27,36 +26,30 @@
 	}
 
 .plato{
-	height: 120px;
+	height: 100px;
 	width: 944px;
-	/*border: 2px solid blue;*/
+	border: 2px solid blue;
 }
 .titulo_plato{	
-	width: 810px;
+	width: 700px;
 	float: left;
-	/*border: 2px solid red;*/
+	border: 2px solid red;
 }
 
 .desc_plato{	
-	width: 810px;
+	width: 700px;
 	float: left;
-	/*border: 2px solid yellow;*/
+	border: 2px solid yellow;
 }
 
 .foto_plato{
-	display: inline-block;
-	width:120px;
+	width:100px;
 	height: 100px;
-	float: right;
-	padding: .15em;
-	/*border: 2px solid black;*/
+	float: left;
+	padding:20px;
+	border: 2px solid black;
 }
-/*
-.foto_plato img{
-	size: auto;
-}
-	*/
-/* Acordeon del menu  -- Inicio */	
+	
 ul {
   list-style: none;
   padding: .75em;
@@ -87,4 +80,3 @@ ul li a.toggle:hover {
   /*background: rgba(0, 0, 0, 0.9);*/
   background: #fefefe;
 }
-/* Acordeon del menu  -- Fin */	

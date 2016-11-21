@@ -1,0 +1,92 @@
+@font-face {
+  font-family: MyHelvetica;
+  src: local("../fonts/Shrikhand-Regular.ttf");
+  font-weight: bold;
+}
+
+.seccion{
+	margin: 20px;	
+}
+
+#restaurant h1{
+	color: #4343b3;
+    font-weight: bold;
+    font-style: italic;
+    font-size: 60px;
+    font-family: 'Shrikhand-Regular';
+}
+.active{
+    z-index:99;
+}
+.nbg{
+	z-index: 10;
+}
+.bg{
+	z-index: 10;
+}
+.img-home{
+	position: absolute;
+}
+#slider {
+    position:relative;
+	width:1024px;
+	height:650px;
+}
+#slider_content{	
+    z-index:0;
+}
+
+#slider img {
+    position:absolute;
+    top:0;
+    left:0;
+    z-index:1;
+	width:1024px;
+	height:650px;
+}
+
+#slider img.active {
+	width:1024px;
+	height:650px;
+    z-index:2;
+}
+
+#slider img.last-active {
+	width:1024px;
+	height:650px;
+    z-index:3;
+}
+#video_carousel{
+	width: 50%;
+    margin: 0 auto; 
+}
+#reproductor{
+	clear: both;
+}
+
+#reproductor video{
+	height: 225px;
+	width: 400px;
+}
+#reproductor iframe{
+	height: 225px;
+	width: 400px; 
+}
+#video_list{	
+	float: left;
+	width: 396px;
+}
+#video_list img{
+  width: 130px;
+  height: 90px;
+  margin: 10px 0px 0px 10px;
+}
+#video_list ul{
+	list-style: none;
+	white-space: nowrap;
+	overflow-x: auto;
+}
+
+#video_list ul li{
+  display: inline;
+}
