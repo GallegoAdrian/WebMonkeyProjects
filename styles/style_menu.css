@@ -22,9 +22,14 @@
 		color: black;
 		cursor: pointer;
 }
-.bottom-title .square-menus p,h3,ul, .iconos{
+/*.bottom-title .square-menus p,h3,ul, .iconos{
 	padding: 10px;
-	}
+}
+*/
+.info-content-menu p,h3,.iconos{
+	padding: 10px;
+}
+
 .bottom-title .square-menus h3{
 		font-size: 25px;
 		font-family: Playfair Display;
