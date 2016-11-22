@@ -1,8 +1,8 @@
 /* Modal "Ampliación/popup" de los platos -- Inicio */ 
-.foto_plato:hover {opacity: 0.7;}
+.foto-plato:hover {opacity: 0.7;}
 
 /* The Modal (background) */
-.modal_carta {
+.modal-carta {
     display: none; /* Hidden by default */
     position: fixed; /* Stay in place */
     z-index: 3; /* Sit on top */
@@ -17,7 +17,7 @@
 }
 
 /* Modal Content (image) */
-.modal_carta_content {
+.modal-carta-content {
     margin: auto;
     display: block;
     width: 80%;
@@ -37,7 +37,7 @@
 }
 
 /* Add Animation */
-.modal_carta_content, #caption {
+.modal-carta-content, #caption {
     -webkit-animation-name: zoom;
     -webkit-animation-duration: 0.6s;
     animation-name: zoom;
@@ -55,7 +55,7 @@
 }
 
 /* The Close Button */
-.close_carta {
+.close-carta {
     position: absolute;
     top: 15px;
     right: 35px;
@@ -65,8 +65,8 @@
     transition: 0.3s;
 }
 
-.close_carta:hover,
-.close_carta:focus {
+.close-carta:hover,
+.close-carta:focus {
     color: #bbb;
     text-decoration: none;
     cursor: pointer;
@@ -74,7 +74,7 @@
 
 /* 100% Image Width on Smaller Screens */
 @media only screen and (max-width: 700px){
-    .modal_carta_content {
+    .modal-carta-content {
         width: 100%;
     }
 }
