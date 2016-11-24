@@ -18,6 +18,7 @@ var altura = 0;
 //Esta es la clase que hace de boton, y en el momento que haces
 // click se activa la funcion
 $(".myBtnMenu").click(function(){
+
   altura = $(window.document).scrollTop();
   $("body").css({"top": -altura});
   //Variable que contiene el numero del array para identifiacr 
@@ -26,7 +27,6 @@ $(".myBtnMenu").click(function(){
   //Variable que contiene los elementos del cuadrado de su respectiva posicion(index)
   //(esta funcion la hace el .eq de jQuery)
   $elem = $( ".info-content-menu" ).eq(index);
-  console.log($elem);
   //Variable en la que clono el contendio de elem para que al llevarmela
   //a la modal no se borre(la funcion que uso para eso es .clone de jQuery)
   $clone = $elem.clone( true );
