@@ -9,7 +9,8 @@
     <link rel="stylesheet" type="text/css" href="styles/style.css">
     <link rel="stylesheet" type="text/css" href="styles/modal.css">
     <link rel="stylesheet" type="text/css" href="styles/style_menu.css">
-    <link rel="stylesheet" type="text/css" href="styles/style_menu.css">
+
+    <link rel="stylesheet" type="text/css" href="js/moment-with-locales.js">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
   </head>
   <body>
@@ -62,13 +63,9 @@
       </div>
       <div id="slider_content">
         <div id="slider">
-          <img src="img/menus/slider/marisco-slider.jpg" class="slide" hidden/>
-          <img src="img/menus/slider/paella-slider.jpg" class="slide" hidden/>
-          <!-- <img src="img/menus/slider/crema-marisco.jpg" class="slide"/> -->
-          <!-- <img src="img/menus/slider/mosaico.jpg" class="slide"/> -->
+          <img src="img/menus/slider/marisco-slider.jpg" class="slide" />
+          <img src="img/menus/slider/paella-slider.jpg" class="slide"/>
           <img src="img/menus/slider/pulpo-slider.jpg" class="slide"/>
-          <!-- <img src="img/menus/slider/dibujo.jpg" class="slide"/> -->
-          <!-- <img src="img/menus/slider/pa.jpg" class="slide"/> -->
         </div>
       </div>
       <div class= "container-info">
@@ -91,13 +88,14 @@
                         <li>Cafés</li>
                     </ul>
                   <h3>35 € (iva incl.)</h3>
+
                   <img class ="iconos" src="img/menus/gluten.png">
                   <img class ="iconos" src="img/menus/vegetariano.png">
                   <img class ="iconos" src="img/menus/vaca.png">
                 </div>
               </div>
                <div class="square-menus myBtnMenu">
-                <div class="info-content-menu">
+                <div class="info-content-menu" id ="menu">
                         <h3>Menú Martes</h3>
                         <p>Un completo Menú de Mariscada en Palamós para disfrutarla en pareja o en grupo de amigos, comidas o cenas de empresa, celebraciones familiares...</p>
                       <ul>
@@ -134,14 +132,15 @@
                         <li>Vino y bebidas</li>
                         <li>Cafés</li>
                       </ul>
-                    <h3>10,00€</h3>
+                    <h3>10,00€ (iva incl.)</h3>
+                    
                     <img class ="iconos" src="img/menus/gluten.png">
                     <img class ="iconos" src="img/menus/vegetariano.png">
                     <img class ="iconos" src="img/menus/vaca.png">
                 </div>                
               </div>
                <div class="square-menus myBtnMenu">
-                <div class="info-content-menu">
+                <div class="info-content-menu" id ="menu">
                    <h3>Menú Jueves</h3>
                    <p>Un completo Menú de Mariscada en Palamós para disfrutarla en pareja o en grupo de amigos, comidas o cenas de empresa, celebraciones familiares...</p>
                     <ul>
@@ -156,37 +155,38 @@
                       <li>Vino y bebidas</li>
                       <li>Cafés</li>
                     </ul>
-                  <h3>10,00€</h3>
+                  <h3>10,00€ (iva incl.)</h3>
                   <img class ="iconos" src="img/menus/gluten.png">
                   <img class ="iconos" src="img/menus/vegetariano.png">
                   <img class ="iconos" src="img/menus/vaca.png">
                 </div>                
               </div>
               <div class="square-menus myBtnMenu">
-                <div class="info-content-menu">
-                    <h3>Menú Viernes</h3>
-                    <p>Un completo Menú de Mariscada en Palamós para disfrutarla en pareja o en grupo de amigos, comidas o cenas de empresa, celebraciones familiares...</p>
-                      <ul>
-                        <li>Pirmero Plato</li>
-                        <li>Pirmero Plato</li>
-                      </br>
-                        <li>Segundo Plato</li>
-                        <li>Segundo Plato</li>
-                      </br>
-                        <li>Postres caseros</li>
-                      </br>
-                        <li>Vino y bebidas</li>
-                        <li>Cafés</li>
-                      </ul>
-                    <h3>10,00€</h3>
-                    <img class ="iconos" src="img/menus/gluten.png">
-                    <img class ="iconos" src="img/menus/vegetariano.png">
-                    <img class ="iconos" src="img/menus/vaca.png"> 
-                </div>               
+                  <div class="info-content-menu">
+                      <h3>Menú Viernes</h3>
+                      <p>Un completo Menú de Mariscada en Palamós para disfrutarla en pareja o en grupo de amigos, comidas o cenas de empresa, celebraciones familiares...</p>
+                        <ul>
+                          <li>Pirmero Plato</li>
+                          <li>Pirmero Plato</li>
+                        </br>
+                          <li>Segundo Plato</li>
+                          <li>Segundo Plato</li>
+                        </br>
+                          <li>Postres caseros</li>
+                        </br>
+                          <li>Vino y bebidas</li>
+                          <li>Cafés</li>
+                        </ul>
+                      <h3>10,00€ (iva incl.)</h3>
+                      <img class ="iconos" src="img/menus/gluten.png">
+                      <img class ="iconos" src="img/menus/vegetariano.png">
+                      <img class ="iconos" src="img/menus/vaca.png"> 
+                  </div>
               </div>
           </div>
           <div class="modalMenu myModalMenu">
             <div class="modal-content-menu">
+
             </div>
           </div>
         </div>
@@ -201,6 +201,7 @@
     <script type="text/javascript" src="utilities/utilities.js"></script>
     <script type="text/javascript" src="js/connection.js"></script>
     <script type="text/javascript" src="js/modal.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/1.3.2/jspdf.debug.js"></script>
     <script type="text/javascript" src="js/menus.js"></script>
   </body>
 </html>
