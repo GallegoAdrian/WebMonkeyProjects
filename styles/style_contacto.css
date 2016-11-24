@@ -1,6 +1,6 @@
 .container #map {
         height: 400px;
-        width: 50%;
+        width: 100%;
 }
 #img{
 	background-image: url(../img/contact/header.jpg);
