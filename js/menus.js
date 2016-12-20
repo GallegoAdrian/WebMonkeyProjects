@@ -1,7 +1,24 @@
 /////////// Top Slider Menús//////////////////////
 
-$(document).ready( function() {
+$(document).ready( function() {    
+    //JSON START
+    var fullurl = window.location.href;
+    var url = fullurl.substring(0, fullurl.lastIndexOf("/")+1)+'json/info_ca.json';
 
+    $.getJSON(url, function (data) {
+      var json = data
+      console.log(json);
+      //MENU
+      $('.menuindex').text(json.menu.home);
+      $('.menumenu').text(json.menu.menu);
+      $('.menuchart').text(json.menu.chart);
+      $('.menuknow_us').text(json.menu.know_us);
+      $('.menucontact').text(json.menu.contact); 
+      //TITLE
+      $('.title').text(json.pages.menu.title); 
+
+    });
+    //JSON END
 // Cada seis segundos se ejecuta elswitchSliede() funtion.
 setInterval( "switchSlide()", 6000);
 });
@@ -79,14 +96,14 @@ var modalMenu = document.getElementsByClassName('myModalMenu')[0];
 //la funcion y compureba donde hemos hecho el clic
 window.onclick = function(event) {
   //Comprobamos si el clic esta dentro de nuestro modalMenu
-	if (event.target == modalMenu) {
+  if (event.target == modalMenu) {
     //Hacemos que el modalMenu desaparezca
-		$(modalMenu).fadeOut();
+    $(modalMenu).fadeOut();
      //Aqui volvemos a poner en nuestro css que el overflow este auto
      $("body").css({"position": "relative", "overflow-y": "auto","width": "100%"});
      $("body").css({"top": 0});
      $(window.document).scrollTop(altura);
-	}
+  }
 };
 //////////////Menús temporadas/////////////////////////
 function getSeason() {
@@ -192,9 +209,9 @@ function getSeason() {
                                 '<li>Cafés</li>'+
                               '</ul>'+
                             '<h3>10,00€ (iva incl.)</h3>'+
-                            // '<img class ="iconos" src="img/menus/gluten.png">'+
-                            // '<img class ="iconos" src="img/menus/vegetariano.png">'+
-                            // '<img class ="iconos" src="img/menus/vaca.png">'+
+                            '<img class ="iconos" src="img/menus/gluten.png">'+
+                            '<img class ="iconos" src="img/menus/vegetariano.png">'+
+                            '<img class ="iconos" src="img/menus/vaca.png">'+
                         '</div>'+               
                       '</div>';
         break;
@@ -204,6 +221,12 @@ function getSeason() {
 getSeason();
 
 ////////////  PDF ////////////////
+
+          var specialElementHandlers = {
+              '#editor': function (element,renderer) {
+                  return true;
+              }
+          };
 
       $(".modal-content-menu").on("click", ".boton", function(){
           var doc = new jsPDF();
@@ -217,8 +240,7 @@ getSeason();
               doc.fromHTML(source, 0.5, 0.5, {
                   'width': 75,'elementHandlers': specialElementHandlers
               });
-              console.log(doc);
-
+              console.log(doc)
               doc.save("menu.pdf");
       });
 
