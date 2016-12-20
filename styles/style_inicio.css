@@ -1,0 +1,35 @@
+.bottom-title{
+		height: 550px;
+		width: auto;
+		padding: 50px;
+		background-color: red;
+}
+#contenido-inicio{
+	height: 100%;
+	width: 100%;
+	background-color: orange;
+}
+#comida{
+	height: 200px;
+	width: 60%;
+	float: left;
+	background-color: green;	
+}
+#horario{
+	height: 65%;
+	width: 40%;
+	float: right;
+	background-color: blue;	
+}
+#redes{
+	height: 100px;
+	width: 25%;
+	float: left;
+	background-color: purple;	
+}
+#chef{
+	height: 100px;
+	width: 35%;
+	float: left;
+	background-color: pink;	
+}
