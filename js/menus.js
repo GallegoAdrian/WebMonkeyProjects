@@ -272,7 +272,7 @@ $(".modal-content-menu").on("click", "span.close2", function(){
           var doc = new jsPDF();
               var source = $(".modal-content-menu").html();
               var res = source.replace('<span class="close2">×</span>', "");
-              var res2 = res.replace('<button id="botonSpecial">generate PDF</button>',"");
+              var res2 = res.replace('<button id="boton">generate PDF</button>',"");
               var res3 = res2.replace('€'," Euros ");
 
               var specialElementHandlers = {
