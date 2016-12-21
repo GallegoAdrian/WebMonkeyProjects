@@ -1,0 +1,53 @@
+.bottom-title{
+		height: 550px;
+		width: auto;
+		padding: 50px;
+		background-color: red;
+}
+#contenido-inicio{
+	height: 100%;
+	width: 100%;
+	background-color: orange;
+}
+#comida{
+	height: 200px;
+	width: 510px;
+	float: left;
+	margin: 10px;
+	background-color: green;	
+}
+#horario{
+	height: 350px;
+	width: 40%;
+	float: right;
+	margin: 10px;
+	background-color: blue;	
+}
+#mapa{
+	height: 240px;
+	width: 240px;
+	float: left;
+	margin: 10px;
+	background-color: purple;	
+}
+#chef{
+	height: 100px;
+	width: 29%;
+	float: left;
+	margin: 10px;
+	background-color: pink;	
+}
+#marbona{
+	height: 100px;
+	width: 39%;
+	float: left;
+	margin: 10px;
+	background-color: pink;	
+}
+#redes{
+	height: 100px;
+	width: 250px;
+	float: right;
+	margin: 10px;
+	background-color: pink;	
+}

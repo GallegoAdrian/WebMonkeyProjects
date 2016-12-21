@@ -1,0 +1,24 @@
+{
+  "ca": {
+    "home": "Inici",
+    "menu": "Menús",
+    "chart": "Carta",
+    "know_us": "Coneixens",
+    "contact": "Contacte"
+  },
+  "es": {
+    "home": "Inicio",
+    "menu": "Menus",
+    "chart": "Carta",
+    "know_us": "Conozenos",
+    "contact": "Contacto"
+  },
+  "en": {
+    "home": "Home",
+    "menu": "Menus",
+    "chart": "Chart",
+    "know_us": "Know Us",
+    "contact": "Contact"
+  }
+}
+
