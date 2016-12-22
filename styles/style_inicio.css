@@ -18,7 +18,7 @@
 }
 #horario{
 	height: 350px;
-	width: 40%;
+	width: 374px;
 	float: right;
 	margin: 10px;
 	background-color: blue;	
@@ -31,23 +31,24 @@
 	background-color: purple;	
 }
 #chef{
-	height: 100px;
-	width: 29%;
+	height: 130px;
+	width: 250px;
 	float: left;
 	margin: 10px;
 	background-color: pink;	
 }
 #marbona{
-	height: 100px;
-	width: 39%;
+	height: 90px;
+	width: 374px;
 	float: left;
 	margin: 10px;
-	background-color: pink;	
+	background-color: black;	
 }
 #redes{
-	height: 100px;
-	width: 250px;
+	height: 40px;
+	width: 170px;
 	float: right;
 	margin: 10px;
-	background-color: pink;	
+	margin-top: 60px;
+	background-color: white;	
 }
