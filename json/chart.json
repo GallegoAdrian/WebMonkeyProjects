@@ -1,0 +1,200 @@
+{
+  "page": {
+    "title": {
+      "ca": "La nostre carta",
+      "es": "Nuesta carta",
+      "en": "Our chart"
+    },
+    "description": {
+      "ca": "En el restaurant La Bona Mar, els hi oferim la millor cuina típica de la zona.",
+      "es": "En el restaurante La Bona Mar, les ofrecemos la mejor cocina típica de la zona.",
+      "en": "In La Bona Mar restaurant, we offer the most esquisite cousine of the area."
+    }
+  },
+  "categories": {
+    "1": {
+      "title": {
+        "ca": "Entrants i Amanides",
+        "es": "Entrantes y Ensaladas",
+        "en": "Enterings and salads"
+      },
+      "description": {
+        "ca": "La millor selecció d'amanides",
+        "es": "La mejor seleccion de ensaladas",
+        "en": "The best selection of salads"
+      },
+      "dishes": {
+        "1": {
+          "name": {
+            "ca": "Tallarines al Fungi",
+            "es": "Tallarinas al Fungi",
+            "en": "Pasta with Fungi"
+          },
+          "description": {
+            "ca": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            "es": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            "en": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+          },
+          "price": 20,
+          "gluten": true,
+          "lactose": true,
+          "img": "spaghetti.png"
+        },
+        "2": {
+          "name": {
+            "ca": "Tallarines al Fungi",
+            "es": "Tallarinas al Fungi",
+            "en": "Pasta with Fungi"
+          },
+          "description": {
+            "ca": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            "es": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            "en": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+          },
+          "price": 20,
+          "gluten": true,
+          "lactose": true,
+          "img": "spaghetti.png"
+        }
+      }
+    },
+    "2": {
+      "title": {
+        "ca": "Arròs i pasta",
+        "es": "Arroces y pastas",
+        "en": "Rice and pasta"
+      },
+      "description": {
+        "ca": "La millor selecció d'arròs",
+        "es": "La mejor seleccion de arroz",
+        "en": "The best selection of rice"
+      },
+      "dishes": {
+        "1": {
+          "name": {
+            "ca": "Arròs al Fungi",
+            "es": "Arroz al Fungi",
+            "en": "Rice with Fungi"
+          },
+          "description": {
+            "ca": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            "es": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            "en": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+          },
+          "price": 20,
+          "gluten": true,
+          "lactose": true,
+          "img": "spaghetti.png"
+        },
+        "2": {
+          "name": {
+            "ca": "Arròs al Fungi",
+            "es": "Arroz al Fungi",
+            "en": "Rice with Fungi"
+          },
+          "description": {
+            "ca": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            "es": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            "en": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+          },
+          "price": 20,
+          "gluten": true,
+          "lactose": true,
+          "img": "spaghetti.png"
+        }
+      }
+    },
+    "3": {
+      "title": {
+        "ca": "Peix i marisc",
+        "es": "Pescado y marisco",
+        "en": "Fish and shrimp"
+      },
+      "description": {
+        "ca": "La millor selecció de peix",
+        "es": "La mejor seleccion de pescado",
+        "en": "The best selection of fish"
+      },
+      "dishes": {
+        "1": {
+          "name": {
+            "ca": "Peix al Fungi",
+            "es": "Pez al Fungi",
+            "en": "Fish with Fungi"
+          },
+          "description": {
+            "ca": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            "es": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            "en": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+          },
+          "price": 20,
+          "gluten": true,
+          "lactose": true,
+          "img": "spaghetti.png"
+        },
+        "2": {
+          "name": {
+            "ca": "Peix al Fungi",
+            "es": "Pez al Fungi",
+            "en": "Fish with Fungi"
+          },
+          "description": {
+            "ca": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            "es": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            "en": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+          },
+          "price": 20,
+          "gluten": true,
+          "lactose": true,
+          "img": "spaghetti.png"
+        }
+      }
+    },
+    "4": {
+      "title": {
+        "ca": "Carns",
+        "es": "Carnes",
+        "en": "Meat"
+      },
+      "description": {
+        "ca": "La millor selecció de carn",
+        "es": "La mejor seleccion de carne",
+        "en": "The best selection of meat"
+      },
+      "dishes": {
+        "1": {
+          "name": {
+            "ca": "Carn al Fungi",
+            "es": "Carne al Fungi",
+            "en": "Meat with Fungi"
+          },
+          "description": {
+            "ca": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            "es": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            "en": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+          },
+          "price": 20,
+          "gluten": true,
+          "lactose": true,
+          "img": "spaghetti.png"
+        },
+        "2": {
+          "name": {
+            "ca": "Carn al Fungi",
+            "es": "Carne al Fungi",
+            "en": "Meat with Fungi"
+          },
+          "description": {
+            "ca": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            "es": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+            "en": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+          },
+          "price": 20,
+          "gluten": true,
+          "lactose": true,
+          "img": "spaghetti.png"
+        }
+      }
+    }
+  }
+}

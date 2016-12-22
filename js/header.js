@@ -106,7 +106,6 @@ function openModal() {
 function getLanguage() {
     var url = window.location.href;
     var hash = url.substring(url.indexOf('#')+1);
-    console.log(hash);
     if (hash == 'ca') {
         return 'ca';
     }
