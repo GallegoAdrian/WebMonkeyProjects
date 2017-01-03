@@ -117,10 +117,11 @@
 
 /* Modal Contentenido */
 .modal-content-menu {
-    background-color: #F4E9CE;
-    margin: 2% auto; 
+    background-color: #191718;
+    margin: 2% auto;
     padding: 20px;
-    border: 1px solid #888;
+    color: #fff;
+    /* border: 1px solid #888; */
     width: 600px;
     text-align: center;
 }
@@ -188,4 +189,20 @@
 
 .menu6{
 	background-image: linear-gradient(0deg, rgba(34, 34, 34, 0.6), rgba(34, 34, 34, 0.6)),url(../img/menus/menus/crab.jpg);
+}
+
+#boton{
+	margin-top: 15px;
+	border: 2px solid #fff;
+	padding: 15px;
+	color: #fff;
+	background-color: transparent;
+	cursor: pointer;
+	transition: background 1s ease,border 1s ease,color 1s ease;
+}
+
+#boton:hover{ 
+	border:solid 2px #81c483;
+	color: #81c483;
+	background: rgba(0, 0, 0, 0.6);;
 }

@@ -64,11 +64,11 @@
 	height: 225px;
 	width: 400px; 
 }
-#video_list{	
-	float: left;
+#video_list{
 	width: 396px;
 }
 #video_list img{
+  cursor: pointer;
   width: 130px;
   height: 90px;
   margin: 10px 0px 0px 10px;

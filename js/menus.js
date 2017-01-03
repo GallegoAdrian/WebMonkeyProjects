@@ -40,7 +40,7 @@ $(".bottom-title").on("click", ".myBtnMenu", function(){
   //Variable en la que junto la X($span) + el contendio clonado($clone)
   //(lo hago con la funcion .add de jQuery)
   $more = $span.add($clone);
-  $botoDownload = $('<button id="boton">generate PDF</button>');
+  $botoDownload = $('<button id="boton">Generate PDF</button>');
   
   $menu = $more.add($botoDownload);
   
@@ -229,7 +229,7 @@ console.log("hola");
   //Variable en la que junto la X($span) + el contendio clonado($clone)
   //(lo hago con la funcion .add de jQuery)
   $more = $span.add($clone);
-  $botoDownload = $('<button id="botonSpecial">generate PDF</button>');
+  $botoDownload = $('<button id="botonSpecial">Generate PDF</button>');
   
   $menu = $more.add($botoDownload);
   
