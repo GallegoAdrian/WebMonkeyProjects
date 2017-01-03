@@ -107,16 +107,18 @@ function getSeason() {
                             '<h3>Menú Invierno</h3>'+
                             '<p>Un completo Menú de Mariscada en Palamós para disfrutarla en pareja o en grupo de amigos, comidas o cenas de empresa, celebraciones familiares...</p>'+
                               '<ul>'+
-                                '<li>Pirmero Plato</li>'+
-                                '<li>Pirmero Plato</li>'+
-                              '</br>'+
+                              '<li>···</li>'+
+                                '<li>Primer Plato</li>'+
+                                '<li>Primer Plato</li>'+
+                              '<li>···</li>'+
                                 '<li>Segundo Plato</li>'+
                                 '<li>Segundo Plato</li>'+
-                              '</br>'+
+                              '<li>···</li>'+
                                 '<li>Postres caseros</li>'+
-                              '</br>'+
+                              '<li>···</li>'+
                                 '<li>Vino y bebidas</li>'+
                                 '<li>Cafés</li>'+
+                              '<li>···</li>'+
                               '</ul>'+
                             '<span>10,00€</span>'+
                             //'<img class ="iconos" src="img/menus/gluten.png">'+
@@ -129,20 +131,22 @@ function getSeason() {
         case '4':
         case '5':
             season = '<div class="square-menus menu6" id="mySpecialButton">'+
-                        '<div id="menu-special">'+
+                        '<div class="menu-special">'+
                             '<h3>Menú Primavera</h3>'+
                             '<p>Un completo Menú de Mariscada en Palamós para disfrutarla en pareja o en grupo de amigos, comidas o cenas de empresa, celebraciones familiares...</p>'+
                               '<ul>'+
-                                '<li>Pirmero Plato</li>'+
-                                '<li>Pirmero Plato</li>'+
-                              '</br>'+
+                              '<li>···</li>'+
+                                '<li>Primer Plato</li>'+
+                                '<li>Primer Plato</li>'+
+                              '<li>···</li>'+
                                 '<li>Segundo Plato</li>'+
                                 '<li>Segundo Plato</li>'+
-                              '</br>'+
+                              '<li>···</li>'+
                                 '<li>Postres caseros</li>'+
-                              '</br>'+
+                              '<li>···</li>'+
                                 '<li>Vino y bebidas</li>'+
                                 '<li>Cafés</li>'+
+                              '<li>···</li>'+
                               '</ul>'+
                             '<span>10,00€</span>'+
                             //'<img class ="iconos" src="img/menus/gluten.png">'+
@@ -155,20 +159,22 @@ function getSeason() {
         case '7':
         case '8':
             season = '<div class="square-menus menu6" id="mySpecialButton">'+
-                        '<div id="menu-special">'+
+                        '<div class="menu-special">'+
                             '<h3>Menú Verano</h3>'+
                             '<p>Un completo Menú de Mariscada en Palamós para disfrutarla en pareja o en grupo de amigos, comidas o cenas de empresa, celebraciones familiares...</p>'+
                               '<ul>'+
-                                '<li>Pirmero Plato</li>'+
-                                '<li>Pirmero Plato</li>'+
-                              '</br>'+
+                              '<li>···</li>'+
+                                '<li>Primer Plato</li>'+
+                                '<li>Primer Plato</li>'+
+                              '<li>···</li>'+
                                 '<li>Segundo Plato</li>'+
                                 '<li>Segundo Plato</li>'+
-                              '</br>'+
+                              '<li>···</li>'+
                                 '<li>Postres caseros</li>'+
-                              '</br>'+
+                              '<li>···</li>'+
                                 '<li>Vino y bebidas</li>'+
                                 '<li>Cafés</li>'+
+                              '<li>···</li>'+
                               '</ul>'+
                             '<span>10,00€</span>'+
                             //'<img class ="iconos" src="img/menus/gluten.png">'+
@@ -181,20 +187,22 @@ function getSeason() {
         case '10': 
         case '11':
             season = '<div class="square-menus menu6" id="mySpecialButton">'+
-                        '<div id="menu-special">'+
+                        '<div class="menu-special">'+
                             '<h3>Menú Otoño</h3>'+
                             '<p>Un completo Menú de Mariscada en Palamós para disfrutarla en pareja o en grupo de amigos, comidas o cenas de empresa, celebraciones familiares...</p>'+
                               '<ul>'+
-                                '<li>Pirmero Plato</li>'+
-                                '<li>Pirmero Plato</li>'+
-                              '</br>'+
+                              '<li>···</li>'+
+                                '<li>Primer Plato</li>'+
+                                '<li>Primer Plato</li>'+
+                              '<li>···</li>'+
                                 '<li>Segundo Plato</li>'+
                                 '<li>Segundo Plato</li>'+
-                              '</br>'+
+                              '<li>···</li>'+
                                 '<li>Postres caseros</li>'+
-                              '</br>'+
+                              '<li>···</li>'+
                                 '<li>Vino y bebidas</li>'+
                                 '<li>Cafés</li>'+
+                              '<li>···</li>'+
                               '</ul>'+
                             '<span>10,00€</span>'+
                             // '<img class ="iconos" src="img/menus/gluten.png">'+
@@ -210,7 +218,6 @@ function getSeason() {
 
 $(".bottom-title").on("click", "#mySpecialButton", function(){
 
-console.log("hola");
   altura = $(window.document).scrollTop();
   $("body").css({"top": -altura});
   //Variable que contiene el numero del array para identifiacr 

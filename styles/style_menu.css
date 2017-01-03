@@ -46,6 +46,10 @@
 	    margin-bottom: 100px;
 }
 
+.menu6 h3 {
+    margin-bottom: 100px;
+}
+
 .info-content-menu p,h3,.iconos{
 	padding: 10px;
 }
@@ -131,10 +135,6 @@
     font-size: 35px; 
 }
 
-#menu-special h3 {
-    margin-bottom: 100px;
-}
-
 .modal-content-menu p{
 	font-size: 30px;
 }
@@ -202,6 +202,22 @@
 }
 
 #boton:hover{ 
+	border:solid 2px #81c483;
+	color: #81c483;
+	background: rgba(0, 0, 0, 0.6);;
+}
+
+#botonSpecial{
+	margin-top: 15px;
+	border: 2px solid #fff;
+	padding: 15px;
+	color: #fff;
+	background-color: transparent;
+	cursor: pointer;
+	transition: background 1s ease,border 1s ease,color 1s ease;
+}
+
+#botonSpecial:hover{ 
 	border:solid 2px #81c483;
 	color: #81c483;
 	background: rgba(0, 0, 0, 0.6);;
