@@ -8,11 +8,17 @@
 	})
 	.done(function( searchResultsData ) {
 
+		if(getLanguage() == 'en'){
+			var lang = 'en-gb';
+		}else{
+			var lang = getLanguage();
+		}
+
 		var weatherPalamos = searchResultsData.list;
 		var weatherDay = '';
 		var weatherOfWeek = '';
-		var dayText = moment().locale("ca").format('LL');
-		var toDay = moment().locale("ca").format('ll');
+		var dayText = moment().locale(lang).format('LL');
+		var toDay = moment().locale(lang).format('ll');
 		var concat='';
 
 		toDay = toDay.substr(0,6);
