@@ -24,8 +24,14 @@ function iconsWeather(icon){
 
 function weatherOfDay(weatherDay,  weatherOfWeek , day, oWeatherPalamos){
 
-	var date = moment.unix(oWeatherPalamos.dt).locale("ca").format('ll');
-	var hour = moment.unix(oWeatherPalamos.dt).locale("ca").format('LT');
+	if(getLanguage() == 'en'){
+		var lang = 'en-gb';
+	}else{
+		var lang = getLanguage();
+	}
+
+	var date = moment.unix(oWeatherPalamos.dt).locale(lang).format('ll');
+	var hour = moment.unix(oWeatherPalamos.dt).locale(lang).format('LT');
 
 	if(date.indexOf(day) > -1 && hour != '1:00' && hour != '4:00' && hour != '7:00'){
 		weatherOfWeek += '<div class="day-weather"><img src="img/weatherIconsSvg/'+

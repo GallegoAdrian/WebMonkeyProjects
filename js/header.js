@@ -1,5 +1,17 @@
 $(document).ready( function() {
     getMenu(getLanguage());
+    $('.language_change').change(function(data) {
+      var urllang = window.location.href;
+
+      var pos = urllang.indexOf('#');
+      if (pos >= 0) {
+        window.location = urllang.substring(0, pos)+'#'+$(this).val();
+      }
+      else{
+        window.location = urllang+'#'+$(this).val();
+      }
+      location.reload();
+    });
 });
 var header = $('header'),
     minScroll = 50; // min distance to scroll before compacting header
@@ -25,7 +37,7 @@ function getMenu(idioma) {
     var fullurl = window.location.href;
     var url = fullurl.substring(0, fullurl.lastIndexOf("/")+1)+'json/header.json';
     
-    var json = "hola";
+    var json = "";
     $.getJSON(url, function (data) {
         var lang = '#'+idioma;
         var short;
@@ -104,16 +116,42 @@ function openModal() {
 /*es*/
 //esta función coje el hash (#) del enlace url y identifica que es es segun eso, por defecto se pone en español
 function getLanguage() {
+    
+    var userLang = navigator.language || navigator.userLanguage; 
+
     var url = window.location.href;
     var hash = url.substring(url.indexOf('#')+1);
+    var l = "";
+
     if (hash == 'ca') {
-        return 'ca';
+      l = 'ca';
     }
     else if(hash == 'en'){
-      return 'en';
+      l = 'en';
+    }
+    else if(hash == 'es'){
+      l = 'es';
     }
     else{
-        return 'es';
+      //&& userLang == 'en' && userLang == 'ca'
+      if(userLang.indexOf('es') >= 0 ){
+        console.log('es');
+        l = 'es';
+      }
+      else if(userLang.indexOf('en') >= 0 ){
+        console.log('en');
+        l = 'en';
+      }
+      else if(userLang.indexOf('ca') >= 0 ){
+        console.log('ca');
+        l = 'ca';
+      }
+      else{
+        console.log('es');
+        l = 'es';
+      }
     }
+    $(".language_change option[value='"+l+"']").attr("selected","selected");
+    return l;
 }
 /*/es*/
