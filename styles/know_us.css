@@ -4,6 +4,10 @@
   font-weight: bold;
 }
 
+.container{
+	height: 2390px;
+}
+
 .seccion{
 	margin: 20px;	
 }
@@ -13,6 +17,15 @@
     font-weight: bold;
     font-style: italic;
     font-size: 60px;
+    font-family: 'Shrikhand-Regular';
+}
+
+#restaurant h2{
+
+	color: #4343b3;
+    font-weight: bold;
+    font-style: italic;
+    font-size: 40px;
     font-family: 'Shrikhand-Regular';
 }
 
@@ -48,10 +61,6 @@
 	height:650px;
     z-index:3;
 }
-#video_carousel{
-	width: 50%;
-    margin: 0 auto; 
-}
 #reproductor{
 	clear: both;
 }
@@ -81,4 +90,19 @@
 
 #video_list ul li{
   display: inline;
+}
+
+.personal-left, .personal-right{
+	display: block;
+	height: 320px;
+}
+
+.personal-left img{
+	float: right;
+	margin-right: -16px;
+}
+
+.personal-right img{
+	float: left;
+	margin-right: 15px;
 }
