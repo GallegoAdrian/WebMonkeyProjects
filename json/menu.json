@@ -72,7 +72,7 @@
       "title": {
         "ca": "Menú Dimarts",
         "es": "Menú Martes",
-        "en": "Monday Tuesday"
+        "en": "Tuesday Menu"
       },
       "description": {
         "ca": "Un Menú complet de Mariscada a Palamós per disfrutar-lo en parella o en grup d'amics, dinars o sopars d'empresa, celebracions familiars...",
@@ -129,5 +129,434 @@
         "img": "spaghetti.png"
       }
     },
+    "wednesday": {
+      "title": {
+        "ca": "Menú Dimecres",
+        "es": "Menú Miercoles",
+        "en": "Wednesday Menu"
+      },
+      "description": {
+        "ca": "Un Menú complet de Mariscada a Palamós per disfrutar-lo en parella o en grup d'amics, dinars o sopars d'empresa, celebracions familiars...",
+        "es": "Un completo Menú de Mariscada en Palamós para disfrutarla en pareja o en grupo de amigos, comidas o cenas de empresa, celebraciones familiares...",
+        "en": "A very full menu in Palamós to enjoy it with your partner or in a group of friends, company lunches or dinners, family celebrations..."
+      },
+      "dishes": {
+        "1": {
+          "1":{
+            "ca": "3 gambes de Palamós",
+            "es": "3 gambas de Palamós",
+            "en": "3 Palamó's shrimp"
+            },
+          "2":{
+            "ca": "6 ostres",
+            "es": "6 almejas",
+            "en": "6 clam"
+          }
+        },
+        "2":{
+          "1":{
+            "ca": "2 cigales",
+            "es": "2 cigalas",
+            "en": "2 lobster"
+          },
+          "2":{
+            "ca": "3 gambes llangostineres",
+            "es": "3 gambas langostineras",
+            "en": "3 lobster"
+          }
+        },
+        "3":{
+          "1":{
+            "ca": "Postres de la casa",
+            "es": "Postres caseros",
+            "en": "Homemade dessert"
+          }
+        },
+        "drinks":{
+          "1": {
+            "ca": "Vi i begudes",
+            "es": "Vino y bebidas",
+            "en": "Wine and drinks"
+          },
+          "2":{
+            "ca": "Cafè",
+            "es": "Café",
+            "en": "Coffee"
+          }
+        },
+        "price": 20,
+        "gluten": true,
+        "lactose": true,
+        "img": "spaghetti.png"
+      }
+    },
+    "thursday": {
+      "title": {
+        "ca": "Menú Dijous",
+        "es": "Menú Jueves",
+        "en": "Thursday Menu"
+      },
+      "description": {
+        "ca": "Un Menú complet de Mariscada a Palamós per disfrutar-lo en parella o en grup d'amics, dinars o sopars d'empresa, celebracions familiars...",
+        "es": "Un completo Menú de Mariscada en Palamós para disfrutarla en pareja o en grupo de amigos, comidas o cenas de empresa, celebraciones familiares...",
+        "en": "A very full menu in Palamós to enjoy it with your partner or in a group of friends, company lunches or dinners, family celebrations..."
+      },
+      "dishes": {
+        "1": {
+          "1":{
+            "ca": "3 gambes de Palamós",
+            "es": "3 gambas de Palamós",
+            "en": "3 Palamó's shrimp"
+            },
+          "2":{
+            "ca": "6 ostres",
+            "es": "6 almejas",
+            "en": "6 clam"
+          }
+        },
+        "2":{
+          "1":{
+            "ca": "2 cigales",
+            "es": "2 cigalas",
+            "en": "2 lobster"
+          },
+          "2":{
+            "ca": "3 gambes llangostineres",
+            "es": "3 gambas langostineras",
+            "en": "3 lobster"
+          }
+        },
+        "3":{
+          "1":{
+            "ca": "Postres de la casa",
+            "es": "Postres caseros",
+            "en": "Homemade dessert"
+          }
+        },
+        "drinks":{
+          "1": {
+            "ca": "Vi i begudes",
+            "es": "Vino y bebidas",
+            "en": "Wine and drinks"
+          },
+          "2":{
+            "ca": "Cafè",
+            "es": "Café",
+            "en": "Coffee"
+          }
+        },
+        "price": 20,
+        "gluten": true,
+        "lactose": true,
+        "img": "spaghetti.png"
+      }
+    },
+    "friday": {
+      "title": {
+        "ca": "Menú Divendres",
+        "es": "Menú Viernes",
+        "en": "Friday Menu"
+      },
+      "description": {
+        "ca": "Un Menú complet de Mariscada a Palamós per disfrutar-lo en parella o en grup d'amics, dinars o sopars d'empresa, celebracions familiars...",
+        "es": "Un completo Menú de Mariscada en Palamós para disfrutarla en pareja o en grupo de amigos, comidas o cenas de empresa, celebraciones familiares...",
+        "en": "A very full menu in Palamós to enjoy it with your partner or in a group of friends, company lunches or dinners, family celebrations..."
+      },
+      "dishes": {
+        "1": {
+          "1":{
+            "ca": "3 gambes de Palamós",
+            "es": "3 gambas de Palamós",
+            "en": "3 Palamó's shrimp"
+            },
+          "2":{
+            "ca": "6 ostres",
+            "es": "6 almejas",
+            "en": "6 clam"
+          }
+        },
+        "2":{
+          "1":{
+            "ca": "2 cigales",
+            "es": "2 cigalas",
+            "en": "2 lobster"
+          },
+          "2":{
+            "ca": "3 gambes llangostineres",
+            "es": "3 gambas langostineras",
+            "en": "3 lobster"
+          }
+        },
+        "3":{
+          "1":{
+            "ca": "Postres de la casa",
+            "es": "Postres caseros",
+            "en": "Homemade dessert"
+          }
+        },
+        "drinks":{
+          "1": {
+            "ca": "Vi i begudes",
+            "es": "Vino y bebidas",
+            "en": "Wine and drinks"
+          },
+          "2":{
+            "ca": "Cafè",
+            "es": "Café",
+            "en": "Coffee"
+          }
+        },
+        "price": 20,
+        "gluten": true,
+        "lactose": true,
+        "img": "spaghetti.png"
+      }
+    }
+  },
+  "season": {
+    "winter": {
+      "title": {
+        "ca": "Menú Hivern",
+        "es": "Menú Invierno",
+        "en": "Winter Menu"
+      },
+      "description": {
+        "ca": "Un Menú complet de Mariscada a Palamós per disfrutar-lo en parella o en grup d'amics, dinars o sopars d'empresa, celebracions familiars...",
+        "es": "Un completo Menú de Mariscada en Palamós para disfrutarla en pareja o en grupo de amigos, comidas o cenas de empresa, celebraciones familiares...",
+        "en": "A very full menu in Palamós to enjoy it with your partner or in a group of friends, company lunches or dinners, family celebrations..."
+      },
+      "dishes": {
+        "1": {
+          "1":{
+            "ca": "3 gambes de Palamós",
+            "es": "3 gambas de Palamós",
+            "en": "3 Palamó's shrimp"
+            },
+          "2":{
+            "ca": "6 ostres",
+            "es": "6 almejas",
+            "en": "6 clam"
+          }
+        },
+        "2":{
+          "1":{
+            "ca": "2 cigales",
+            "es": "2 cigalas",
+            "en": "2 lobster"
+          },
+          "2":{
+            "ca": "3 gambes llangostineres",
+            "es": "3 gambas langostineras",
+            "en": "3 lobster"
+          }
+        },
+        "3":{
+          "1":{
+            "ca": "Postres de la casa",
+            "es": "Postres caseros",
+            "en": "Homemade dessert"
+          }
+        },
+        "drinks":{
+          "1": {
+            "ca": "Vi i begudes",
+            "es": "Vino y bebidas",
+            "en": "Wine and drinks"
+          },
+          "2":{
+            "ca": "Cafè",
+            "es": "Café",
+            "en": "Coffee"
+          }
+        },
+        "price": 20,
+        "gluten": true,
+        "lactose": true,
+        "img": "spaghetti.png"
+      }
+    },
+    "spring": {
+      "title": {
+        "ca": "Menú Primavera",
+        "es": "Menú Primavera",
+        "en": "Spring Menu"
+      },
+      "description": {
+        "ca": "Un Menú complet de Mariscada a Palamós per disfrutar-lo en parella o en grup d'amics, dinars o sopars d'empresa, celebracions familiars...",
+        "es": "Un completo Menú de Mariscada en Palamós para disfrutarla en pareja o en grupo de amigos, comidas o cenas de empresa, celebraciones familiares...",
+        "en": "A very full menu in Palamós to enjoy it with your partner or in a group of friends, company lunches or dinners, family celebrations..."
+      },
+      "dishes": {
+        "1": {
+          "1":{
+            "ca": "3 gambes de Palamós",
+            "es": "3 gambas de Palamós",
+            "en": "3 Palamó's shrimp"
+            },
+          "2":{
+            "ca": "6 ostres",
+            "es": "6 almejas",
+            "en": "6 clam"
+          }
+        },
+        "2":{
+          "1":{
+            "ca": "2 cigales",
+            "es": "2 cigalas",
+            "en": "2 lobster"
+          },
+          "2":{
+            "ca": "3 gambes llangostineres",
+            "es": "3 gambas langostineras",
+            "en": "3 lobster"
+          }
+        },
+        "3":{
+          "1":{
+            "ca": "Postres de la casa",
+            "es": "Postres caseros",
+            "en": "Homemade dessert"
+          }
+        },
+        "drinks":{
+          "1": {
+            "ca": "Vi i begudes",
+            "es": "Vino y bebidas",
+            "en": "Wine and drinks"
+          },
+          "2":{
+            "ca": "Cafè",
+            "es": "Café",
+            "en": "Coffee"
+          }
+        },
+        "price": 20,
+        "gluten": true,
+        "lactose": true,
+        "img": "spaghetti.png"
+      }
+    },
+    "summer": {
+      "title": {
+        "ca": "Menú Estiu",
+        "es": "Menú Verano",
+        "en": "Summer Menu"
+      },
+      "description": {
+        "ca": "Un Menú complet de Mariscada a Palamós per disfrutar-lo en parella o en grup d'amics, dinars o sopars d'empresa, celebracions familiars...",
+        "es": "Un completo Menú de Mariscada en Palamós para disfrutarla en pareja o en grupo de amigos, comidas o cenas de empresa, celebraciones familiares...",
+        "en": "A very full menu in Palamós to enjoy it with your partner or in a group of friends, company lunches or dinners, family celebrations..."
+      },
+      "dishes": {
+        "1": {
+          "1":{
+            "ca": "3 gambes de Palamós",
+            "es": "3 gambas de Palamós",
+            "en": "3 Palamó's shrimp"
+            },
+          "2":{
+            "ca": "6 ostres",
+            "es": "6 almejas",
+            "en": "6 clam"
+          }
+        },
+        "2":{
+          "1":{
+            "ca": "2 cigales",
+            "es": "2 cigalas",
+            "en": "2 lobster"
+          },
+          "2":{
+            "ca": "3 gambes llangostineres",
+            "es": "3 gambas langostineras",
+            "en": "3 lobster"
+          }
+        },
+        "3":{
+          "1":{
+            "ca": "Postres de la casa",
+            "es": "Postres caseros",
+            "en": "Homemade dessert"
+          }
+        },
+        "drinks":{
+          "1": {
+            "ca": "Vi i begudes",
+            "es": "Vino y bebidas",
+            "en": "Wine and drinks"
+          },
+          "2":{
+            "ca": "Cafè",
+            "es": "Café",
+            "en": "Coffee"
+          }
+        },
+        "price": 20,
+        "gluten": true,
+        "lactose": true,
+        "img": "spaghetti.png"
+      }
+    },
+    "fall": {
+      "title": {
+        "ca": "Menú Tardor",
+        "es": "Menú Otoño",
+        "en": "Fall Menu"
+      },
+      "description": {
+        "ca": "Un Menú complet de Mariscada a Palamós per disfrutar-lo en parella o en grup d'amics, dinars o sopars d'empresa, celebracions familiars...",
+        "es": "Un completo Menú de Mariscada en Palamós para disfrutarla en pareja o en grupo de amigos, comidas o cenas de empresa, celebraciones familiares...",
+        "en": "A very full menu in Palamós to enjoy it with your partner or in a group of friends, company lunches or dinners, family celebrations..."
+      },
+      "dishes": {
+        "1": {
+          "1":{
+            "ca": "3 gambes de Palamós",
+            "es": "3 gambas de Palamós",
+            "en": "3 Palamó's shrimp"
+            },
+          "2":{
+            "ca": "6 ostres",
+            "es": "6 almejas",
+            "en": "6 clam"
+          }
+        },
+        "2":{
+          "1":{
+            "ca": "2 cigales",
+            "es": "2 cigalas",
+            "en": "2 lobster"
+          },
+          "2":{
+            "ca": "3 gambes llangostineres",
+            "es": "3 gambas langostineras",
+            "en": "3 lobster"
+          }
+        },
+        "3":{
+          "1":{
+            "ca": "Postres de la casa",
+            "es": "Postres caseros",
+            "en": "Homemade dessert"
+          }
+        },
+        "drinks":{
+          "1": {
+            "ca": "Vi i begudes",
+            "es": "Vino y bebidas",
+            "en": "Wine and drinks"
+          },
+          "2":{
+            "ca": "Cafè",
+            "es": "Café",
+            "en": "Coffee"
+          }
+        },
+        "price": 20,
+        "gluten": true,
+        "lactose": true,
+        "img": "spaghetti.png"
+      }
+    }
   }
 }
