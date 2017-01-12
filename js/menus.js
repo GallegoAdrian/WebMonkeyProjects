@@ -1,8 +1,6 @@
 /////////// Top Slider Menús//////////////////////
-
+getPage(getLanguage());
 $(document).ready( function() {
-  getSeason();
-
 // Cada seis segundos se ejecuta elswitchSliede() funtion.
 setInterval( "switchSlide()", 6000);
 });
@@ -94,128 +92,6 @@ window.onclick = function(event) {
   }
 };
 //////////////Menús temporadas/////////////////////////
-function getSeason() {
-    var month = moment().format("M"); 
-    var season = '';
-
-    switch(month) {
-        case '12':
-        case '1':
-        case '2':
-            season = '<div class="square-menus menu6" id="mySpecialButton">'+
-                        '<div id="menu-special">'+
-                            '<h3>Menú Invierno</h3>'+
-                            '<p>Un completo Menú de Mariscada en Palamós para disfrutarla en pareja o en grupo de amigos, comidas o cenas de empresa, celebraciones familiares...</p>'+
-                              '<ul>'+
-                              '<li>···</li>'+
-                                '<li>Primer Plato</li>'+
-                                '<li>Primer Plato</li>'+
-                              '<li>···</li>'+
-                                '<li>Segundo Plato</li>'+
-                                '<li>Segundo Plato</li>'+
-                              '<li>···</li>'+
-                                '<li>Postres caseros</li>'+
-                              '<li>···</li>'+
-                                '<li>Vino y bebidas</li>'+
-                                '<li>Cafés</li>'+
-                              '<li>···</li>'+
-                              '</ul>'+
-                            '<span>10,00€</span>'+
-                            //'<img class ="iconos" src="img/menus/gluten.png">'+
-                            //'<img class ="iconos" src="img/menus/vegetariano.png">'+
-                            //'<img class ="iconos" src="img/menus/vaca.png">'+
-                        '</div>'+               
-                      '</div>';
-        break;
-        case '3':
-        case '4':
-        case '5':
-            season = '<div class="square-menus menu6" id="mySpecialButton">'+
-                        '<div class="menu-special">'+
-                            '<h3>Menú Primavera</h3>'+
-                            '<p>Un completo Menú de Mariscada en Palamós para disfrutarla en pareja o en grupo de amigos, comidas o cenas de empresa, celebraciones familiares...</p>'+
-                              '<ul>'+
-                              '<li>···</li>'+
-                                '<li>Primer Plato</li>'+
-                                '<li>Primer Plato</li>'+
-                              '<li>···</li>'+
-                                '<li>Segundo Plato</li>'+
-                                '<li>Segundo Plato</li>'+
-                              '<li>···</li>'+
-                                '<li>Postres caseros</li>'+
-                              '<li>···</li>'+
-                                '<li>Vino y bebidas</li>'+
-                                '<li>Cafés</li>'+
-                              '<li>···</li>'+
-                              '</ul>'+
-                            '<span>10,00€</span>'+
-                            //'<img class ="iconos" src="img/menus/gluten.png">'+
-                            //'<img class ="iconos" src="img/menus/vegetariano.png">'+
-                            //'<img class ="iconos" src="img/menus/vaca.png">'+
-                        '</div>'+               
-                      '</div>';
-        break;
-        case '6':
-        case '7':
-        case '8':
-            season = '<div class="square-menus menu6" id="mySpecialButton">'+
-                        '<div class="menu-special">'+
-                            '<h3>Menú Verano</h3>'+
-                            '<p>Un completo Menú de Mariscada en Palamós para disfrutarla en pareja o en grupo de amigos, comidas o cenas de empresa, celebraciones familiares...</p>'+
-                              '<ul>'+
-                              '<li>···</li>'+
-                                '<li>Primer Plato</li>'+
-                                '<li>Primer Plato</li>'+
-                              '<li>···</li>'+
-                                '<li>Segundo Plato</li>'+
-                                '<li>Segundo Plato</li>'+
-                              '<li>···</li>'+
-                                '<li>Postres caseros</li>'+
-                              '<li>···</li>'+
-                                '<li>Vino y bebidas</li>'+
-                                '<li>Cafés</li>'+
-                              '<li>···</li>'+
-                              '</ul>'+
-                            '<span>10,00€</span>'+
-                            //'<img class ="iconos" src="img/menus/gluten.png">'+
-                            //'<img class ="iconos" src="img/menus/vegetariano.png">'+
-                            //'<img class ="iconos" src="img/menus/vaca.png">'+
-                        '</div>'+               
-                      '</div>';
-        break;
-        case '9':
-        case '10': 
-        case '11':
-            season = '<div class="square-menus menu6" id="mySpecialButton">'+
-                        '<div class="menu-special">'+
-                            '<h3>Menú Otoño</h3>'+
-                            '<p>Un completo Menú de Mariscada en Palamós para disfrutarla en pareja o en grupo de amigos, comidas o cenas de empresa, celebraciones familiares...</p>'+
-                              '<ul>'+
-                              '<li>···</li>'+
-                                '<li>Primer Plato</li>'+
-                                '<li>Primer Plato</li>'+
-                              '<li>···</li>'+
-                                '<li>Segundo Plato</li>'+
-                                '<li>Segundo Plato</li>'+
-                              '<li>···</li>'+
-                                '<li>Postres caseros</li>'+
-                              '<li>···</li>'+
-                                '<li>Vino y bebidas</li>'+
-                                '<li>Cafés</li>'+
-                              '<li>···</li>'+
-                              '</ul>'+
-                            '<span>10,00€</span>'+
-                            // '<img class ="iconos" src="img/menus/gluten.png">'+
-                            // '<img class ="iconos" src="img/menus/vegetariano.png">'+
-                            // '<img class ="iconos" src="img/menus/vaca.png">'+
-                        '</div>'+
-                      '</div>';
-        break;
-    }
-    $(".bottom-title").append(season);
-}
-
-
 $(".bottom-title").on("click", "#mySpecialButton", function(){
 
   altura = $(window.document).scrollTop();
@@ -315,51 +191,90 @@ $(".modal-content-menu").on("click", "span.close2", function(){
               doc.save("menu.pdf");
       });
 
+/*LANGUAGE: START*/
 
-// var pdf = new jsPDF('p', 'pt', 'letter');
-//  pdf.addHTML($('#content')[0], function () {
-//      pdf.save('Test.pdf');
-//  });
+function getPage(language){ 
+    var fullurl = window.location.href;
+    var url = fullurl.substring(0, fullurl.lastIndexOf("/")+1)+'json/menu.json';
+    var json = "";
+    $.getJSON(url, function(data) {
+      json = data;
+      var menu = "";
+      var count = 0;
+      // title
+      $('.titletarget').text(getSel(json.page.title, language));
+        jQuery.each(json.menus, function(key, value) {                   
+          count++;
+          menu += getSquareMenu(value, language, count);
+        });                  
+        count++;
+        var season = getSeasons(json.season);
+        menu += getSquareMenu(season, language, count);
 
+      //$('#acordeontarget').append(acordeon);
+      $(".menutarget").append(menu);
+    });
+}
+function getSel(array, lang) {
+    if (lang == 'ca') {
+        return array.ca;
+    }
+    else if(lang == 'en'){
+        return array.en;
+    }
+    else{
+        return array.es;
+    }
+}
+function getSeasons (season){
+  var month = moment().format("M"); 
+  switch(month) {
+        case '12':
+        case '1':
+        case '2':
+            return season.winter;
+        break;
+        case '3':
+        case '4':
+        case '5':
+            return season.spring;
+        break;
+        case '6':
+        case '7':
+        case '8':
+            return season.summer;
+        break;
+        case '9':
+        case '10': 
+        case '11':
+            return season.fall;
+        break;
+    }
+}
+function getSquareMenu(data, language, count, season){
+  var menu = '<div class="square-menus myBtnMenu menu'+count+'">'+
+    '<div class="info-content-menu menu">'+
+        '<h3>'+getSel(data.title, language)+'</h3>'+
+        '<p>'+getSel(data.description, language)+'</p>'+
+          '<ul>';
+          var i = 1;
+          while (i <= 3){
+            menu += '<li>···</li>';
+            jQuery.each(data.dishes[i], function(keys, values) {
+              menu += '<li>'+getSel(values, language)+'</li>';
+            });
+            i++;
+          }
+          menu += '<li>···</li>';
+          jQuery.each(data.dishes.drinks, function(keys, values) {
+            menu += '<li>'+getSel(values, language)+'</li>';
+          });
+          menu += '<li>···</li></ul>';
+      menu += '<span>'+data.dishes.price+' €</span>'+
+  '</div>'+
+'</div>';
 
+return menu;
+}
 
-
-// var doc = new jsPDF();
-// var specialElementHandlers = {
-//     '#editor': function (element, renderer) {
-//         return true;
-//     }
-// };
-// $('#cmd').click(function () {
-//     doc.fromHTML($('#content').html(), 15, 15, {
-//         'width': 170,
-//             'elementHandlers': specialElementHandlers
-//     });
-//     doc.save('sample-file.pdf');
-// });
-
-// var doc = new jsPDF();          
-// var elementHandler = {
-//   '#ignorePDF': function (element, renderer) {
-//     return true;
-//   }
-// };
-// var source = window.document.getElementsByTagName("body")[0];
-// doc.fromHTML(
-//     source,
-//     15,
-//     15,
-//     {
-//       'width': 180,'elementHandlers': elementHandler
-//     });
-
-
-// var elementHandler = {
-//   '#ignoreElement': function (element, renderer) {
-//     return true;
-//   },
-//   '#anotherIdToBeIgnored': function (element, renderer) {
-//     return true;
-//   }
-// };
-// doc.output("dataurlnewwindow");
+/*LANGUAGE: END*/
