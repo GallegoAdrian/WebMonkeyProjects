@@ -1,5 +1,5 @@
 .bottom-title{
-		height: 500px;
+		height: 700px;
 		width: auto;
 		padding: 50px;
 }
@@ -62,9 +62,9 @@
 }
 #squ-horario{
 	height: 350px;
-	width: 370px;
+	width: 45%;
 	margin: 10px;
-	float: right;
+	float: left;
 	border: 1px solid orange;	
 }
 #horario{
@@ -89,13 +89,100 @@
 	text-align: right;
 	margin-right: 10px;
 }
-#mapa{
-	height: 240px;
-	width: 240px;
-	float: left;
+
+#squ-marbona{
+	height: 270px;
+	width: 45%;
+	float: right;
+	margin: 10px;
+	border: 1px solid orange;
+}
+#marbona{
+	height: 89px;
+	width: 314px;
+	font-family: behind;
+	text-align: center;
+	background-color: #f5f5f5;
+	position: relative;
+	border-radius: 30px;
+	top: -1px;
+	left: -1px;
+}
+#marbona p{
+	position: relative;
+	top: 25px;
+}
+#squ-redes{
+	height: 60px;
+	width: 45%;
+	float: right;
 	margin: 10px;
 }
-#squ-chef{
+#redes{
+	height: 40px;
+	width: 206px;	
+	background-color: #f5f5f5;
+	position: relative;
+	padding: 10px;
+	top: -1px;
+	left: -1px;
+	
+}
+
+#redes img{
+	height: 30px;
+	margin:4px;
+	margin-top: 5px;
+}
+.bannerinicio{
+	width: 97.83549783549784%;
+	height: 250px;
+	background-color: #FF847B;
+	margin: 10px;
+}
+#squ-redes, #squ-marbona, #squ-horario{
+	width: 47.5%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* #squ-chef{
 	height: 130px;
 	width: 248px;
 	float: left;
@@ -132,52 +219,4 @@
 	color: #81c483;
 	cursor: pointer;
 	transition: color 1s ease, color 1s ease;
-}
-#squ-marbona{
-	height: 87px;
-	width: 312px;
-	float: left;
-	margin: 10px;
-	margin-left: 55px;
-	border: 1px solid orange;
-}
-#marbona{
-	height: 89px;
-	width: 314px;
-	font-family: behind;
-	text-align: center;
-	background-color: #f5f5f5;
-	position: relative;
-	border-radius: 30px;
-	top: -1px;
-	left: -1px;
-}
-#marbona p{
-	position: relative;
-	top: 25px;
-}
-#squ-redes{
-	height: 58px;
-	width: 224px;
-	float: right;
-	margin: 10px;
-	margin-top: 40px;
-	border: 1px solid orange;
-}
-#redes{
-	height: 40px;
-	width: 206px;	
-	background-color: #f5f5f5;
-	position: relative;
-	border-radius: 17px;
-	padding: 10px;
-	top: -1px;
-	left: -1px;
-	
-}
-
-#redes img{
-	height: 30px;
-	margin:4px;
-	margin-top: 5px;
-}
+} */
