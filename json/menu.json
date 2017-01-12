@@ -65,7 +65,7 @@
         "price": 20,
         "gluten": true,
         "lactose": true,
-        "img": "spaghetti.png"
+        "img": "chicken.jpg"
       }
     },
     "tuesday": {
@@ -126,7 +126,7 @@
         "price": 20,
         "gluten": true,
         "lactose": true,
-        "img": "spaghetti.png"
+        "img": "gazpacho.jpg"
       }
     },
     "wednesday": {
@@ -187,7 +187,7 @@
         "price": 20,
         "gluten": true,
         "lactose": true,
-        "img": "spaghetti.png"
+        "img": "meat.jpg"
       }
     },
     "thursday": {
@@ -248,7 +248,7 @@
         "price": 20,
         "gluten": true,
         "lactose": true,
-        "img": "spaghetti.png"
+        "img": "peppers.jpg"
       }
     },
     "friday": {
@@ -309,7 +309,7 @@
         "price": 20,
         "gluten": true,
         "lactose": true,
-        "img": "spaghetti.png"
+        "img": "pizza.jpg"
       }
     }
   },
@@ -372,7 +372,7 @@
         "price": 20,
         "gluten": true,
         "lactose": true,
-        "img": "spaghetti.png"
+        "img": "crab.jpg"
       }
     },
     "spring": {
@@ -433,7 +433,7 @@
         "price": 20,
         "gluten": true,
         "lactose": true,
-        "img": "spaghetti.png"
+        "img": "crab.jpg"
       }
     },
     "summer": {
@@ -494,7 +494,7 @@
         "price": 20,
         "gluten": true,
         "lactose": true,
-        "img": "spaghetti.png"
+        "img": "crab.jpg"
       }
     },
     "fall": {
@@ -555,7 +555,7 @@
         "price": 20,
         "gluten": true,
         "lactose": true,
-        "img": "spaghetti.png"
+        "img": "crab.jpg"
       }
     }
   }

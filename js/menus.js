@@ -1,6 +1,7 @@
 /////////// Top Slider Menús//////////////////////
-
+getPage(getLanguage());
 $(document).ready( function() {
+  
   getSeason();
 
 // Cada seis segundos se ejecuta elswitchSliede() funtion.
@@ -315,51 +316,77 @@ $(".modal-content-menu").on("click", "span.close2", function(){
               doc.save("menu.pdf");
       });
 
+/*LANGUAGE: START*/
 
-// var pdf = new jsPDF('p', 'pt', 'letter');
-//  pdf.addHTML($('#content')[0], function () {
-//      pdf.save('Test.pdf');
-//  });
+function getPage(language){ 
+    var fullurl = window.location.href;
+    var url = fullurl.substring(0, fullurl.lastIndexOf("/")+1)+'json/menu.json';
+    var json = "";
+    $.getJSON(url, function(data) {
+            json = data;
+            var menu = "";
+            var count = 0;
+            console.log(language);
+            // title
+            $('.titletarget').text(getSel(json.page.title, language));
+              jQuery.each(json.menus, function(key, value) {                   
+              count++;
+                //console.log(value.title);
+                  /*acordeon += '<li>'+
+                      '<div class="plato">'+
+                          '<div class="titulo-plato">'+
+                              '<h4>'+getSel(value.name, language)+'</h4>'+
+                          '</div>'+
+                          '<div class="desc-plato">'+
+                              '<p>'+getSel(value.description, language)+'</p>'+
+                          '</div>'+
+                          '<div class="foto-plato">'+
+                              '<img class="myImg" src="img/food/'+value.img+'" alt="Tallarines al Fungi">'+          
+                          '</div>'+
+                      '</div>'+
+                      '</li>';
 
+        <div class="square-menus myBtnMenu menu1">
+          <div class="info-content-menu menu">
 
+                      */
+                      console.log(value);
+                menu += '<div class="square-menus myBtnMenu menu'+count+'">'+
+                      '<div class="info-content-menu menu">'+
+                          '<h3>'+getSel(value.title, language)+'</h3>'+
+                          '<p>'+getSel(value.description, language)+'</p>'+
+                            '<ul>';
+                            var i = 1;
+                            while (i <= 3){
+                              menu += '<li>···</li>';
+                              jQuery.each(value.dishes[i], function(keys, values) {
+                                menu += '<li>'+getSel(values, language)+'</li>';
+                              });
+                              i++;
+                            }
+                            menu += '<li>···</li>';
+                            jQuery.each(value.drinks, function(keys, values) {
+                              menu += '<li>'+getSel(values, language)+'</li>';
+                            });
+                            menu += '<li>···</li></ul>';
+                        menu += '<span>'+value.dishes.price+' €</span>'+
+                    '</div>'+
+                  '</div>';
+              });
+            //$('#acordeontarget').append(acordeon);
+            $(".bottom-title").append(menu);
+    });
+}
+function getSel(array, lang) {
+    if (lang == 'ca') {
+        return array.ca;
+    }
+    else if(lang == 'en'){
+        return array.en;
+    }
+    else{
+        return array.es;
+    }
+}
 
-
-// var doc = new jsPDF();
-// var specialElementHandlers = {
-//     '#editor': function (element, renderer) {
-//         return true;
-//     }
-// };
-// $('#cmd').click(function () {
-//     doc.fromHTML($('#content').html(), 15, 15, {
-//         'width': 170,
-//             'elementHandlers': specialElementHandlers
-//     });
-//     doc.save('sample-file.pdf');
-// });
-
-// var doc = new jsPDF();          
-// var elementHandler = {
-//   '#ignorePDF': function (element, renderer) {
-//     return true;
-//   }
-// };
-// var source = window.document.getElementsByTagName("body")[0];
-// doc.fromHTML(
-//     source,
-//     15,
-//     15,
-//     {
-//       'width': 180,'elementHandlers': elementHandler
-//     });
-
-
-// var elementHandler = {
-//   '#ignoreElement': function (element, renderer) {
-//     return true;
-//   },
-//   '#anotherIdToBeIgnored': function (element, renderer) {
-//     return true;
-//   }
-// };
-// doc.output("dataurlnewwindow");
+/*LANGUAGE: END*/
