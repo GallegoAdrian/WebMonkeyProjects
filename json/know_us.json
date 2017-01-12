@@ -1,1 +1,67 @@
-know_us.json
+{
+  "page": {
+      "title": {
+        "ca": "Restaurant",
+        "es": "Restaurante",
+        "en": "Restaurant"
+        },
+        "description": {
+          "ca": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+          "es": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+          "en": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+        },
+      "staff": {
+        
+        "founder": {
+            "name": {
+              "ca": "Helena Gonzalez, Fundadora",
+              "es": "Helena Gonzalez, Fundadora",
+              "en": "Helena Gonzalez, Founder"
+            },
+            "description": {
+              "ca": "Nonrespectable gherkin rectalgia sculduddery irremediable lambently boyship vehiculation pythoniform anarthrous metapneustic squealer lar telestial noviciate diploconical invagination spex unsaintlike enzootic lubrication bakepan want cathartical.",
+              "es": "Nonrespectable gherkin rectalgia sculduddery irremediable lambently boyship vehiculation pythoniform anarthrous metapneustic squealer lar telestial noviciate diploconical invagination spex unsaintlike enzootic lubrication bakepan want cathartical.",
+              "en": "Nonrespectable gherkin rectalgia sculduddery irremediable lambently boyship vehiculation pythoniform anarthrous metapneustic squealer lar telestial noviciate diploconical invagination spex unsaintlike enzootic lubrication bakepan want cathartical."
+            }
+          },
+          "chef": {
+            "name": {
+              "ca": "Xavier Fernandez, Chef",
+              "es": "Xavier Fernandez, Chef",
+              "en": "Xavier Fernandez, Chef"
+            },
+            "description": {
+              "ca": "Electrosynthesis arabit scolices obligational hypodiastole penurious anhemolytic untiredly cachectic hatter Salishan unremittingness folles nakong procollectivistic worrier pausefully lixivious pluff verruca agrestic democratifiable Protocaris mycorrhizal.",
+              "es": "Electrosynthesis arabit scolices obligational hypodiastole penurious anhemolytic untiredly cachectic hatter Salishan unremittingness folles nakong procollectivistic worrier pausefully lixivious pluff verruca agrestic democratifiable Protocaris mycorrhizal.",
+              "en": "Electrosynthesis arabit scolices obligational hypodiastole penurious anhemolytic untiredly cachectic hatter Salishan unremittingness folles nakong procollectivistic worrier pausefully lixivious pluff verruca agrestic democratifiable Protocaris mycorrhizal."
+            }
+          },
+          
+          "rightHandchef": {
+              "name": {
+                "ca": "Mario Vilaplana, Mà dreta del Chef",
+                "es": "Mario Vilaplana, Mano derecha del Chef",
+                "en": "Mario Vilaplana, Right hand Chef"
+              },
+              "description": {
+                "ca": "Electrosynthesis arabit scolices obligational hypodiastole penurious anhemolytic untiredly cachectic hatter Salishan unremittingness folles nakong procollectivistic worrier pausefully lixivious pluff verruca agrestic democratifiable Protocaris mycorrhizal.",
+                "es": "Electrosynthesis arabit scolices obligational hypodiastole penurious anhemolytic untiredly cachectic hatter Salishan unremittingness folles nakong procollectivistic worrier pausefully lixivious pluff verruca agrestic democratifiable Protocaris mycorrhizal.",
+                "en": "Electrosynthesis arabit scolices obligational hypodiastole penurious anhemolytic untiredly cachectic hatter Salishan unremittingness folles nakong procollectivistic worrier pausefully lixivious pluff verruca agrestic democratifiable Protocaris mycorrhizal."
+              }
+            },
+          
+            "helperChef": {
+              "name": {
+                "ca": "Ramon Hernandez, Ajudant del Chef",
+                "es": "Ramon Hernandez, Ayudante del Chef",
+                "en": "Ramon Hernandez, Helper Chef"
+              },
+              "description": {
+                "ca": "Electrosynthesis arabit scolices obligational hypodiastole penurious anhemolytic untiredly cachectic hatter Salishan unremittingness folles nakong procollectivistic worrier pausefully lixivious pluff verruca agrestic democratifiable Protocaris mycorrhizal.",
+                "es": "Electrosynthesis arabit scolices obligational hypodiastole penurious anhemolytic untiredly cachectic hatter Salishan unremittingness folles nakong procollectivistic worrier pausefully lixivious pluff verruca agrestic democratifiable Protocaris mycorrhizal.",
+                "en": "Electrosynthesis arabit scolices obligational hypodiastole penurious anhemolytic untiredly cachectic hatter Salishan unremittingness folles nakong procollectivistic worrier pausefully lixivious pluff verruca agrestic democratifiable Protocaris mycorrhizal."
+              }
+          }
+      }
+  }
+}

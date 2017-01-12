@@ -30,3 +30,12 @@ for (i = 0; i < x.length; i++) {
 		modalCarta.style.display = "none";
 	}
 }
+
+
+$(".foto-plato").on("click", ".myImg", function(){
+
+		console.log("hola");
+
+
+
+});

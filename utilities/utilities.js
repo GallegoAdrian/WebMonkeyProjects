@@ -1,4 +1,3 @@
-
 (function( win ) {
 
 	win.myFunctions= win.myFunctions || {};
