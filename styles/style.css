@@ -194,7 +194,7 @@ div#banner{
 	width:100%;
 	height:200px;
 	margin:0 auto;
-	background-image: url(../img/footer/sea.png);
+	background-image: url(../img/footer/sea4.svg);
 	background-position: 120% 0px,0px 0px,0px 0px;
 	background-repeat: repeat-x; 
 	animation: animate-background linear 70s infinite;
@@ -208,7 +208,6 @@ div#banner{
 }
 
 .container-info{
-	height: 950px;
 	padding: 10px;
 	font-size: 20px;
 	background-color: #f5f5f5;

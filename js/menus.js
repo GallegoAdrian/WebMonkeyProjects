@@ -155,7 +155,7 @@ $(".modal-content-menu").on("click", "span.close2", function(){
           var doc = new jsPDF();
               var source = $(".modal-content-menu").html();
               var res = source.replace('<span class="close2">×</span>', "");
-              var res2 = res.replace('<button id="boton">generate PDF</button>',"");
+              var res2 = res.replace('<button id="boton">Generate PDF</button>',"");
               var res3 = res2.replace('€'," Euros ");
 
               var specialElementHandlers = {
@@ -175,7 +175,7 @@ $(".modal-content-menu").on("click", "span.close2", function(){
           var doc = new jsPDF();
               var source = $(".modal-content-menu").html();
               var res = source.replace('<span class="close2">×</span>', "");
-              var res2 = res.replace('<button id="botonSpecial">generate PDF</button>',"");
+              var res2 = res.replace('<button id="botonSpecial">Generate PDF</button>',"");
               var res3 = res2.replace('€'," Euros ");
 
               var specialElementHandlers = {
@@ -203,10 +203,10 @@ function getPage(language){
       var count = 0;
       // title
       $('.titletarget').text(getSel(json.page.title, language));
-        jQuery.each(json.menus, function(key, value) {                   
+        jQuery.each(json.menus, function(key, value) {
           count++;
           menu += getSquareMenu(value, language, count);
-        });                  
+        });
         count++;
         var season = getSeasons(json.season);
         menu += getSquareMenu(season, language, count);

@@ -1,6 +1,5 @@
 getPage(getLanguage());
-$(document).ready( function() {
-});
+
 $(document).on('click', '.toggle', function(e) {
 // $('.toggle').click(function(e) {
   	e.preventDefault();
@@ -24,12 +23,11 @@ function getPage(language){
     var json = '';
     $.getJSON(url, function(data) {
             json = data;
-            console.log(language);
+
             // title
             $('.titletarget').text(getSel(json.page.title, language));
             //description
              $('.description').text(getSel(json.page.description, language));
-            console.log(json.categories);
             var acordeon = '<ul class="accordion">';
             jQuery.each(json.categories, function(key, value) {
                 acordeon += '<li>'+

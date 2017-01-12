@@ -1,3 +1,5 @@
+$(document).ready( function() {
+
 // Get the modal
 var modalCarta = document.getElementById('myModalCarta');
 
@@ -5,9 +7,9 @@ var modalCarta = document.getElementById('myModalCarta');
 var img;
 
 var x = document.getElementsByClassName("myImg");
-var i;
+
 // recorremos bucle para que actue por todas la imagenes de la misma class
-for (i = 0; i < x.length; i++) {
+for (var i = 0; i < x.length; i++) {
     img = document.getElementsByClassName('myImg')[i];
 	
 	var modalImg = document.getElementById("img01");
@@ -30,12 +32,6 @@ for (i = 0; i < x.length; i++) {
 		modalCarta.style.display = "none";
 	}
 }
-
-
-$(".foto-plato").on("click", ".myImg", function(){
-
-		console.log("hola");
-
 
 
 });
