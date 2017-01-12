@@ -21,7 +21,7 @@ $(document).on('click', '.toggle', function(e) {
 function getPage(language){ 
     var fullurl = window.location.href;
     var url = fullurl.substring(0, fullurl.lastIndexOf("/")+1)+'json/chart.json';
-    var json = "aloha";
+    var json = '';
     $.getJSON(url, function(data) {
             json = data;
             console.log(language);

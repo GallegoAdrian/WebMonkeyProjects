@@ -1,5 +1,6 @@
 $(document).ready( function() {
 // Every six seconds execute the switchSlide() function
+getKnowUs(getLanguage());
 setInterval( "switchSlide()", 6000);
 });
 // This function takes the first .slide element and put at the end
@@ -33,3 +34,32 @@ $(document).ready( function() {
 });
 
 
+function getKnowUs(language) {
+    var fullurl = window.location.href;
+    var url = fullurl.substring(0, fullurl.lastIndexOf("/")+1)+'json/know_us.json';
+    
+    var json = "";
+    $.getJSON(url, function (data) {
+        //var lang = '#'+idioma;
+        var short;
+        json = data;
+
+        var knowUs = '<h1>'+getSel(json.page.title, language)+'</h1>'+
+                     '<p>'+getSel(json.page.description, language)+'</p>';
+    
+
+    $('#descriptionKnowUs').html(knowUs);
+    });
+}
+
+function getSel(array, lang) {
+    if (lang == 'ca') {
+        return array.ca;
+    }
+    else if(lang == 'en'){
+        return array.en;
+    }
+    else{
+        return array.es;
+    }
+}
