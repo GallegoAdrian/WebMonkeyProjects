@@ -2,41 +2,41 @@
 	height: 1243px;
 }
 .menutarget{
-		height: auto;
-		display: flex;
-		justify-content: center;
-		flex-wrap: wrap;
+	height: auto;
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
 }
 .menutarget .square-menus{
-		width: 300px;
-		height: 300px;
-		margin: 10px;
-		display: flex;
-		flex-direction: column;
-		justify-content: center;
-		color: #fff;
-		font-size: 20px;
-		transition: border 1s ease, color 1s ease;
-		text-align: center;
-		border:solid 2px #7b7b7b;
-		font-family: kozgopro;
+	width: 300px;
+	height: 300px;
+	margin: 10px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	color: #fff;
+	font-size: 20px;
+	transition: border 1s ease, color 1s ease;
+	text-align: center;
+	border:2px solid #7b7b7b;
+	font-family: kozgopro;
 }
 
 .menutarget .square-menus span{ 
-		border:1px solid;
-		padding: 15px;
-		margin-top: 40px;
-		transition:background 1s ease;
+	border:1px solid;
+	padding: 15px;
+	margin-top: 40px;
+	transition:background 1s ease;
 }
 
 .menutarget .square-menus:hover span{ 
-		background: rgba(0, 0, 0, 0.6);;
+	background: rgba(0, 0, 0, 0.6);;
 }
 
 .menutarget .square-menus:hover{
-		border:solid 2px #81c483;
-		color: #81c483;
-		cursor: pointer;
+	border:solid 2px #81c483;
+	color: #81c483;
+	cursor: pointer;
 }
 /*.menutarget .square-menus p,h3,ul, .iconos{
 	padding: 10px;
@@ -60,21 +60,22 @@
 
 
 .menutarget .square-menus h3{
-		font-size: 25px;
-		font-family: kozgopro;
+	font-size: 25px;
+	font-family: kozgopro;
 }
 .menutarget .square-menus ul{
-		list-style-type: none;
-		line-height: 20px;
-		display: none;
+	list-style-type: none;
+	line-height: 20px;
+	display: none;
 }
 .menutarget .square-menus p{
-		display: none;
+	display: none;
 }
+
 .menutarget .square-menus .iconos{
 	width: 40px;
 	height: 40px;
-	}
+}
 /*////////////Slider Menús///////////////*/
 
 #slider {

@@ -158,19 +158,38 @@ h2{
 	margin-bottom: 15px;
 	width:100%;
 	height: 100px;
+	cursor: pointer;
+	border:3px solid transparent;
+	transition: border 1s ease;
 }
+
+
+.menu-promocions:hover{
+	border:solid 3px #81c483;
+	cursor: pointer;
+}
+
 
 .menu-promocions span:first-child{
 	color: #fff;
 	font-size: 50px;
 	padding-left: 25px;
 	font-weight: bold;
+	transition: color 1s ease;
+}
+
+.menu-promocions:hover span:first-child{
+	color: #81c483;
 }
 
 .menu-promocions span:nth-of-type(2){
 	color: #da5148;
 	padding-left: 15px;
 	vertical-align: text-top;
+}
+
+#contenido-inicio a{
+	text-decoration:none;
 }
 
 
