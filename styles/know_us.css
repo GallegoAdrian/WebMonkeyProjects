@@ -21,10 +21,11 @@
 }
 
 #restaurant h2{
-
 	color: #4343b3;
     font-weight: bold;
     font-style: italic;
+    padding-top: 15px;
+    padding-bottom: 15px;
     font-size: 40px;
     font-family: 'Shrikhand-Regular';
 }
@@ -100,6 +101,7 @@
 .personal-left img{
 	float: right;
 	margin-right: -16px;
+	margin-left: 15px;
 }
 
 .personal-right img{

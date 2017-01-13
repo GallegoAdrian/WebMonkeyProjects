@@ -31,12 +31,12 @@
 	float:left;
 	margin: 10px;
 	padding: 20px;
-		color: #fff;
-		font-size: 15px;
-		transition: border 1s ease, color 1s ease;
-		text-align: center;
-		border:solid 2px #7b7b7b;
-		font-family: kozgopro;
+	color: #fff;
+	font-size: 15px;
+	transition: border 1s ease, color 1s ease;
+	text-align: center;
+	border:solid 2px #7b7b7b;
+	font-family: kozgopro;
 }
 .menu-carta:hover{
 	border:solid 2px #81c483;
@@ -144,7 +144,8 @@
 	width: 47.5%;
 }
 
-h2{
+#contenido-inicio h2{
+	color: #4343b3;
 	font-family: behind;
 	font-size: 61px;
 	text-align: center;
