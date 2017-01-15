@@ -11,7 +11,6 @@
 
     <link rel="stylesheet" type="text/css" href="styles/style_contacto.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
-    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCh0soCsAPDdeSY5e5Uwqy31jBni7pcsac&callback=initMap"></script>
     <script type="text/javascript" src="js/map.js"></script>
   </head>
   <body>
@@ -29,13 +28,9 @@
       
       </div>
       <div id="content">
+        <input id="origin-input" class="controls" type="text"
+        placeholder="Origen...">
         <div id="map"></div>
-          <form action="https://maps.google.com/maps" method="get" target="_blank">
-             <label for="saddr">Enter your location</label>
-             <input type="text" name="saddr" />
-             <input type="hidden" name="daddr" value="Palamós, Girona, Espanya" />
-             <input type="submit" value="Get directions" />
-          </form>
       </div>
     </div>
     <footer>
@@ -51,6 +46,8 @@
     <script type="text/javascript" src="js/header.js"></script>
     <script type="text/javascript" src="utilities/utilities.js"></script>
     <script type="text/javascript" src="js/connection.js"></script>
-    <!-- <script type="text/javascript" src="js/modal.js"></script> -->
+    <script type="text/javascript" src="js/contact.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCuLGyNfaMHCMeKhosa_3MDr9qilgVlsqw&libraries=places&callback=initMap"
+        async defer></script>
   </body>
 </html>

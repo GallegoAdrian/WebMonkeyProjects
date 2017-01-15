@@ -32,6 +32,7 @@ function weatherOfDay(weatherDay,  weatherOfWeek , day, oWeatherPalamos){
 	var date = moment.unix(oWeatherPalamos.dt).locale(lang).format('ll');
 	var hour = moment.unix(oWeatherPalamos.dt).locale(lang).format('LT');
 
+
 	if(date.indexOf(day) > -1 && hour != '1:00' && hour != '4:00' && hour != '7:00'){
 		weatherOfWeek += '<div class="day-weather"><img src="img/weatherIconsSvg/'+
 							iconsWeather(oWeatherPalamos.weather[0].icon)+'"/>' + '<span>'+
@@ -46,7 +47,6 @@ function weatherOfDay(weatherDay,  weatherOfWeek , day, oWeatherPalamos){
 function putDataInHtml(data){
 	$(".weather-time").append(data);
 }
-
 	win.myFunctions.iconsWeather  = iconsWeather;
 	win.myFunctions.putDataInHtml = putDataInHtml;
 	win.myFunctions.weatherOfDay  = weatherOfDay;
