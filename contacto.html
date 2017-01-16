@@ -26,32 +26,13 @@
       <div id="img">
       
       </div>
-      <div id="content">
-        <h1 id="pagetitle"> Nuestra Ubicación</h1>
-        <input id="origin-input" class="controls" type="text"
-        placeholder="Origen...">
+      <div id="content-map">
+
+      </div>
+      <input id="origin-input" class="controls" type="text" placeholder="Origen...">
         <div id="map"></div>
-        <h1 id="pagetitle"> Contacta Con Nosotros</h1>
-        <div class="form">
-        <form id="form">
-              <div class="form-group">
-                <input type="text" class="form-control" value="" placeholder="Name" id="contact-name" />
-                <label class="input-field-icon icon-user" for="login-name"></label>
-              </div>
+      <div id="content">
 
-              <div class="form-group">
-                <input type="email" class="form-control" value="" placeholder="Email" id="contact-email" />
-                <label class="input-field-icon icon-email" for="login-email"></label>
-              </div>
-              <div class="form-group">
-                <textarea class="form-control" value="" placeholder="Message" id="contact-message" rows="1"></textarea>
-              </div>
-
-              <button id="contact-send" class="btn-send">Send</button>
-
-              <div id="error-message">Todos los campos son obligatorios.</div>
-          </form>
-          </div>
       </div>
     </div>
     <footer>
@@ -64,12 +45,13 @@
           </select>
        </div>
     </footer>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCuLGyNfaMHCMeKhosa_3MDr9qilgVlsqw&libraries=places&callback=initMap"
+        async defer></script>
     <script type="text/javascript" src="js/header.js"></script>
     <script type="text/javascript" src="utilities/utilities.js"></script>
     <script type="text/javascript" src="js/connection.js"></script>
     <script type="text/javascript" src="js/contact.js"></script>
     <script type="text/javascript" src="js/map.js"></script>
-    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCuLGyNfaMHCMeKhosa_3MDr9qilgVlsqw&libraries=places&callback=initMap"
-        async defer></script>
+    
   </body>
 </html>
