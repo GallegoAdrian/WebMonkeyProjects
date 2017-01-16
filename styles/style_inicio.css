@@ -202,7 +202,35 @@
 
 
 
+#slider {
+    position:relative;
+	width:900px;
+	height:250px;
+}
+#slider_content{	
+    z-index:0;
+}
 
+#slider img {
+    position:absolute;
+    top:0;
+    left:0;
+    z-index:1;
+	width:900px;
+	height:250px;
+}
+
+#slider img.active {
+	width:900px;
+	height:250px;
+    z-index:2;
+}
+
+#slider img.last-active {
+	width:900px;
+	height:250px;
+    z-index:3;
+}
 
 
 
