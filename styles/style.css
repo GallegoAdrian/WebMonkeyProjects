@@ -222,6 +222,13 @@ div#banner{
 	text-align: center;
 }
 
+#pagetitle{
+    color: #4343b3;
+    font-size: 60px;
+    font-weight: normal;
+    font-family: lobster;
+    text-align: center;
+}
 
 #boat{
 	position: relative;
