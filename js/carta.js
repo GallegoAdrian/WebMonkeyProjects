@@ -29,9 +29,11 @@ function getPage(language){
             //description
              $('.description').text(getSel(json.page.description, language));
             var acordeon = '<ul class="accordion">';
+            var count = 0;
             jQuery.each(json.categories, function(key, value) {
+                count++;
                 acordeon += '<li class="carta-platos">'+
-                      '<a class="toggle" href="javascript:void(0);">'+getSel(value.title, language)+'</a>'+
+                      '<a class="toggle carta'+count+'" href="javascript:void(0);">'+getSel(value.title, language)+'</a>'+
                       '<ul class="inner">';
                 jQuery.each(value.dishes, function(key, value) {
                     acordeon += '<li>'+

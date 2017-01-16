@@ -8,7 +8,8 @@ function initMap() {
   var map = new google.maps.Map(document.getElementById('map'), {
     mapTypeControl: false,
     center: myLatLng,
-    zoom: 15
+    zoom: 15,
+    scrollwheel:  false
   });
 
   var marker = new google.maps.Marker({

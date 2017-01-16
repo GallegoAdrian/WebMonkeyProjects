@@ -21,12 +21,23 @@
     font-size: 2.5em;
 	padding: .15em;
 }
-#carta a {
+.carta1, .carta2, .carta3, .carta4 {
 	text-decoration: none;
-	background-image: url('../img/carta/salads-crop.jpg');
 	background-repeat: no-repeat;
 	background-size: cover;
 	height: 200px;
+}
+.carta1{
+	background: linear-gradient(0deg, rgba(213, 213, 213, 0), rgba(34, 34, 34, 0.5)), url(../img/carta/salads-crop.jpg);
+}
+.carta2{
+	background: linear-gradient(0deg, rgba(213, 213, 213, 0), rgba(34, 34, 34, 0.5)), url(../img/carta/pasta-crop.jpg);
+}
+.carta3{
+	background: linear-gradient(0deg, rgba(213, 213, 213, 0), rgba(34, 34, 34, 0.5)), url(../img/carta/fish-crop.jpg);
+}
+.carta4{
+	background: linear-gradient(0deg, rgba(213, 213, 213, 0), rgba(34, 34, 34, 0.5)), url(../img/carta/meat-crop.jpg);
 }
 
 .plato{
