@@ -101,22 +101,13 @@ input, textarea {
 }
 
 
-.has-error input, .has-error textarea {
-  color: #e74c3c;
-  border-color: #e74c3c;
-}
-
-.has-error .input-field-icon {
+#error-message{
+  display: none;
+  margin-top: 15px;
+  border: 2px solid #fff;
+  padding: 15px 65px;
   color: #fff;
-}
 
-.has-success input, .has-success textarea {
-  color: #81c483;
-  border-color: #81c483;
-}
-
-.has-success .input-field-icon {
-  color: #81c483;
 }
 
 
