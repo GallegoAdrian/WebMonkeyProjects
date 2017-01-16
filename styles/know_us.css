@@ -5,7 +5,7 @@
 }
 
 .container{
-	height: 2390px;
+	height: 2400px;;
 }
 
 .seccion{
@@ -14,20 +14,22 @@
 
 #restaurant h1{
 	color: #4343b3;
-    font-weight: bold;
-    font-style: italic;
     font-size: 60px;
-    font-family: 'Shrikhand-Regular';
+    font-weight: normal;
+    font-family: lobster;
 }
 
 #restaurant h2{
 	color: #4343b3;
-    font-weight: bold;
-    font-style: italic;
+    font-weight: normal;
+    font-family: lobster;
     padding-top: 15px;
     padding-bottom: 15px;
     font-size: 40px;
-    font-family: 'Shrikhand-Regular';
+}
+
+#descriptionKnowUs{
+	margin-bottom: 25px;
 }
 
 .img-home{
@@ -63,26 +65,46 @@
     z-index:3;
 }
 #reproductor{
+	float: left;
 	clear: both;
 }
 
 #reproductor video{
-	height: 225px;
-	width: 400px;
+	height: 300px;
+    width: 814px;
 }
 #reproductor iframe{
-	height: 225px;
-	width: 400px; 
+	height: 300px;
+    width: 814px;
 }
+
+#video_carousel{
+	margin-top: 70px;
+}
+
 #video_list{
-	width: 396px;
+	width: 170px;
+    text-align: center;
+    overflow-y: auto;
+    height: 310px;
 }
 #video_list img{
-  cursor: pointer;
-  width: 130px;
-  height: 90px;
-  margin: 10px 0px 0px 10px;
+	display: block;
+	cursor: pointer;
+	width: 134px;
+	height: 90px;
+	margin-left: 10px;
+	margin-bottom: 10px;
 }
+
+#video_list img:hover{
+	border: solid 2px #81c483;
+}
+
+.selected{
+	border: solid 2px #81c483;
+}
+
 #video_list ul{
 	list-style: none;
 	white-space: nowrap;
@@ -93,6 +115,11 @@
   display: inline;
 }
 
+#personal{
+	clear: both;
+	margin-bottom: 20px;
+}
+
 .personal-left, .personal-right{
 	display: block;
 	height: 320px;
@@ -100,11 +127,12 @@
 
 .personal-left img{
 	float: right;
-	margin-right: -16px;
 	margin-left: 15px;
+	width: 492px;
 }
 
 .personal-right img{
 	float: left;
 	margin-right: 15px;
+	width: 492px;
 }

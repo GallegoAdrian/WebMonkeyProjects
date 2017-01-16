@@ -34,3 +34,122 @@
 #origin-input:focus {
   border-color: #4d90fe;
 }
+
+#content{
+  padding: 20px;
+}
+
+#content h1{
+    color: #4343b3;
+    font-size: 60px;
+    font-weight: normal;
+    font-family: lobster;
+}
+
+.form {
+  width: 650px;
+  margin:auto;
+  background-color: #191718;
+  margin-top: 5em;
+  margin-bottom: 6em;
+  padding: 1.25em;
+  text-align: center;
+}
+
+
+.form-group {
+  position: relative;
+  opacity: 1;
+  transition: .6s;
+}
+
+.input-field-icon {
+  color: #fff;
+  font-size: 18px;
+  position: absolute;
+  right: 10px;
+  bottom: 12px;
+  transition: .6s;
+}
+
+.form-control {
+  transition: opacity .6s;
+  opacity: 1;
+  border: 0;
+  color:#fff;
+  border-bottom: 2px solid #fff;
+  border-radius: 0;
+  background-color: #191718;
+  font-size: 15px;
+  line-height: 1.467;
+  padding: 4px;
+  height: 42px;
+  -webkit-appearance: none;
+}
+
+input, textarea {
+  resize: none;
+  transition: all 800ms;
+  font-family: "Roboto";
+  outline:none; 
+  font-family:inherit; 
+  box-sizing:border-box;
+  width: 100%;
+  padding: 0px 4px;
+  color: #fff;
+  margin-top: 1.25em;
+}
+
+
+.has-error input, .has-error textarea {
+  color: #e74c3c;
+  border-color: #e74c3c;
+}
+
+.has-error .input-field-icon {
+  color: #fff;
+}
+
+.has-success input, .has-success textarea {
+  color: #81c483;
+  border-color: #81c483;
+}
+
+.has-success .input-field-icon {
+  color: #81c483;
+}
+
+
+input:focus, textarea:focus {
+  border-color: #81c483;
+  color: #fff;
+}
+
+input:focus + .input-field-icon {
+  color: #34495e;
+}
+
+textarea.form-control {
+  height: 120px;
+  transition: .6s;
+}
+
+textarea.form-control:focus {
+  border-color: #81c483;
+}
+
+.btn-send{
+    margin-top: 15px;
+    border: 2px solid #fff;
+    padding: 15px 65px;
+    color: #fff;
+    background-color: transparent;
+    cursor: pointer;
+    transition: background 1s ease,border 1s ease,color 1s ease;
+}
+
+.btn-send:hover{
+  border:2px solid #81c483;
+  background: rgba(0, 0, 0, 0.6);
+  color: #81c483;
+}

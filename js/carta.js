@@ -30,21 +30,17 @@ function getPage(language){
              $('.description').text(getSel(json.page.description, language));
             var acordeon = '<ul class="accordion">';
             jQuery.each(json.categories, function(key, value) {
-                acordeon += '<li>'+
+                acordeon += '<li class="carta-platos">'+
                       '<a class="toggle" href="javascript:void(0);">'+getSel(value.title, language)+'</a>'+
                       '<ul class="inner">';
                 jQuery.each(value.dishes, function(key, value) {
                     acordeon += '<li>'+
                         '<div class="plato">'+
-                            '<div class="titulo-plato">'+
-                                '<h4>'+getSel(value.name, language)+'</h4>'+
-                            '</div>'+
-                            '<div class="desc-plato">'+
+                            '<div class="cont-plato">'+
+                                '<h3>'+getSel(value.name, language)+'</h3>'+
                                 '<p>'+getSel(value.description, language)+'</p>'+
-                            '</div>'+
-                            '<div class="foto-plato">'+
-                                '<img class="myImg" src="img/food/'+value.img+'" alt="Tallarines al Fungi">'+
-                            '</div>'+
+                             '</div>'+
+                            '<img class="myImg" src="img/food/'+value.img+'" alt="Tallarines al Fungi">'+
                         '</div>'+
                         '</li>';
                 });

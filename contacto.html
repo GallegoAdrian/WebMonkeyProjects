@@ -11,7 +11,6 @@
 
     <link rel="stylesheet" type="text/css" href="styles/style_contacto.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
-    <script type="text/javascript" src="js/map.js"></script>
   </head>
   <body>
     <div class="container">
@@ -28,9 +27,27 @@
       
       </div>
       <div id="content">
+        <h1>Nuestra Ubicación</h1>
         <input id="origin-input" class="controls" type="text"
         placeholder="Origen...">
         <div id="map"></div>
+        <h1>Contacta Con Nosotros</h1>
+        <div class="form">
+              <div class="form-group">
+                <input type="text" class="form-control" value="" placeholder="Name" id="contact-name" />
+                <label class="input-field-icon icon-user" for="login-name"></label>
+              </div>
+
+              <div class="form-group">
+                <input type="email" class="form-control" value="" placeholder="Email" id="contact-email" />
+                <label class="input-field-icon icon-email" for="login-email"></label>
+              </div>
+              <div class="form-group">
+                <textarea class="form-control" value="" placeholder="Message" id="contact-message" rows="1"></textarea>
+              </div>
+
+              <button id="contact-send" class="btn-send">Send</button>
+          </div>
       </div>
     </div>
     <footer>
@@ -47,6 +64,7 @@
     <script type="text/javascript" src="utilities/utilities.js"></script>
     <script type="text/javascript" src="js/connection.js"></script>
     <script type="text/javascript" src="js/contact.js"></script>
+    <script type="text/javascript" src="js/map.js"></script>
     <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCuLGyNfaMHCMeKhosa_3MDr9qilgVlsqw&libraries=places&callback=initMap"
         async defer></script>
   </body>
