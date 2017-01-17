@@ -42,7 +42,7 @@ function getPage(language){
                                 '<h3>'+getSel(value.name, language)+'</h3>'+
                                 '<p>'+getSel(value.description, language)+'</p>'+
                              '</div>'+
-                            '<img class="myImg" src="img/food/'+value.img+'" alt="Tallarines al Fungi">'+
+                            '<img class="myImg" src="img/food/'+value.img+'" alt="'+value.altDesc +'">'+
                         '</div>'+
                         '</li>';
                 });
