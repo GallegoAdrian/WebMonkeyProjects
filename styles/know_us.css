@@ -16,9 +16,11 @@
 	color: #4343b3;
     font-weight: normal;
     font-family: lobster;
-    padding-top: 15px;
-    padding-bottom: 15px;
+    padding-bottom: 7px;
     font-size: 40px;
+}
+#restaurant p, #restaurant span{
+	font-weight: 900;
 }
 
 #descriptionKnowUs{

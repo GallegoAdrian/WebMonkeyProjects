@@ -1,9 +1,26 @@
+$(document).ready(function() {
+    checkCookie('temporada');
+});
+// Checkeamos que exista la cookie
+function checkCookie(cname) {
+    // comprobamos  que valor tiene para el nombre especifico de la cookie
+    var _cookie=getCookie(cname);
+    if (_cookie == "") {
+        setCookie(cname, 3);
+        //el 3 indica el número de dias que tarda en expirar la cookie
+    }
+    else{
+        var valor = getCookie(cname);
+        console.log(valor);
+    }
+}
 // Creamos  la cookie
-function setCookie(cname, cvalue, exdays) {
+function setCookie(cname, exdays) {
     var d = new Date();
-    d.setTime(d.getTime() + (exdays*24*60*60*1000));
-    cvalue = getEstacion(d, cvalue);
+    var cvalue = getSeason(d);
     var expires = "expires=" + d.toGMTString();
+
+    d.setTime(d.getTime() + (exdays*24*60*60*1000));
     document.cookie = cname + "=" + cvalue + ";" + expires + ";path=/";
 }
 
@@ -23,23 +40,12 @@ function getCookie(cname) {
     return "";
 }
 
-// Checkeamos que exista la cookie
-function checkCookie() {
-	var cname = "temporada";
-    var cvalue = "winter";
-    // comprobamos  que valor tiene para el nombre especifico de la cookie
-    var _cookie=getCookie(cname);
-    if (_cookie == "") {
-        setCookie(cname, cvalue, 3);
-    }
-}
 
 // obtenemos la estación del año segun la fecha del sistema que obtenga la cookie
-function getEstacion(data, cvalue){
+function getSeason(data){
     var day = data.getDate();
     var month = data.getMonth();
-    var season = cvalue;
-
+    var season = "";
     switch(month){
         case 12 && day >= 22:
         case 1:
@@ -67,4 +73,18 @@ function getEstacion(data, cvalue){
         break;
     }
     return season;
+}
+
+var season = getSeason();
+console.log(season);
+
+function showPopup(argument) {
+    
+}
+
+function applyStyles(){
+    $( "h2" ).each(function() {
+        if ($(this).hasClass()) {}
+        $(this).addClass('')
+    });
 }
