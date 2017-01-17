@@ -68,6 +68,10 @@ header{
 	width: 1024px;
 	top: 0;
 }
+h2{
+	color: rgba(0, 0, 0, 0);
+	transition: color 1s ease;
+}
 .bg{
 	background: rgba(255,255,255,1);
 	color: black;
