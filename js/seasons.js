@@ -39,6 +39,7 @@ function showPopup(argument) {
 
 function applyStyles(){
     $( "h2" ).each(function() {
-        
+        if ($(this).hasClass()) {}
+        $(this).addClass('')
     });
 }
