@@ -6,12 +6,16 @@
     
     
     <script type="text/javascript" src="js/moment-with-locales.js" ></script>
+
+    <script type="text/javascript" src="js/cookie.js" ></script>
+    <!--script>document.cookie = "Visit = true";</script-->
     <link rel="stylesheet" type="text/css" href="styles/style.css">
     <link rel="stylesheet" type="text/css" href="styles/modal.css">
     <link rel="stylesheet" type="text/css" href="styles/style_inicio.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
   </head>
-  <body>
+  <body onload="checkCookie()">
+
     <div class="container">
       <div id="menutarget"></div>
       <div id="myModal" class="modal">
