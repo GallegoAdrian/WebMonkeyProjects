@@ -45,6 +45,11 @@
             "ca": "Missatge enviat",
             "es": "Mensaje enviado",
             "en": "Message sent"
+          },
+          "errorMail": {
+            "ca": "Correu electrònic mal introduït",
+            "es": "Correo electrónico mal introducido",
+            "en": "Email is not correct"
           }
       }
   }

@@ -98,6 +98,7 @@
   width: 100%;
   padding: 0px 4px;
   margin-top: 1.25em;
+  margin-bottom: 25px;
 }
 
 
@@ -111,6 +112,16 @@
     color: #da5148;
 }
 
+#error-mail{
+    display: none;
+    margin: 0 auto;
+    margin-top: 15px;
+    width: 248px;
+    border: 2px solid #FF8000;
+    padding: 15px 35px;
+    color: #FF8000;
+}
+
 #success-message{
     display: none;
     margin: 0 auto;
@@ -121,6 +132,10 @@
     color: #81c483;
 }
 
+
+.btn-succes-container{
+  margin-bottom: 32px;
+}
 
 input:focus, textarea:focus {
   border-color: #81c483;
