@@ -29,6 +29,7 @@
   padding: 0 11px 0 13px;
   text-overflow: ellipsis;
   width: 200px;
+  color: #222;
 }
 
 #origin-input:focus {
@@ -50,7 +51,7 @@
   width: 650px;
   margin:auto;
   background-color: #191718;
-  margin-top: 5em;
+  margin-top: 20px;
   margin-bottom: 6em;
   padding: 1.25em;
   text-align: center;
@@ -87,7 +88,7 @@
   -webkit-appearance: none;
 }
 
-input, textarea {
+#form input, #form textarea {
   resize: none;
   transition: all 800ms;
   font-family: "Roboto";
@@ -96,27 +97,28 @@ input, textarea {
   box-sizing:border-box;
   width: 100%;
   padding: 0px 4px;
-  color: #fff;
   margin-top: 1.25em;
 }
 
 
-.has-error input, .has-error textarea {
-  color: #e74c3c;
-  border-color: #e74c3c;
+#error-message{
+    display: none;
+    margin: 0 auto;
+    margin-top: 15px;
+    width: 248px;
+    border: 2px solid #da5148;
+    padding: 15px 35px;
+    color: #da5148;
 }
 
-.has-error .input-field-icon {
-  color: #fff;
-}
-
-.has-success input, .has-success textarea {
-  color: #81c483;
-  border-color: #81c483;
-}
-
-.has-success .input-field-icon {
-  color: #81c483;
+#success-message{
+    display: none;
+    margin: 0 auto;
+    margin-top: 15px;
+    width: 248px;
+    border: 2px solid #81c483;
+    padding: 15px 35px;
+    color: #81c483;
 }
 
 

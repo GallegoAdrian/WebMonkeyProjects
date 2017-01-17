@@ -51,7 +51,7 @@ function getKnowUs(language) {
 
         console.log(json);
 
-        var knowUs = '<h1>'+getSel(json.page.title, language)+'</h1>'+
+        var knowUs = '<h1 id="pagetitle">'+getSel(json.page.title, language)+'</h1>'+
                      '<p>'+getSel(json.page.description, language)+'</p>';
 
         var staff = '<div class="personal-right">'+

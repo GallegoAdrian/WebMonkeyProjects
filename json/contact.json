@@ -1,1 +1,51 @@
-contact.json
+{
+  "page": {
+      "ubication": {
+        "ca": "Ubicació",
+        "es": "Ubicación",
+        "en": "Location"
+        },
+        "origin": {
+          "ca": "Origen...",
+          "es": "Origen...",
+          "en": "Origin..."
+        },
+        "contactUs": {
+          "ca": "Contacta amb nosaltres",
+          "es": "Contacta con nosotros",
+          "en": "Contact us"
+        },
+      "form": {
+        "name": {
+          "ca": "Nom",
+          "es": "Nombre",
+          "en": "Name"
+          },
+          "email": {
+            "ca": "Correu electrònic",
+            "es": "Correo electrónico",
+            "en": "Email"
+          },
+          "message": {
+            "ca": "Missatge",
+            "es": "Mensaje",
+            "en": "Message"
+            },
+          "send": {
+            "ca": "Enviar",
+            "es": "Enviar",
+            "en": "Send"
+          },
+          "errorMessage": {
+            "ca": "Tots els camps son obligatoris",
+            "es": "Todos los campos son obligatorios",
+            "en": "All fields are required"
+          },
+          "successMessage": {
+            "ca": "Missatge enviat",
+            "es": "Mensaje enviado",
+            "en": "Message sent"
+          }
+      }
+  }
+}

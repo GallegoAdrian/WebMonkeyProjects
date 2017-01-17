@@ -26,46 +26,36 @@
       <div id="img">
       
       </div>
-      <div id="content">
-        <h1>Nuestra Ubicación</h1>
-        <input id="origin-input" class="controls" type="text"
-        placeholder="Origen...">
+      <div id="content-map">
+
+      </div>
+      <input id="origin-input" class="controls" type="text" placeholder="Origen...">
         <div id="map"></div>
-        <h1>Contacta Con Nosotros</h1>
-        <div class="form">
-              <div class="form-group">
-                <input type="text" class="form-control" value="" placeholder="Name" id="contact-name" />
-                <label class="input-field-icon icon-user" for="login-name"></label>
-              </div>
+      <div id="content">
 
-              <div class="form-group">
-                <input type="email" class="form-control" value="" placeholder="Email" id="contact-email" />
-                <label class="input-field-icon icon-email" for="login-email"></label>
-              </div>
-              <div class="form-group">
-                <textarea class="form-control" value="" placeholder="Message" id="contact-message" rows="1"></textarea>
-              </div>
-
-              <button id="contact-send" class="btn-send">Send</button>
-          </div>
       </div>
     </div>
     <footer>
        <div id="banner">
-           <img id="boat" src="img/footer/boat.png">
-           <select class="language_change">
-            <option value="es">Español</option>
-            <option value="en">English</option>
-            <option value="ca">Català</option>
-          </select>
+          <img alt="Barco del Footer" id="boat" src="img/footer/boat.png">
+          <div id="language-items">
+            <nav class="menu-language">
+                <ul>
+                  <li><a id="ca" href="#ca">Català</a></li>
+                  <li><a id="es" href="#es">Español</a></li>
+                  <li><a id="en" href="#en">English</a></li>
+                </ul>
+              </nav>
+          </div>
        </div>
     </footer>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCuLGyNfaMHCMeKhosa_3MDr9qilgVlsqw&libraries=places&callback=initMap"
+        async defer></script>
     <script type="text/javascript" src="js/header.js"></script>
     <script type="text/javascript" src="utilities/utilities.js"></script>
     <script type="text/javascript" src="js/connection.js"></script>
     <script type="text/javascript" src="js/contact.js"></script>
     <script type="text/javascript" src="js/map.js"></script>
-    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCuLGyNfaMHCMeKhosa_3MDr9qilgVlsqw&libraries=places&callback=initMap"
-        async defer></script>
+    
   </body>
 </html>
