@@ -1,12 +1,13 @@
 var avui = new Date();
 var now = getSeason(avui.getDate(), avui.getMonth()+1);
 var before = checkCookie('temporada');
-applyStyles(now);
-
+setCookieSeason(10*30);
 $(document).ready(function() {
+
      if (before !== now && before !== 'empty') {
         showPopup('You should visit the new menu');
     }
+    applyStyles(now);
 });
 // Checkeamos que exista la cookie
 function checkCookie(cname) {
@@ -50,7 +51,7 @@ function setCookieSeason(exdays) {
     var month = d.getMonth();
     var day = d.getDate();
     var season = now;
-    console.log('exec | '+expires);
+    // console.log('exec | '+expires);
 
     document.cookie = "temporada=" + season + ";" + expires + ";path=/";
 }
@@ -59,7 +60,7 @@ function setCookieSeason(exdays) {
 
 // obtenemos la estación del año segun la fecha del sistema que obtenga la cookie
 function getSeason(day, month, callback){
-    console.log(day+' | '+month);
+    // console.log(day+' | '+month);
 
     var season = "";
     switch(month){
@@ -67,28 +68,24 @@ function getSeason(day, month, callback){
         case 1:
         case 2:
         case 3 && day < 20:
-            console.log('winter');
             season = "winter";
         break;
         case 3 && day >= 20:
         case 4:
         case 5:
         case 6 && day < 21:
-            console.log('spring');
             season = "spring";
         break;
         case 6 && day <= 21:
         case 7:
         case 8:
         case 9 && day < 21:
-            console.log('summer');
             season = "summer";
         break;
         case 9 && day >= 21:
         case 10:
         case 11:
         case 12 && day < 22:
-            console.log('autumn');
             season = "autumn";
         break;
     }
@@ -103,6 +100,7 @@ function showPopup(argument) {
 }
 
 function applyStyles(season){
+    console.log(season);
     $( "h2" ).each(function() {
         if (season == "winter") {
             $(this).css("color", "#717581");

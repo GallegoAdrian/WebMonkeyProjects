@@ -44,9 +44,9 @@ function getKnowUs(language) {
 
         console.log(json);
 
-        var map = '<h1 id="pagetitle">'+getSel(json.page.ubication, language)+'</h1>';
+        var map = '<h2 id="pagetitle">'+getSel(json.page.ubication, language)+'</h2>';
 
-        var contact = '<h1 id="pagetitle">'+getSel(json.page.contactUs, language)+'</h1>'+
+        var contact = '<h2 id="pagetitle">'+getSel(json.page.contactUs, language)+'</h2>'+
 				        '<div class="form">'+
 				        '<form id="form">'+
 				              '<div class="form-group">'+
