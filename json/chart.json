@@ -240,14 +240,14 @@
     },
     "5": {
       "title": {
-        "ca": "Carns",
+        "ca": "Postres",
         "es": "Postres",
-        "en": "Meat"
+        "en": "Desserts"
       },
       "description": {
-        "ca": "La millor selecció de carn",
+        "ca": "Els nostres millors postres",
         "es": "Nuestros mejores postres",
-        "en": "The best selection of meat"
+        "en": "Our best desserts"
       },
       "dishes": {
         "1": {
@@ -288,14 +288,14 @@
     },
     "6": {
       "title": {
-        "ca": "Carns",
+        "ca": "Recomendacions del chef",
         "es": "Recomendaciones del chef",
-        "en": "Meat"
+        "en": "Chef's recommendations"
       },
       "description": {
-        "ca": "La millor selecció de carn",
+        "ca": "La millor selecció del chef",
         "es": "Los mejores platos del chef",
-        "en": "The best selection of meat"
+        "en": "Chef's best selection"
       },
       "dishes": {
         "1": {

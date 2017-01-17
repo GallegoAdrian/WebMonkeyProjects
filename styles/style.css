@@ -280,6 +280,20 @@ div#banner{
         top:30px;
     }
 }
+/* START SEASONS */
+.winter{
+	color: #717581;
+}
+.autumn{
+	color: #bb201e;
+}
+.summer{
+	color: #8f9ec7;
+}
+.spring{
+	color: #ff7a66;
+}
+/* END SEASONS */
 
 /*Animacion que carlos no quiere que pongamos
 @keyframes boat{
@@ -287,3 +301,4 @@ div#banner{
     50%  {top:20px;-webkit-transform: rotate(3.5deg);}
     100% {top:30px; -webkit-transform: rotate(-5deg);}
 }*/
+
