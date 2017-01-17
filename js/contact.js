@@ -1,7 +1,7 @@
 $(document).ready( function() {
 
-$( "#form" ).submit(function( event ) {
-  //event.preventDefault();
+$( "#contact-send" ).on('click',function( event ) {
+  event.preventDefault();
   if ($('#contact-name').val().trim() == "" || $('#contact-email').val().trim() == "" || $('#contact-message').val().trim() == "") {
   	$('#error-message').css("display","block");
   	
