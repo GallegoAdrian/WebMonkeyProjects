@@ -14,33 +14,33 @@
         "en": "Monday Menu"
       },
       "description": {
-        "ca": "Un Menú complet de Mariscada a Palamós per disfrutar-lo en parella o en grup d'amics, dinars o sopars d'empresa, celebracions familiars...",
-        "es": "Un completo Menú de Mariscada en Palamós para disfrutarla en pareja o en grupo de amigos, comidas o cenas de empresa, celebraciones familiares...",
-        "en": "A very full menu in Palamós to enjoy it with your partner or in a group of friends, company lunches or dinners, family celebrations..."
+        "ca": "Un Menú complet de cuina mediterrànea per a tots els gustos.",
+        "es": "Un menú completo de cocina mediterránea para todos los gustos.",
+        "en": "A very full menu of mediterranean kitchen for every taste."
       },
       "dishes": {
         "1": {
           "1":{
-            "ca": "3 gambes de Palamós",
-            "es": "3 gambas de Palamós",
-            "en": "3 Palamó's shrimp"
+            "ca": "Amanida Marinera",
+            "es": "Ensalada Marinera",
+            "en": "Seafood Salad"
             },
           "2":{
-            "ca": "6 ostres",
-            "es": "6 almejas",
-            "en": "6 clam"
+            "es": "Inaris (saquitos de tofu frito, arroz y gambas)",
+            "ca": "Inaris (saquets de tofu fregit, arròs i gambes)",
+            "en": "Inaris (bags of fried tofu, rice and prawns)"
           }
         },
         "2":{
           "1":{
-            "ca": "2 cigales",
-            "es": "2 cigalas",
-            "en": "2 lobster"
+            "es": "Dorada.",
+            "ca": "Daurada.",
+            "en": "Gilthead fish."
           },
           "2":{
-            "ca": "3 gambes llangostineres",
-            "es": "3 gambas langostineras",
-            "en": "3 lobster"
+            "ca": "Entrecot de vedella (300gr)",
+            "es": "Entrecot de ternera(300gr)",
+            "en": "Beef steak (300gr)"
           }
         },
         "3":{
@@ -75,33 +75,33 @@
         "en": "Tuesday Menu"
       },
       "description": {
-        "ca": "Un Menú complet de Mariscada a Palamós per disfrutar-lo en parella o en grup d'amics, dinars o sopars d'empresa, celebracions familiars...",
-        "es": "Un completo Menú de Mariscada en Palamós para disfrutarla en pareja o en grupo de amigos, comidas o cenas de empresa, celebraciones familiares...",
-        "en": "A very full menu in Palamós to enjoy it with your partner or in a group of friends, company lunches or dinners, family celebrations..."
+        "ca": "Un Menú complet de cuina mediterrànea per a tots els gustos.",
+        "es": "Un menú completo de cocina mediterránea para todos los gustos.",
+        "en": "A very full menu of mediterranean kitchen for every taste."
       },
       "dishes": {
         "1": {
           "1":{
-            "ca": "3 gambes de Palamós",
-            "es": "3 gambas de Palamós",
-            "en": "3 Palamó's shrimp"
+            "ca": "Salmorejo cordovès amb ou i pernil ibèric.",
+            "es": "Salmorejo cordobés con huevo y jamón iberico.",
+            "en": "Salmorejo de Córdoba with egg and Iberian ham."
             },
           "2":{
-            "ca": "6 ostres",
-            "es": "6 almejas",
-            "en": "6 clam"
+            "ca": "Remenat Trufat de Xampinyó i Pernil.",
+            "es": "Revuelto Trufado de Champiñón y Jamón.",
+            "en": "Truffled Scramble of Mushrooms and Ham."
           }
         },
         "2":{
           "1":{
-            "ca": "2 cigales",
-            "es": "2 cigalas",
-            "en": "2 lobster"
+            "ca": "Lluç (Planxa o Arrebossat)",
+            "es": "Merluza (a la parrilla o ahumada)",
+            "en": "Hake (grilled or smoked)"
           },
           "2":{
-            "ca": "3 gambes llangostineres",
-            "es": "3 gambas langostineras",
-            "en": "3 lobster"
+            "ca": "Escalopa Gordon Bleu",
+            "es": "Escalope Gordon Bleu",
+            "en": "Escalope Gordon Bleu"
           }
         },
         "3":{
@@ -136,33 +136,33 @@
         "en": "Wednesday Menu"
       },
       "description": {
-        "ca": "Un Menú complet de Mariscada a Palamós per disfrutar-lo en parella o en grup d'amics, dinars o sopars d'empresa, celebracions familiars...",
-        "es": "Un completo Menú de Mariscada en Palamós para disfrutarla en pareja o en grupo de amigos, comidas o cenas de empresa, celebraciones familiares...",
-        "en": "A very full menu in Palamós to enjoy it with your partner or in a group of friends, company lunches or dinners, family celebrations..."
+        "ca": "Un Menú complet de cuina mediterrànea per a tots els gustos.",
+        "es": "Un menú completo de cocina mediterránea para todos los gustos.",
+        "en": "A very full menu of mediterranean kitchen for every taste."
       },
       "dishes": {
         "1": {
           "1":{
-            "ca": "3 gambes de Palamós",
-            "es": "3 gambas de Palamós",
-            "en": "3 Palamó's shrimp"
+            "es": "Ensalada fresca de algas y frutas deshidratadas.",
+            "ca": "Amanida fresca d'algues i fruites deshidratades.",
+            "en": "Fresh salad of algae and dehydrated fruits."
             },
           "2":{
-            "ca": "6 ostres",
-            "es": "6 almejas",
-            "en": "6 clam"
+            "ca": "Amanida de tomàquet selecte de almeria",
+            "es": "Ensalada de tomate selecto de almería",
+            "en": "Tomato salad selected from almería"
           }
         },
         "2":{
           "1":{
-            "ca": "2 cigales",
-            "es": "2 cigalas",
-            "en": "2 lobster"
+            "ca": "Calamar farcit",
+            "es": "Calamar relleno",
+            "en": "Stuffed squid"
           },
           "2":{
-            "ca": "3 gambes llangostineres",
-            "es": "3 gambas langostineras",
-            "en": "3 lobster"
+            "ca": "Filet de vedella amb salsa",
+            "es": "Solomillo de ternera en salsa",
+            "en": "Fillet of beef in sauce"
           }
         },
         "3":{
@@ -197,33 +197,33 @@
         "en": "Thursday Menu"
       },
       "description": {
-        "ca": "Un Menú complet de Mariscada a Palamós per disfrutar-lo en parella o en grup d'amics, dinars o sopars d'empresa, celebracions familiars...",
-        "es": "Un completo Menú de Mariscada en Palamós para disfrutarla en pareja o en grupo de amigos, comidas o cenas de empresa, celebraciones familiares...",
-        "en": "A very full menu in Palamós to enjoy it with your partner or in a group of friends, company lunches or dinners, family celebrations..."
+        "ca": "Un Menú complet de cuina mediterrànea per a tots els gustos.",
+        "es": "Un menú completo de cocina mediterránea para todos los gustos.",
+        "en": "A very full menu of mediterranean kitchen for every taste."
       },
       "dishes": {
         "1": {
           "1":{
-            "ca": "3 gambes de Palamós",
-            "es": "3 gambas de Palamós",
-            "en": "3 Palamó's shrimp"
+            "ca": "Amanida de cabdells, Bonítol en escabetx i Anxoves",
+            "es": "Ensalada de cogollos, Bonito en escabeche y Anchoas",
+            "en": "Salad of buds, marinated Atlantic bonito and anchovies."
             },
           "2":{
-            "ca": "6 ostres",
-            "es": "6 almejas",
-            "en": "6 clam"
+            "ca": "Croquetes casolanes de Chipirón",
+            "es": "Croquetas caseras de Chipirón",
+            "en": "Homemade croquettes made of Chipirón"
           }
         },
         "2":{
           "1":{
-            "ca": "2 cigales",
-            "es": "2 cigalas",
-            "en": "2 lobster"
+            "ca": "Bacallà a la Vizcaína",
+            "es": "Bacalao a la Vizcaína",
+            "en": "Cod to the Vizcaína"
           },
           "2":{
-            "ca": "3 gambes llangostineres",
-            "es": "3 gambas langostineras",
-            "en": "3 lobster"
+            "ca": "Costelletes de Porc",
+            "es": "Chuletillas de Cerdo.",
+            "en": "Pork chops"
           }
         },
         "3":{
@@ -258,33 +258,33 @@
         "en": "Friday Menu"
       },
       "description": {
-        "ca": "Un Menú complet de Mariscada a Palamós per disfrutar-lo en parella o en grup d'amics, dinars o sopars d'empresa, celebracions familiars...",
-        "es": "Un completo Menú de Mariscada en Palamós para disfrutarla en pareja o en grupo de amigos, comidas o cenas de empresa, celebraciones familiares...",
-        "en": "A very full menu in Palamós to enjoy it with your partner or in a group of friends, company lunches or dinners, family celebrations..."
+        "ca": "Un Menú complet de cuina mediterrànea per a tots els gustos.",
+        "es": "Un menú completo de cocina mediterránea para todos los gustos.",
+        "en": "A very full menu of mediterranean kitchen for every taste."
       },
       "dishes": {
         "1": {
           "1":{
-            "ca": "3 gambes de Palamós",
-            "es": "3 gambas de Palamós",
-            "en": "3 Palamó's shrimp"
+            "ca": "Pebrots de Piquillo farcits de Bacallà i Gambes",
+            "es": "Pimientos de Piquillo rellenos de Bacalao y Gambas",
+            "en": "Piquillo peppers stuffed with cod and shrimp"
             },
           "2":{
-            "ca": "6 ostres",
-            "es": "6 almejas",
-            "en": "6 clam"
+            "ca": "Amanida de Bacallà i Formatge amb amaniment d'Oliva Negra",
+            "es": "Ensalada de Bacalao y Queso con aliño de Aceituna Negra",
+            "en": "Cod and Cheese Salad with Black Olive Dressing."
           }
         },
         "2":{
           "1":{
-            "ca": "2 cigales",
-            "es": "2 cigalas",
-            "en": "2 lobster"
+            "ca": "Remenat de Temporada amb alls tendres cebes tendres i Faves tendres",
+            "es": "Revuelto de Temporada con Ajetes cebolletas y Habas tiernas ",
+            "en": "Seasoned Scrambled with onions and onions."
           },
           "2":{
-            "ca": "3 gambes llangostineres",
-            "es": "3 gambas langostineras",
-            "en": "3 lobster"
+            "ca": "Medallons de Rap amb salsa de ceps",
+            "es": "Medallones de Rape en salsa de boletus",
+            "en": "Rapeseed Medallions in Ticket Sauce."
           }
         },
         "3":{
