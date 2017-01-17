@@ -26,14 +26,14 @@
       "dishes": {
         "1": {
           "name": {
-            "ca": "Tallarines al Fungi",
+            "ca": "Olives",
             "es": "Aceitunas",
-            "en": "Pasta with Fungi"
+            "en": "Olives"
           },
           "description": {
-            "ca": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-            "es": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-            "en": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+            "ca": "Olives amb alls..",
+            "es": "Aceitunas con ajos.",
+            "en": "Olives with garlic."
           },
           "price": 20,
           "gluten": true,
@@ -43,15 +43,15 @@
         },
         "2": {
           "name": {
-            "ca": "Tallarines al Fungi",
+            "ca": "Pernil Ibèric",
             "es": "Jamón iberico",
-            "en": "Pasta with Fungi"
+            "en": "Iberian Ham"
           },
           "description": {
-            "ca": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-            "es": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-            "en": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-          },
+            "ca": "Plat de pernil Ibèric de gla",
+            "es": "Plato de Jamón iberico de bellota",
+            "en": "Iberian Ham acorns dish."
+           },
           "price": 20,
           "gluten": true,
           "lactose": true,
@@ -74,14 +74,14 @@
       "dishes": {
         "1": {
           "name": {
-            "ca": "Arròs al Fungi",
-            "es": "Paella para uno",
-            "en": "Rice with Fungi"
+            "ca": "Paella per a un.",
+            "es": "Paella para uno.",
+            "en": "Paella for one"
           },
           "description": {
-            "ca": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-            "es": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-            "en": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+            "ca": "Paella de mar o de terrra per a una persona.",
+            "es": "Paella de mar o tierra para una persona.",
+            "en": "Seafood or meat paella for one person"
           },
           "price": 20,
           "gluten": true,
@@ -91,14 +91,14 @@
         },
         "2": {
           "name": {
-            "ca": "Arròs al Fungi",
-            "es": "Paella para dos o más personas",
-            "en": "Rice with Fungi"
+            "ca": "Paella per a dos o més persones.",
+            "es": "Paella para dos o más personas.",
+            "en": "Paella for two ore more people."
           },
           "description": {
-            "ca": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-            "es": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-            "en": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+            "ca": "Paella de mar o de terrra per a dues o més persones.",
+            "es": "Paella de mar o tierra para dos o más personas.",
+            "en": "Seafood or meat paella for two ore more people."
           },
           "price": 20,
           "gluten": true,
@@ -108,14 +108,14 @@
         },
         "3": {
           "name": {
-            "ca": "Arròs al Fungi",
+            "ca": "Spaghetti vegetal",
             "es": "Spaghetti vegetal",
-            "en": "Rice with Fungi"
+            "en": "Vegetable spaghetti"
           },
           "description": {
-            "ca": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-            "es": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-            "en": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+            "es": "Spaghetti con verduras: zanahoria, champiñones, guisantes y patata.",
+            "ca": "Spaghetti amb verdures: pastanaga, xampinyons, pèsols i patata.",
+            "en": "Spaghetti with vegetables: carrot, mushrooms, peas and potato."
           },
           "price": 20,
           "gluten": true,
@@ -125,14 +125,14 @@
         },
         "4": {
           "name": {
-            "ca": "Arròs al Fungi",
+            "ca": "Spaghetti carbonara",
             "es": "Spaghetti carbonara",
-            "en": "Rice with Fungi"
+            "en": "Spaghetti carbonara"
           },
           "description": {
-            "ca": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-            "es": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-            "en": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+            "ca": "Spaghetti amb cansalada, ou, all i formatge parmesà.",
+            "es": "Spaghetti con panceta, huevo, ajo y queso parmesano.",
+            "en": "Spaghetti with bacon, egg, garlic and Parmesan cheese."
           },
           "price": 20,
           "gluten": true,
@@ -156,14 +156,14 @@
       "dishes": {
         "1": {
           "name": {
-            "ca": "Peix al Fungi",
-            "es": "Dorada Gratinada con tomate",
-            "en": "Fish with Fungi"
+            "ca": "Daurada gratinada amb pa ratllat sobre compota de tomàquet.",
+            "es": "Dorada gratinada con pan rallado sobre compota de tomate",
+            "en": "Gratinated gilthead fish with tomato"
           },
           "description": {
-            "ca": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-            "es": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-            "en": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+            "ca": "Daurada, tomàquet fresc, ceba, porro, pa ratllat i julivert.",
+            "es": "Dorada, tomate fresco, cebolla, cebollino, pan rallado y perejil.",
+            "en": "Gilthead fish, fresh tomato, onion, chives, breadcrumbs and parsley."
           },
           "price": 20,
           "gluten": true,
@@ -178,9 +178,9 @@
             "en": "Fish with Fungi"
           },
           "description": {
-            "ca": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-            "es": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-            "en": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+            "ca": "",
+            "es": "",
+            "en": ""
           },
           "price": 20,
           "gluten": true,
@@ -209,9 +209,9 @@
             "en": "Meat with Fungi"
           },
           "description": {
-            "ca": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-            "es": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-            "en": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+            "ca": "",
+            "es": "",
+            "en": ""
           },
           "price": 20,
           "gluten": true,
@@ -226,9 +226,9 @@
             "en": "Meat with Fungi"
           },
           "description": {
-            "ca": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-            "es": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-            "en": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+            "ca": "",
+            "es": "",
+            "en": ""
           },
           "price": 20,
           "gluten": true,
@@ -240,14 +240,14 @@
     },
     "5": {
       "title": {
-        "ca": "Postres",
+        "ca": "Carns",
         "es": "Postres",
-        "en": "Desserts"
+        "en": "Meat"
       },
       "description": {
-        "ca": "Els nostres millors postres",
+        "ca": "La millor selecció de carn",
         "es": "Nuestros mejores postres",
-        "en": "Our best desserts"
+        "en": "The best selection of meat"
       },
       "dishes": {
         "1": {
@@ -257,9 +257,9 @@
             "en": "Meat with Fungi"
           },
           "description": {
-            "ca": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-            "es": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-            "en": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+            "ca": "",
+            "es": "",
+            "en": ""
           },
           "price": 20,
           "gluten": true,
@@ -274,9 +274,9 @@
             "en": "Meat with Fungi"
           },
           "description": {
-            "ca": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-            "es": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-            "en": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+            "ca": "",
+            "es": "",
+            "en": ""
           },
           "price": 20,
           "gluten": true,
@@ -288,14 +288,14 @@
     },
     "6": {
       "title": {
-        "ca": "Recomendacions del chef",
+        "ca": "Carns",
         "es": "Recomendaciones del chef",
-        "en": "Chef's recommendations"
+        "en": "Meat"
       },
       "description": {
-        "ca": "La millor selecció del chef",
+        "ca": "La millor selecció de carn",
         "es": "Los mejores platos del chef",
-        "en": "Chef's best selection"
+        "en": "The best selection of meat"
       },
       "dishes": {
         "1": {
@@ -305,9 +305,9 @@
             "en": "Meat with Fungi"
           },
           "description": {
-            "ca": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-            "es": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-            "en": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+            "ca": "",
+            "es": "",
+            "en": ""
           },
           "price": 20,
           "gluten": true,
