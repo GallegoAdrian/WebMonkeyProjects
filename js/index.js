@@ -40,21 +40,33 @@ function switchSlide() {
 
 function setVisible(pos) {
   var count = 1;
+  var done = false;
   $('#slider').children('.slide').each(function() {
-    if ($(this).is(':visible') && $(this).css('opacity') >= 1) {
-      $(this).fadeOut('slow'); 
+    if ($(this).css('opacity') < 1) {
+    }
+    if ($(this).is(':visible')) {
+      $(this).fadeOut('slow');
+      console.log('fade out '+count);
     }
     else{
+
       if (pos == count) {
         $(this).fadeIn('slow');
+        done = true;
+        console.log('fade in '+count);
+      }
+      else{
+        console.log('do nothing '+count);
       }
     }
     count++;
   });
-
-  var ses = $('.button p:contains("'+pos+'")');
-  $('.buttons').find(".buttonsel").removeClass("buttonsel");
-  ses.parent().addClass("buttonsel");
+  console.log(done);
+  if (done == true) {
+    var ses = $('.button p:contains("'+pos+'")');
+    $('.buttons').find(".buttonsel").removeClass("buttonsel");
+    ses.parent().addClass("buttonsel");
+  }
 }
 /*
 function goForward(){
