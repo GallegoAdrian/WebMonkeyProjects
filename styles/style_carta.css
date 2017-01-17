@@ -21,7 +21,7 @@
     font-size: 2.5em;
 	padding: .15em;
 }
-.carta1, .carta2, .carta3, .carta4 {
+.carta1, .carta2, .carta3, .carta4, .carta5, .carta6 {
 	text-decoration: none;
 	height: 199px;
 	transition: color 1s ease;
@@ -31,7 +31,7 @@
 	font-weight: bold;
 	width: calc(100% - 25px);
 }
-.carta1:hover, .carta2:hover, .carta3:hover, .carta4:hover {
+.carta1:hover, .carta2:hover, .carta3:hover, .carta4:hover, .carta5:hover, .carta6:hover {
 	color: #81c483;
 }
 .carta1{
@@ -46,7 +46,12 @@
 .carta4{
 	background: linear-gradient(0deg, rgba(213, 213, 213, 0), rgba(34, 34, 34, 0.5)), url(../img/carta/meat-crop.jpg);
 }
-
+.carta5{
+	background: linear-gradient(0deg, rgba(213, 213, 213, 0), rgba(34, 34, 34, 0.5)), url(../img/carta/desserts-crop.jpg);
+}
+.carta6{
+	background: linear-gradient(0deg, rgba(213, 213, 213, 0), rgba(34, 34, 34, 0.5)), url(../img/carta/chef-crop.jpg);
+}
 .carta-platos{
 	box-shadow: 0 3px 8px 0 rgba(0,0,0,0.3), 0 0 0 1px rgba(0,0,0,0.08);
 }
