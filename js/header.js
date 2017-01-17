@@ -1,9 +1,13 @@
 $(document).ready( function() {
     getMenu(getLanguage());
-    $('.language_change').change(function(data) {
+
+    $('.menu-language').on('click', 'ul li a', function(data) {
+
+      
       var urllang = window.location.href;
 
       var pos = urllang.indexOf('#');
+
       if (pos >= 0) {
         window.location = urllang.substring(0, pos)+'#'+$(this).val();
       }
@@ -11,6 +15,7 @@ $(document).ready( function() {
         window.location = urllang+'#'+$(this).val();
       }
       location.reload();
+
     });
 });
 var header = $('header'),
@@ -151,7 +156,8 @@ function getLanguage() {
         l = 'es';
       }
     }
-    $(".language_change option[value='"+l+"']").attr("selected","selected");
+    $("#"+l+"").addClass("select-language");
+
     return l;
 }
 /*/es*/
