@@ -17,6 +17,7 @@ $(document).ready( function() {
       location.reload();
 
     });
+
 });
 var header = $('header'),
     minScroll = 50; // min distance to scroll before compacting header
@@ -33,6 +34,7 @@ var header = $('header'),
             //header.removeClass('bg').addClass('nbg');
         }
     });
+
     $( "#arrow" ).click(function() {
        $('html, body').animate({scrollTop:725}, 1000);
     });
@@ -65,7 +67,7 @@ function getMenu(idioma) {
                   '<p>C/ Creu 22, 17230, Palamós-Girona</p>'+
                 '</div>'+
               '</div>'+
-              '<nav>'+
+              '<nav id="menu-principal">'+
                 '<ul>'+
                   '<li><a href="index.html'+lang+'">'+short.home+'</a></li>'+
                   '<li><a href="menu.html'+lang+'">'+short.menu+'</a></li>'+
@@ -156,7 +158,7 @@ function getLanguage() {
         l = 'es';
       }
     }
-    $("#"+l+"").addClass("select-language");
+    $("."+l+"").addClass("select-language");
 
     return l;
 }
