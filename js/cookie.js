@@ -7,6 +7,12 @@ $(document).ready(function() {
      if (before !== now && before !== 'empty') {
         showPopup('You should visit the new menu');
     }
+
+    $('.season-items').on('click', 'span', function(data) {
+
+        changeSeason(data.target.attributes[0].value);
+
+    });
 });
 // Checkeamos que exista la cookie
 function checkCookie(cname) {
