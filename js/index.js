@@ -15,11 +15,6 @@ $(document).ready( function() {
 
 // This function takes the first .slide element and put at the end
 function switchSlide() {
-/*  if (next == null) {
-    
-  }
-  else{
-  }    */
   $('#slider').children('.slide').each(function() {
     if ($(this).is(':visible')) {
       if ($(this).is(':last-child')) {
@@ -46,7 +41,7 @@ function switchSlide() {
 function setVisible(pos) {
   var count = 1;
   $('#slider').children('.slide').each(function() {
-    if ($(this).is(':visible')) {
+    if ($(this).is(':visible') && $(this).css('opacity') >= 1) {
       $(this).fadeOut('slow'); 
     }
     else{
@@ -56,8 +51,10 @@ function setVisible(pos) {
     }
     count++;
   });
-  var ses = $('.slide p:contains("'+pos+'")');
-  ses.parent().css('background-color', 'red');
+
+  var ses = $('.button p:contains("'+pos+'")');
+  $('.buttons').find(".buttonsel").removeClass("buttonsel");
+  ses.parent().addClass("buttonsel");
 }
 /*
 function goForward(){
