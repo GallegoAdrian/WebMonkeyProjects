@@ -71,7 +71,7 @@ header{
 .bg{
 	background: rgba(255,255,255,1);
 	color: black;
-	z-index: 2;
+	z-index: 4;
 
 }
 .nbg{
@@ -79,7 +79,7 @@ header{
 	color: white;
 	font-style: white;
 	background-image: url(../img/header/degradado.png);
-	z-index: 3;
+	z-index: 5;
 }
 .nbg a, .nbg p{
 	color: white;

@@ -14,10 +14,6 @@ $( "#form" ).submit(function( event ) {
 
 });
 
-
-
-
-
 function getKnowUs(language) {
     var fullurl = window.location.href;
     var url = fullurl.substring(0, fullurl.lastIndexOf("/")+1)+'json/contact.json';
