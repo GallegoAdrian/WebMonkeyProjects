@@ -6,10 +6,10 @@
         "en": "Restaurant"
         },
         "description": {
-          "ca": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-          "es": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-          "en": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
-        },
+          "ca": "El restaurante La Bona Mar destaca por su cocina convinando técnicas de alta cocina con la tradición mediterranea siempre usando alimentos frescos provenientes de proveedores locales, gracias a nuestra privilejiada localización cercana al mar, también disfrutamos de unas vistas increíbles a las playas de palamós. </br>La gran amplitud del restaurante otorga una comodidad extra hacia nuestros comensales, ven a comer y disfruta de una experiencia única en todos los sentidos.",
+          "es": "El restaurant La Bona Mar destaca per la seva cuina convinant tècniques d'alta cuina amb la tradició mediterranea sempre fent servir aliments frescos provinents de proveïdors locals, gràcies a la nostre privilejiada localització propera al mar, també gaudim d'unes vistes increïbles a les platges de palamós. </br>La gran amplitud del restaurant atorga una comoditat extra cap als nostres comensals, vine a dinar i gaudeix d'una experiència única en tots els sentits. ",
+		  "en": "The restaurant La Bona Mar stands out for its cuisine, combining haute cuisine techniques with the Mediterranean tradition, always using fresh food from local suppliers, thanks to our privileged location near the sea, also we enjoy incredible views of the beaches of Palamós.</br> The large size of the restaurant gives an extra comfort to our diners, come to eat and enjoy a unique experience in every way."
+		 },
       "staff": {
         
         "founder": {
@@ -19,10 +19,10 @@
               "en": "Helena Gonzalez, Founder"
             },
             "description": {
-              "ca": "Nonrespectable gherkin rectalgia sculduddery irremediable lambently boyship vehiculation pythoniform anarthrous metapneustic squealer lar telestial noviciate diploconical invagination spex unsaintlike enzootic lubrication bakepan want cathartical.",
-              "es": "Nonrespectable gherkin rectalgia sculduddery irremediable lambently boyship vehiculation pythoniform anarthrous metapneustic squealer lar telestial noviciate diploconical invagination spex unsaintlike enzootic lubrication bakepan want cathartical.",
-              "en": "Nonrespectable gherkin rectalgia sculduddery irremediable lambently boyship vehiculation pythoniform anarthrous metapneustic squealer lar telestial noviciate diploconical invagination spex unsaintlike enzootic lubrication bakepan want cathartical."
-            }
+              "ca": "Helena és originària de Palamós, va estudiar administració d'empreses a la Universitat Autònoma de Barcelona, després de diversos projectes fallits de muntar empreses d'èxit va tornar de barcelona, on havia establert la seva vida, a Palamós. </ Br> Com ens explica ella mateixa: \"Sempre m'ha agradat estar a prop de la mar, i per descomptat el seu exquisit menjar i aquesta frescor que ens proporciona el port de Palamós\", amb això en ment va començar el seu projecte de vida, el restaurant la Bona Mar.",
+			  "es": "Helena es originaria de Palamós, estudió administración de empresas en la UAB después de varios proyectos fallidos de montar empresas de éxito volvió de barcelona, dónde habia establecido su vida, a Palamós su ciudad natal.</br>Cómo nos cuenta ella misma \"Siempre me ha gustado estar cerca del mar, y por supuesto su exquisita comida que me encanta la frescura que nos proporciana el puerto de Palamós\", con esto en mente empezó su proyecto de vida, el restaurante La Bona Mar.",
+			  "en": "Helena is originally from Palamós, she studied business administration at the Universitat Autonoma de Barcelona, after several failed projects to set up successful companies returned from Barcelona, where she had established her life, to Palamós. </ Br> As she tell us herself:  \" I always liked to be near the sea, and of course its exquisite food and that freshness that gives us the port of Palamós. \". With this in mind began his life project, the restaurant La Bona Mar."
+			  }
           },
           "chef": {
             "name": {
@@ -31,10 +31,10 @@
               "en": "Xavier Fernandez, Chef"
             },
             "description": {
-              "ca": "Electrosynthesis arabit scolices obligational hypodiastole penurious anhemolytic untiredly cachectic hatter Salishan unremittingness folles nakong procollectivistic worrier pausefully lixivious pluff verruca agrestic democratifiable Protocaris mycorrhizal.",
-              "es": "Electrosynthesis arabit scolices obligational hypodiastole penurious anhemolytic untiredly cachectic hatter Salishan unremittingness folles nakong procollectivistic worrier pausefully lixivious pluff verruca agrestic democratifiable Protocaris mycorrhizal.",
-              "en": "Electrosynthesis arabit scolices obligational hypodiastole penurious anhemolytic untiredly cachectic hatter Salishan unremittingness folles nakong procollectivistic worrier pausefully lixivious pluff verruca agrestic democratifiable Protocaris mycorrhizal."
-            }
+              "ca": "Fill de pescadors, Xavier des de molt petit va saber que la cuina era la seva gran vocació, va estudiar a la gran escola de cuina Hoffman. </ Br> Primer xef del restaurant i primer a començar a treballar al costat d'Helena, ens explica la gran visió que al costat d'ella comparteix, una gran passió pel mar i els plats típics de la cultura mediterrània i una llibertat per innovar en sabors que ens deixaran impressionats.",
+			 "es": "Hijo de pescadores, Xavier desde temprana edad supo que la cocina era su gran vocación, estudió en la gran escuela de cocina Hoffman. </br>Primer chef del restaurante y primero en comenzar a trabajar junto a Helena, nos cuenta la gran visión que junto a ella comparte, una gran pasión por el mar y los platos típicos de la cultura mediterranea y una libertad para innovar en sabores que nos dejaran impresionados.",
+			 "en": "A son of fishermen, Xavier from an early age knew that cooking was his great vocation, he studied at the great Hoffman cooking school. </ Br> First chef of the restaurant and first to start working with Helena, he tells us the great vision that he shares with her, a great passion for the sea and the typical dishes of Mediterranean culture and a freedom to innovate in flavors which will impress us."
+			 }
           },
           
           "rightHandchef": {
@@ -44,10 +44,10 @@
                 "en": "Mario Vilaplana, Right hand Chef"
               },
               "description": {
-                "ca": "Electrosynthesis arabit scolices obligational hypodiastole penurious anhemolytic untiredly cachectic hatter Salishan unremittingness folles nakong procollectivistic worrier pausefully lixivious pluff verruca agrestic democratifiable Protocaris mycorrhizal.",
-                "es": "Electrosynthesis arabit scolices obligational hypodiastole penurious anhemolytic untiredly cachectic hatter Salishan unremittingness folles nakong procollectivistic worrier pausefully lixivious pluff verruca agrestic democratifiable Protocaris mycorrhizal.",
-                "en": "Electrosynthesis arabit scolices obligational hypodiastole penurious anhemolytic untiredly cachectic hatter Salishan unremittingness folles nakong procollectivistic worrier pausefully lixivious pluff verruca agrestic democratifiable Protocaris mycorrhizal."
-              }
+                "es": "Mario es un profesional de la cocina que se unió recientemente a la Bona Mar, aceptó el reto de la pasión por la cocina Mediterránea que le sugería la Bona Mar para ser un cocinero más completo, ahora es mano derecha del chef.",
+				"ca": "Mario és un professional de la cuina que es va unir fa poc a la Bona Mar, va acceptar el repte de la passió per la cuina Mediterrània que li suggeria la Bona Mar per ser un cuiner més complert, ara és ma dreta del xef.",
+				"en": "Mario is a professional chef who recently joined La Bona Mar, accepted the challenge of passion for Mediterranean cuisine that suggested La Bona Mar to be a more complete chef, now is the chef's right hand."
+				}
             },
           
             "helperChef": {
@@ -57,10 +57,10 @@
                 "en": "Ramon Hernandez, Helper Chef"
               },
               "description": {
-                "ca": "Electrosynthesis arabit scolices obligational hypodiastole penurious anhemolytic untiredly cachectic hatter Salishan unremittingness folles nakong procollectivistic worrier pausefully lixivious pluff verruca agrestic democratifiable Protocaris mycorrhizal.",
-                "es": "Electrosynthesis arabit scolices obligational hypodiastole penurious anhemolytic untiredly cachectic hatter Salishan unremittingness folles nakong procollectivistic worrier pausefully lixivious pluff verruca agrestic democratifiable Protocaris mycorrhizal.",
-                "en": "Electrosynthesis arabit scolices obligational hypodiastole penurious anhemolytic untiredly cachectic hatter Salishan unremittingness folles nakong procollectivistic worrier pausefully lixivious pluff verruca agrestic democratifiable Protocaris mycorrhizal."
-              }
+                "es": "Ramon cómo Mario es Nuevo en la cocina, salido de la escuela de cocina buscando un trabajo decidió que lo mejor era cerca del mar uno de sus sitios favoritos, los integrantes de La Bona Mar vieron todo el potencial que posee este joven chef con grandes aspiraciones.",
+				"ca": "Ramon com Mario és Nou a la cuina, sortit de l'escola de cuina buscant una feina va decidir que el millor era prop del mar un dels seus llocs preferits, els integrants de La Bona Mar van veure tot el potencial que té aquest jove xef amb grans aspiracions.",
+				"en": "Ramon how Mario is New in the kitchen, leaving the cooking school looking for a job decided that the best was near the sea one of his favorite places, members of La Bona Mar saw the potential of this young chef with great aspirations."
+				}
           }
       }
   }
