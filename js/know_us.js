@@ -85,6 +85,7 @@ function getKnowUs(language) {
 
         $('#descriptionKnowUs').html(knowUs);
         $('#personal').html(staff);
+        applyStyles(now);
 
     });
 }
