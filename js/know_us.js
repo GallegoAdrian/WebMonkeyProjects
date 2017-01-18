@@ -51,40 +51,41 @@ function getKnowUs(language) {
 
         console.log(json);
 
-        var knowUs = '<h1 id="pagetitle">'+getSel(json.page.title, language)+'</h1>'+
+        var knowUs = '<h2 id="pagetitle">'+getSel(json.page.title, language)+'</h2>'+
                      '<p>'+getSel(json.page.description, language)+'</p>';
 
         var staff = '<div class="personal-right">'+
                         '<img src="img/kwnow_us/personal/fundadora.jpg" >'+
                         '<div>'+
-                            '<h2>'+getSel(json.page.staff.founder.name, language)+'</h2>'+
+                            '<h2 class="subtitles">'+getSel(json.page.staff.founder.name, language)+'</h2>'+
                             '<span>'+getSel(json.page.staff.founder.description, language)+'</span>'+
                         '</div>'+
                     '</div>'+
               '<div class="personal-left">'+
                 '<img src="img/kwnow_us/personal/chef.jpg" >'+
                 '<div>'+
-                    '<h2>'+getSel(json.page.staff.chef.name, language)+'</h2>'+
+                    '<h2 class="subtitles">'+getSel(json.page.staff.chef.name, language)+'</h2>'+
                     '<span>'+getSel(json.page.staff.chef.description, language)+'</span>'+
                 '</div>'+
               '</div>'+
               '<div class="personal-right">'+
                 '<img src="img/kwnow_us/personal/manoderechachef.jpg" >'+
                 '<div>'+
-                  '<h2>'+getSel(json.page.staff.rightHandchef.name, language)+'</h2>'+
+                  '<h2 class="subtitles">'+getSel(json.page.staff.rightHandchef.name, language)+'</h2>'+
                   '<span>'+getSel(json.page.staff.rightHandchef.description, language)+'</span>'+
                 '</div>'+
               '</div>'+
               '<div class="personal-left">'+
                 '<img src="img/kwnow_us/personal/ayudantechefs.jpg" >'+
                 '<div>'+
-                  '<h2>'+getSel(json.page.staff.helperChef.name, language)+'</h2>'+
+                  '<h2 class="subtitles">'+getSel(json.page.staff.helperChef.name, language)+'</h2>'+
                   '<span>'+getSel(json.page.staff.helperChef.description, language)+'</span>'+
                 '</div>'+
               '</div>';
 
         $('#descriptionKnowUs').html(knowUs);
         $('#personal').html(staff);
+        applyStyles(now);
 
     });
 }

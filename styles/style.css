@@ -228,11 +228,26 @@ div#banner{
 }
 
 #pagetitle{
-    color: #4343b3;
+    color: rgba(0, 0, 0, 0);
     font-size: 60px;
     font-weight: normal;
     font-family: lobster;
     text-align: center;
+}
+
+.season-items{
+	position: absolute;
+    bottom: 12px;
+    left: 520px;
+}
+
+.season-items span{
+   cursor: pointer;
+   margin-left: 30px;
+}
+
+.season-items span img{
+   height: 35px;
 }
 
 .menu-language{

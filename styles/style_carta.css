@@ -14,13 +14,6 @@
 	padding-bottom: 50px;
 }
 
-#carta h2{
-	/*font-family: 'Pacifico', cursive;*/
-	/*padding: .25em;*/
-    font-weight: 400;
-    font-size: 2.5em;
-	padding: .15em;
-}
 .carta1, .carta2, .carta3, .carta4, .carta5, .carta6 {
 	text-decoration: none;
 	height: 199px;
