@@ -1,9 +1,9 @@
 {
   "cookie": {
     "message": {
-        "ca": "Pots visitiar el nou menú",
-        "es": "Puedes visitar nuestro nuevo menú",
-        "en": "You should visit the new menu"
+        "ca": "Des de que vas entrar hi ha un nou menú de temporada. El vols veure?",
+        "es": "Desde que entraste hay un nuevo menú de temporada. ¿Quieres verlo?",
+        "en": "From the last time you entered there's a new season menu. Wanna see it?"
       },
       "optionYes": {
         "ca": "Si",
