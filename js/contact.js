@@ -1,15 +1,33 @@
 $(document).ready( function() {
 
-$( "#contact-send" ).on('click',function( event ) {
-  event.preventDefault();
-  if ($('#contact-name').val().trim() == "" || $('#contact-email').val().trim() == "" || $('#contact-message').val().trim() == "") {
-  	$('#error-message').css("display","block");
-  	
+$( "#form" ).on('click','#contact-send',function( event ) {
+  //event.preventDefault();
+  
+  var email = $('#contact-email').val();
+  emailRegex = /^[-\w.%+]{1,64}@(?:[A-Z0-9-]{1,63}\.){1,125}[A-Z]{2,63}$/i;
+
+  console.log(email);
+
+  if ($('#contact-name').val().trim() == "" || $('#contact-email').val().trim() == "" 
+    || $('#contact-message').val().trim() == "") {
+    $('#error-mail').css("display","none");
+    $('#success-message').css("display","none");
+    $('#error-message').css("display","block");
+  
+  }else{
+    
+    if (emailRegex.test(email)){
+        $('#error-message').css("display","none");
+        $('#error-mail').css("display","none");
+        $('#success-message').css("display","block");
+    } else {
+      $('#success-message').css("display","none");
+      $('#error-message').css("display","none")
+      $('#error-mail').css("display","block");
+
+  	}
   }
-  else{
-  	$('#error-message').css("display","none");
-  	$('#success-message').css("display","block");
-  }
+
 });
 
 });
@@ -26,9 +44,9 @@ function getKnowUs(language) {
 
         console.log(json);
 
-        var map = '<h1 id="pagetitle">'+getSel(json.page.ubication, language)+'</h1>';
+        var map = '<h2 id="pagetitle">'+getSel(json.page.ubication, language)+'</h2>';
 
-        var contact = '<h1 id="pagetitle">'+getSel(json.page.contactUs, language)+'</h1>'+
+        var contact = '<h2 id="pagetitle">'+getSel(json.page.contactUs, language)+'</h2>'+
 				        '<div class="form">'+
 				        '<form id="form">'+
 				              '<div class="form-group">'+
@@ -44,10 +62,11 @@ function getKnowUs(language) {
 				                '<textarea class="form-control" value="" placeholder="'+getSel(json.page.form.message, language)+'" id="contact-message" rows="1"></textarea>'+
 				              '</div>'+
 
-				              '<button id="contact-send" class="btn-send">'+getSel(json.page.form.send, language)+'</button>'+
+				              '<div class="btn-succes-container"><span id="contact-send" class="btn-send">'+getSel(json.page.form.send, language)+'</span></div>'+
 
 				              '<div id="error-message">'+getSel(json.page.form.errorMessage, language)+'</div>'+
 				              '<div id="success-message">'+getSel(json.page.form.successMessage, language)+'</div>'+
+                      '<div id="error-mail">'+getSel(json.page.form.errorMail, language)+'</div>'+
 				          '</form>'+
 				          '</div>';
 

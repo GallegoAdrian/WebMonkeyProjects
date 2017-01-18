@@ -5,15 +5,14 @@
 }
 
 .container{
-	height: 2400px;;
+	height: 2415px;
 }
 
 .seccion{
 	margin: 20px;	
 }
 
-#restaurant h2{
-	color: #4343b3;
+.subtitles{
     font-weight: normal;
     font-family: lobster;
     padding-bottom: 7px;

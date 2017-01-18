@@ -68,11 +68,14 @@ header{
 	width: 1024px;
 	top: 0;
 }
+h2{
+	color: rgba(0, 0, 0, 0);
+	transition: color 1s ease;
+}
 .bg{
 	background: rgba(255,255,255,1);
 	color: black;
-	z-index: 2;
-
+	z-index: 4;
 }
 .nbg{
 	background: rgba(255,255,255,0);
@@ -224,15 +227,12 @@ div#banner{
 }
 
 #pagetitle{
-    color: #4343b3;
+    color: rgba(0, 0, 0, 0);
     font-size: 60px;
     font-weight: normal;
     font-family: lobster;
     text-align: center;
 }
-
-
-
 
 .menu-language{
 	margin: 0;

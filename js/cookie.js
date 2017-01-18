@@ -1,27 +1,29 @@
+var avui = new Date();
+var now = getSeason(avui.getDate(), avui.getMonth()+1);
+var before = checkCookie('temporada');
+setCookieSeason(10*30);
 $(document).ready(function() {
-    checkCookie('temporada');
+
+     if (before !== now && before !== 'empty') {
+        showPopup('You should visit the new menu');
+    }
+    applyStyles(now);
 });
 // Checkeamos que exista la cookie
 function checkCookie(cname) {
     // comprobamos  que valor tiene para el nombre especifico de la cookie
-    var _cookie=getCookie(cname);
-    if (_cookie == "") {
-        setCookie(cname, 3);
+    var response = getCookie(cname);
+    if (response == "") {
+        setCookieSeason(10*30);
         //el 3 indica el número de dias que tarda en expirar la cookie
+        
+        return 'empty';
     }
     else{
         var valor = getCookie(cname);
-        console.log(valor);
-    }
-}
-// Creamos  la cookie
-function setCookie(cname, exdays) {
-    var d = new Date();
-    var cvalue = getSeason(d);
-    var expires = "expires=" + d.toGMTString();
 
-    d.setTime(d.getTime() + (exdays*24*60*60*1000));
-    document.cookie = cname + "=" + cvalue + ";" + expires + ";path=/";
+        return valor;
+    }
 }
 
 // Obtenemos el valor de la cookie
@@ -40,11 +42,26 @@ function getCookie(cname) {
     return "";
 }
 
+// Creamos  la cookie
+function setCookieSeason(exdays) {
+
+    var d = new Date();
+    d.setTime(d.getTime() + (exdays*24*60*60*1000));
+    var expires = "expires=" + d.toGMTString();
+    var month = d.getMonth();
+    var day = d.getDate();
+    var season = now;
+    // console.log('exec | '+expires);
+
+    document.cookie = "temporada=" + season + ";" + expires + ";path=/";
+}
+
+
 
 // obtenemos la estación del año segun la fecha del sistema que obtenga la cookie
-function getSeason(data){
-    var day = data.getDate();
-    var month = data.getMonth();
+function getSeason(day, month, callback){
+    // console.log(day+' | '+month);
+
     var season = "";
     switch(month){
         case 12 && day >= 22:
@@ -75,16 +92,33 @@ function getSeason(data){
     return season;
 }
 
-var season = getSeason();
-console.log(season);
+/*var season = getSeason();
+console.log(season);*/
 
 function showPopup(argument) {
-    
+    alert(argument);
 }
 
-function applyStyles(){
+function applyStyles(season){
+    console.log(season);
     $( "h2" ).each(function() {
-        if ($(this).hasClass()) {}
-        $(this).addClass('')
+        if (season == "winter") {
+            $(this).css("color", "#717581");
+        } else if (season == "spring"){
+            $(this).css("color", "#ff7a66");
+        } else if (season == "summer"){
+            $(this).css("color", "#8f9ec7");
+        } else if (season == "autumn"){
+            $(this).css("color", "#bb201e");
+        } else {
+            
+        }
     });
+}
+function changeSeason(season) {
+    var d = new Date();
+    d.setTime(d.getTime() + (5*60*1000));
+    var expires = "expires=" + d.toGMTString();
+    document.cookie = "temporada=" + season + ";" + expires + ";path=/";
+    applyStyles(getCookie('temporada'));
 }
