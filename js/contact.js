@@ -2,7 +2,7 @@ $(document).ready( function() {
 
 $( "#form" ).on('click','#contact-send',function( event ) {
   //event.preventDefault();
-  
+  console.log('exec');
   var email = $('#contact-email').val();
   emailRegex = /^[-\w.%+]{1,64}@(?:[A-Z0-9-]{1,63}\.){1,125}[A-Z]{2,63}$/i;
 
@@ -16,9 +16,9 @@ $( "#form" ).on('click','#contact-send',function( event ) {
   }else{
     
     if (emailRegex.test(email)){
-        $('#error-message').css("display","none");
-        $('#error-mail').css("display","none");
-        $('#success-message').css("display","block");
+      $('#error-message').css("display","none");
+      $('#error-mail').css("display","none");
+      $('#success-message').css("display","block");
     } else {
       $('#success-message').css("display","none");
       $('#error-message').css("display","none")
@@ -31,7 +31,7 @@ $( "#form" ).on('click','#contact-send',function( event ) {
 
 });
 
-function getKnowUs(language) {
+function getContact(language) {
     var fullurl = window.location.href;
     var url = fullurl.substring(0, fullurl.lastIndexOf("/")+1)+'json/contact.json';
     
@@ -85,4 +85,4 @@ function getSel(array, lang) {
     }
 }
 
-getKnowUs(getLanguage());
+getContact(getLanguage());

@@ -123,7 +123,6 @@ function getKnowUs(language) {
     var json = "";
     $.getJSON(url, function (data) {
         //var lang = '#'+idioma;
-        console.log(data);
         // // var short;
         json = data;
 
