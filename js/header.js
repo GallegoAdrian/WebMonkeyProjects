@@ -3,7 +3,6 @@ $(document).ready( function() {
 
     $('.menu-language').on('click', 'ul li a', function(data) {
 
-      
       var urllang = window.location.href;
 
       var pos = urllang.indexOf('#');
