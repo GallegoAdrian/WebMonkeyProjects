@@ -2,10 +2,15 @@ var avui = new Date();
 var now = getSeason(avui.getDate(), avui.getMonth()+1);
 var before = checkCookie('temporada');
 setCookieSeason(10*30);
+
+
 $(document).ready(function() {
 
+    getKnowUs(getLanguage());
+
      if (before !== now && before !== 'empty') {
-        showPopup('You should visit the new menu');
+        /*showPopup('You should visit the new menu');*/
+        showPopup();
     }
 
     $('.season-items').on('click', 'span', function(data) {
@@ -104,9 +109,51 @@ function getSeason(day, month, callback){
 /*var season = getSeason();
 console.log(season);*/
 
-function showPopup(argument) {
-    alert(argument);
+function showPopup() {
+    var modal = document.getElementById('myModalCookie');
+    modal.style.display = "block";
+    
 }
+
+
+
+function getKnowUs(language) {
+
+    var fullurl = window.location.href;
+    var url = fullurl.substring(0, fullurl.lastIndexOf("/")+1)+'json/cookie.json';
+    var json = "";
+    $.getJSON(url, function (data) {
+        //var lang = '#'+idioma;
+        console.log(data);
+        // // var short;
+        json = data;
+
+        var cookie = '<span>'+getSel(json.cookie.message, language)+'</span>'+
+                    '<a href="menu.html">'+getSel(json.cookie.optionYes, language)+'</a>'+
+                    '<a href="index.html">'+getSel(json.cookie.optionNo, language)+'</a>';
+
+        
+
+        $('#content-cookie').html(cookie);
+
+    });
+}
+
+function getSel(array, lang) {
+    if (lang == 'ca') {
+        return array.ca;
+    }
+    else if(lang == 'en'){
+        return array.en;
+    }
+    else{
+        return array.es;
+    }
+}
+
+
+
+
 
 function applyStyles(season){
     $( "h2" ).each(function() {
@@ -130,3 +177,19 @@ function changeSeason(season) {
     document.cookie = "temporada=" + season + ";" + expires + ";path=/";
     applyStyles(getCookie('temporada'));
 }
+
+
+var modalCookie = document.getElementsByClassName('mymodalCookie')[0];
+//cuando hagamos cualquier clic en la pantalla del navegador se activa
+//la funcion y compureba donde hemos hecho el clic
+window.onclick = function(event) {
+  //Comprobamos si el clic esta dentro de nuestro modalCookie
+  if (event.target == modalCookie) {
+    //Hacemos que el modalCookie desaparezca
+    $(modalCookie).fadeOut();
+     //Aqui volvemos a poner en nuestro css que el overflow este auto
+     $("body").css({"position": "relative", "overflow-y": "auto","width": "100%"});
+     $("body").css({"top": 0});
+     $(window.document).scrollTop(altura);
+  }
+};
