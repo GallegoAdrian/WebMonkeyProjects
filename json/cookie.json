@@ -1,0 +1,19 @@
+{
+  "cookie": {
+    "message": {
+        "ca": "Pots visitiar el nou menú",
+        "es": "Puedes visitar nuestro nuevo menú",
+        "en": "You should visit the new menu"
+      },
+      "optionYes": {
+        "ca": "Si",
+        "es": "Si",
+        "en": "Yes"
+      },
+      "optionNo": {
+        "ca": "No",
+        "es": "No",
+        "en": "No"
+      }
+    }
+}
