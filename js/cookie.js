@@ -109,7 +109,6 @@ function showPopup(argument) {
 }
 
 function applyStyles(season){
-    console.log(season);
     $( "h2" ).each(function() {
         if (season == "winter") {
             $(this).css("color", "#717581");

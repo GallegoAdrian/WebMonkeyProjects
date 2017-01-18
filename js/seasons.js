@@ -1,10 +1,4 @@
 var season = getSeason();
-console.log(season);
-
-
-
-
-
 
 function getSeason() {
 	var dateObj = new Date();

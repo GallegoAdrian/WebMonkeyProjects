@@ -3,7 +3,6 @@ $(document).ready( function() {
   setInterval( "switchSlide()", 6000);
   $( ".button" ).click(function() {
     if ($(this).hasClass('buttonsel')) {
-      console.log('has class');
     }
     else{
       var id = $(this).children('p').text();
@@ -46,22 +45,16 @@ function setVisible(pos) {
     }
     if ($(this).is(':visible')) {
       $(this).fadeOut('slow');
-      console.log('fade out '+count);
     }
     else{
 
       if (pos == count) {
         $(this).fadeIn('slow');
         done = true;
-        console.log('fade in '+count);
-      }
-      else{
-        console.log('do nothing '+count);
       }
     }
     count++;
   });
-  console.log(done);
   if (done == true) {
     var ses = $('.button p:contains("'+pos+'")');
     $('.buttons').find(".buttonsel").removeClass("buttonsel");

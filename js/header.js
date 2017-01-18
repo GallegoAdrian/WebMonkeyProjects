@@ -142,19 +142,15 @@ function getLanguage() {
     else{
       //&& userLang == 'en' && userLang == 'ca'
       if(userLang.indexOf('es') >= 0 ){
-        console.log('es');
         l = 'es';
       }
       else if(userLang.indexOf('en') >= 0 ){
-        console.log('en');
         l = 'en';
       }
       else if(userLang.indexOf('ca') >= 0 ){
-        console.log('ca');
         l = 'ca';
       }
       else{
-        console.log('es');
         l = 'es';
       }
     }
