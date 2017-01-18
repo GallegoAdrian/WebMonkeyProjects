@@ -53,7 +53,12 @@ body{
 	font-family: kozgopro;
 	height: 5px;
 }
-
+::selection {
+  background: #ffbfa6; /* WebKit/Blink Browsers */
+}
+::-moz-selection {
+  background: #ffbfa6; /* Gecko Browsers */
+}
 .container{
 	width:1024px;
 	margin: 0 auto;
