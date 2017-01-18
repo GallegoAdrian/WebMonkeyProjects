@@ -31,14 +31,14 @@
             "en": "Olives"
           },
           "description": {
-            "ca": "Olives amb alls..",
+            "ca": "Olives amb alls.",
             "es": "Aceitunas con ajos.",
             "en": "Olives with garlic."
           },
           "price": 20,
           "gluten": true,
           "lactose": true,
-          "img": "Aceitunas.jpg",
+          "img": "Aceitunas.png",
           "altDesc": "Aceitunas"
         },
         "2": {
@@ -55,7 +55,7 @@
           "price": 20,
           "gluten": true,
           "lactose": true,
-          "img": "iberico.jpg",
+          "img": "iberico.png",
           "altDesc": "Jamón iberico"
         }
       }
@@ -120,7 +120,7 @@
           "price": 20,
           "gluten": true,
           "lactose": true,
-          "img": "spaghetti.png",
+          "img": "spaghetti_vegetal.png",
           "altDesc": "Spaghetti vegetal"
         },
         "4": {
@@ -137,7 +137,7 @@
           "price": 20,
           "gluten": true,
           "lactose": true,
-          "img": "spaghetti_1.png",
+          "img": "spaghetti_carbonara.png",
           "altDesc": "Spaghetti carbonara"
         }
       }
@@ -156,36 +156,36 @@
       "dishes": {
         "1": {
           "name": {
-            "ca": "Daurada gratinada amb pa ratllat sobre compota de tomàquet.",
-            "es": "Dorada gratinada con pan rallado sobre compota de tomate",
-            "en": "Gratinated gilthead fish with tomato"
+            "ca": "Lluç a la planxa amb alls.",
+            "es": "Merluza a la plancha con ajillo",
+            "en": "Hake grilled with garlic"
           },
           "description": {
-            "ca": "Daurada, tomàquet fresc, ceba, porro, pa ratllat i julivert.",
-            "es": "Dorada, tomate fresco, cebolla, cebollino, pan rallado y perejil.",
-            "en": "Gilthead fish, fresh tomato, onion, chives, breadcrumbs and parsley."
+            "ca": "Lluç a la planxa amb alls i guarnició.",
+            "es": "Merluza a la plancha con ajillo y guarnición.",
+            "en": "Hake grilled with garlic and garnish."
           },
           "price": 20,
           "gluten": true,
           "lactose": true,
-          "img": "dorada.jpg",
-          "altDesc": "Dorada Gratinada con tomate"
+          "img": "merluza.png",
+          "altDesc": "Merluza a la plancha con ajillo y guarnición."
         },
         "2": {
           "name": {
-            "ca": "Peix al Fungi",
+            "ca": "Llobarro al forn",
             "es": "Lubina al horno",
-            "en": "Fish with Fungi"
+            "en": "Baked seabass"
           },
           "description": {
-            "ca": "",
-            "es": "",
-            "en": ""
+            "ca": "Llobarro al forn i guarnició.",
+            "es": "Lubina al horno y guarnición.",
+            "en": "Baked seabass and garnish."
           },
           "price": 20,
           "gluten": true,
           "lactose": true,
-          "img": "lubina.jpg",
+          "img": "lubina.png",
           "altDesc": "Lubina al horno"
         }
       }
@@ -204,50 +204,84 @@
       "dishes": {
         "1": {
           "name": {
-            "ca": "Carn al Fungi",
-            "es": "Lomo con salsa",
-            "en": "Meat with Fungi"
+            "ca": "Conill amb verdures",
+            "es": "Conejo con verduras",
+            "en": "Rabbit with vegetables"
           },
           "description": {
-            "ca": "",
-            "es": "",
-            "en": ""
+            "ca": "Conill amb verdures",
+            "es": "Conejo con verduras",
+            "en": "Rabbit with vegetables"
           },
           "price": 20,
           "gluten": true,
           "lactose": true,
-          "img": "lomo_salsa.jpg",
-          "altDesc": "Lomo con salsa"
+          "img": "conejo.png",
+          "altDesc": "Conejo con verduras"
         },
         "2": {
           "name": {
-            "ca": "Carn al Fungi",
+            "ca": "Vedella al gust",
             "es": "Ternera al gusto",
-            "en": "Meat with Fungi"
+            "en": "Veal to taste"
           },
           "description": {
-            "ca": "",
-            "es": "",
-            "en": ""
+            "ca": "Vedella al gust",
+            "es": "Ternera al gusto",
+            "en": "Veal to taste"
           },
           "price": 20,
           "gluten": true,
           "lactose": true,
           "img": "ternera.png",
           "altDesc": "Ternera al gusto"
+        },
+        "3": {
+          "name": {
+            "ca": "Filet de vedella amb patates",
+            "es": "Filete de ternera con patatas",
+            "en": "Beef steak with potatoes"
+          },
+          "description": {
+            "ca": "Filet de vedella amb patates",
+            "es": "Filete de ternera con patatas",
+            "en": "Beef steak with potatoes"
+          },
+          "price": 20,
+          "gluten": true,
+          "lactose": true,
+          "img": "filete.png",
+          "altDesc": "Ternera al gusto"
+        },
+       "5": {
+          "name": {
+            "ca": "Costellam",
+            "es": "Costillar",
+            "en": "Ribs"
+          },
+          "description": {
+            "ca": "Costellam de cabrit",
+            "es": "Costillar de cabrito",
+            "en": "Kid's ribs"
+          },
+          "price": 20,
+          "gluten": true,
+          "lactose": true,
+          "img": "costillar.png",
+          "altDesc": "Costillar de cabrito"
         }
       }
     },
     "5": {
       "title": {
-        "ca": "Carns",
+        "ca": "Postres",
         "es": "Postres",
-        "en": "Meat"
+        "en": "Desserts"
       },
       "description": {
-        "ca": "La millor selecció de carn",
+        "ca": "Els nostres millors postres",
         "es": "Nuestros mejores postres",
-        "en": "The best selection of meat"
+        "en": "Our best desserts"
       },
       "dishes": {
         "1": {
@@ -257,9 +291,9 @@
             "en": "Meat with Fungi"
           },
           "description": {
-            "ca": "",
-            "es": "",
-            "en": ""
+            "ca": "Carn al Fungi",
+            "es": "Delicia de chocolate con leche",
+            "en": "Meat with Fungi"
           },
           "price": 20,
           "gluten": true,
@@ -269,28 +303,62 @@
         },
         "2": {
           "name": {
-            "ca": "Carn al Fungi",
-            "es": "Delicias del bosque",
-            "en": "Meat with Fungi"
+            "ca": "Delícia del bosc",
+            "es": "Delicia del bosque",
+            "en": "Forest Delight"
           },
           "description": {
-            "ca": "",
-            "es": "",
-            "en": ""
+            "ca": "Delícia del bosc",
+            "es": "Delicia del bosque",
+            "en": "Forest Delight"
           },
           "price": 20,
           "gluten": true,
           "lactose": true,
           "img": "delicia_bosque.png",
-          "altDesc": "Delicias del bosque"
+          "altDesc": "Delicia del bosque"
+        },
+        "3": {
+          "name": {
+            "ca": "Xocolata amb ametlles",
+            "es": "Chocolate con almendras",
+            "en": "Chocolate with almonds"
+          },
+          "description": {
+            "ca": "Xocolata amb ametlles",
+            "es": "Delicia del bosque",
+            "en": "Chocolate with almonds"
+          },
+          "price": 20,
+          "gluten": true,
+          "lactose": true,
+          "img": "chocoalmendrada.png",
+          "altDesc": "Chocolate con almendras"
+        },
+        "4": {
+          "name": {
+            "ca": "Tres llets",
+            "es": "Tres leches",
+            "en": "Three milks"
+          },
+          "description": {
+            "ca": "Tres llets",
+            "es": "Tres leches",
+            "en": "Three milks"
+          },
+          "price": 20,
+          "gluten": true,
+          "lactose": true,
+          "img": "tres_leches.png",
+          "altDesc": "Tres leches"
         }
       }
     },
     "6": {
       "title": {
-        "ca": "Carns",
+        "ca": "Recomanacions del xef",
         "es": "Recomendaciones del chef",
-        "en": "Meat"
+        "en": "Chef's recommendations"
       },
       "description": {
         "ca": "La millor selecció de carn",
@@ -300,19 +368,19 @@
       "dishes": {
         "1": {
           "name": {
-            "ca": "Carn al Fungi",
+            "ca": "Crema catalana",
             "es": "Crema catalana",
             "en": "Meat with Fungi"
           },
           "description": {
-            "ca": "",
-            "es": "",
-            "en": ""
+            "ca": "Crema catalana",
+            "es": "Crema catalana",
+            "en": "Catalan cream"
           },
           "price": 20,
           "gluten": true,
           "lactose": true,
-          "img": "crema_catalana.jpg",
+          "img": "crema_catalana.png",
           "altDesc": "Crema catalana"
         }
       }
