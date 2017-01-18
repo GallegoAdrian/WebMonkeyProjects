@@ -1,1 +1,53 @@
-index.json
+{
+  "page": {
+    "horari": {
+      "title":{
+        "ca": "Horari",
+        "es": "Horario",
+        "en": "Timetable"
+      },
+      "days": {
+        "1": {
+          "ca": "Dilluns",
+          "es": "Lunes",
+          "en": "Monday"
+        },
+        "2": {
+          "ca": "Dimarts",
+          "es": "Martes",
+          "en": "Tuesday"
+        },
+        "3": {
+          "ca": "Dimecres",
+          "es": "Miercoles",
+          "en": "Wednesday"
+        },
+        "4": {
+          "ca": "Dijous",
+          "es": "Jueves",
+          "en": "Thursday"
+        },
+        "5": {
+          "ca": "Divendres",
+          "es": "Viernes",
+          "en": "Friday"
+        },
+        "6": {
+          "ca": "Dissabte",
+          "es": "Sabado",
+          "en": "Saturday"
+        },
+        "7": {
+          "ca": "Diumenge",
+          "es": "Domingo",
+          "en": "Sunday"
+        }
+      },
+      "closed":{
+        "ca": "Tancat",
+        "es": "Cerrado",
+        "en": "Closed"
+      }
+      
+      }
+}
