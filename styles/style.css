@@ -242,7 +242,8 @@ div#banner{
 .season-items{
 	position: absolute;
     bottom: 12px;
-    left: 520px;
+	text-align: center;
+    width: 100%;
 }
 
 .season-items span{
