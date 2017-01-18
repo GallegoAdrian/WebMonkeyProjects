@@ -3,6 +3,29 @@ getPage(getLanguage());
 $(document).ready( function() {
 // Cada seis segundos se ejecuta elswitchSliede() funtion.
 setInterval( "switchSlide()", 6000);
+
+//Esta parte sirve solo para poder cerrar la modal sin hacer uso de "close2"
+//sino haciendo clic fuera de la modal.
+//Aqui creamos una variable la cual recogemos el contenido de la clase myModalMenu
+//para luego usarla mas abajo
+var modalMenu = document.getElementsByClassName('myModalMenu')[0];
+
+//cuando hagamos cualquier clic en la pantalla del navegador se activa
+//la funcion y compureba donde hemos hecho el clic
+window.onclick = function(event) {
+  //Comprobamos si el clic esta dentro de nuestro modalMenu
+  
+  if (event.target == modalMenu) {
+    //Hacemos que el modalMenu desaparezca
+    $(modalMenu).fadeOut();
+     //Aqui volvemos a poner en nuestro css que el overflow este auto
+     $("body").css({"position": "relative", "overflow-y": "auto","width": "100%"});
+     $("body").css({"top": 0});
+     $(window.document).scrollTop(altura);
+  }
+};
+
+
 });
 // Esta funcion coge el primer .slide elementa y lo pone al final
 function switchSlide() {
@@ -73,24 +96,7 @@ $(".modal-content-menu").on("click", "span.close2", function(){
     $(window.document).scrollTop(altura);
     //Aqui acaba la funcion para cerrar la modal desde la "X"
 });
-//Esta parte sirve solo para poder cerrar la modal sin hacer uso de "close2"
-//sino haciendo clic fuera de la modal.
-//Aqui creamos una variable la cual recogemos el contenido de la clase myModalMenu
-//para luego usarla mas abajo
-var modalMenu = document.getElementsByClassName('myModalMenu')[0];
-//cuando hagamos cualquier clic en la pantalla del navegador se activa
-//la funcion y compureba donde hemos hecho el clic
-window.onclick = function(event) {
-  //Comprobamos si el clic esta dentro de nuestro modalMenu
-  if (event.target == modalMenu) {
-    //Hacemos que el modalMenu desaparezca
-    $(modalMenu).fadeOut();
-     //Aqui volvemos a poner en nuestro css que el overflow este auto
-     $("body").css({"position": "relative", "overflow-y": "auto","width": "100%"});
-     $("body").css({"top": 0});
-     $(window.document).scrollTop(altura);
-  }
-};
+
 //////////////Menús temporadas/////////////////////////
 $(".bottom-title").on("click", "#mySpecialButton", function(){
 
