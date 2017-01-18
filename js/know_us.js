@@ -49,8 +49,6 @@ function getKnowUs(language) {
         var short;
         json = data;
 
-        console.log(json);
-
         var knowUs = '<h2 id="pagetitle">'+getSel(json.page.title, language)+'</h2>'+
                      '<p>'+getSel(json.page.description, language)+'</p>';
 

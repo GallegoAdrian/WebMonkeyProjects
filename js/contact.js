@@ -6,7 +6,6 @@ $( "#form" ).on('click','#contact-send',function( event ) {
   var email = $('#contact-email').val();
   emailRegex = /^[-\w.%+]{1,64}@(?:[A-Z0-9-]{1,63}\.){1,125}[A-Z]{2,63}$/i;
 
-  console.log(email);
 
   if ($('#contact-name').val().trim() == "" || $('#contact-email').val().trim() == "" 
     || $('#contact-message').val().trim() == "") {
@@ -41,8 +40,6 @@ function getKnowUs(language) {
         //var lang = '#'+idioma;
         var short;
         json = data;
-
-        console.log(json);
 
         var map = '<h2 id="pagetitle">'+getSel(json.page.ubication, language)+'</h2>';
 

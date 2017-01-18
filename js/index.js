@@ -3,7 +3,6 @@ $(document).ready( function() {
   setInterval( "switchSlide()", 6000);
   $( ".button" ).click(function() {
     if ($(this).hasClass('buttonsel')) {
-      console.log('has class');
     }
     else{
       var id = $(this).children('p').text();
@@ -53,12 +52,9 @@ function setVisible(pos) {
         $(this).fadeIn('slow');
         done = true;
       }
-      else{
-      }
     }
     count++;
   });
-  console.log(done);
   if (done == true) {
     var ses = $('.button p:contains("'+pos+'")');
     $('.buttons').find(".buttonsel").removeClass("buttonsel");

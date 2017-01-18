@@ -166,7 +166,6 @@ $(".modal-content-menu").on("click", "span.close2", function(){
               doc.fromHTML(res3, 0.5, 0.5, {
                   'width': 75,'elementHandlers': specialElementHandlers
               });
-              console.log(doc);
 
               doc.save("menu.pdf");
       });
@@ -186,7 +185,6 @@ $(".modal-content-menu").on("click", "span.close2", function(){
               doc.fromHTML(res3, 0.5, 0.5, {
                   'width': 75,'elementHandlers': specialElementHandlers
               });
-              console.log(doc);
 
               doc.save("menu.pdf");
       });
