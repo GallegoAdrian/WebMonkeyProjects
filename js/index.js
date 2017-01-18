@@ -46,17 +46,14 @@ function setVisible(pos) {
     }
     if ($(this).is(':visible')) {
       $(this).fadeOut('slow');
-      console.log('fade out '+count);
     }
     else{
 
       if (pos == count) {
         $(this).fadeIn('slow');
         done = true;
-        console.log('fade in '+count);
       }
       else{
-        console.log('do nothing '+count);
       }
     }
     count++;
