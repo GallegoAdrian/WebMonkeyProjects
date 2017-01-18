@@ -38,8 +38,7 @@
           "price": 20,
           "gluten": true,
           "lactose": true,
-          "img": "Aceitunas.png",
-          "altDesc": "Aceitunas"
+          "img": "Aceitunas.png"
         },
         "2": {
           "name": {
@@ -55,8 +54,7 @@
           "price": 20,
           "gluten": true,
           "lactose": true,
-          "img": "iberico.png",
-          "altDesc": "Jamón iberico"
+          "img": "iberico.png"
         }
       }
     },
@@ -86,8 +84,7 @@
           "price": 20,
           "gluten": true,
           "lactose": true,
-          "img": "mini_paella.png",
-          "altDesc": "Paella para uno"
+          "img": "mini_paella.png"
         },
         "2": {
           "name": {
@@ -103,8 +100,7 @@
           "price": 20,
           "gluten": true,
           "lactose": true,
-          "img": "paella.png",
-          "altDesc": "Paella para dos o más personas"
+          "img": "paella.png"
         },
         "3": {
           "name": {
@@ -120,8 +116,7 @@
           "price": 20,
           "gluten": true,
           "lactose": true,
-          "img": "spaghetti_vegetal.png",
-          "altDesc": "Spaghetti vegetal"
+          "img": "spaghetti_vegetal.png"
         },
         "4": {
           "name": {
@@ -137,8 +132,7 @@
           "price": 20,
           "gluten": true,
           "lactose": true,
-          "img": "spaghetti_carbonara.png",
-          "altDesc": "Spaghetti carbonara"
+          "img": "spaghetti_carbonara.png"
         }
       }
     },
@@ -168,8 +162,7 @@
           "price": 20,
           "gluten": true,
           "lactose": true,
-          "img": "merluza.png",
-          "altDesc": "Merluza a la plancha con ajillo y guarnición."
+          "img": "merluza.png"
         },
         "2": {
           "name": {
@@ -185,8 +178,7 @@
           "price": 20,
           "gluten": true,
           "lactose": true,
-          "img": "lubina.png",
-          "altDesc": "Lubina al horno"
+          "img": "lubina.png"
         }
       }
     },
@@ -216,8 +208,7 @@
           "price": 20,
           "gluten": true,
           "lactose": true,
-          "img": "conejo.png",
-          "altDesc": "Conejo con verduras"
+          "img": "conejo.png"
         },
         "2": {
           "name": {
@@ -233,8 +224,7 @@
           "price": 20,
           "gluten": true,
           "lactose": true,
-          "img": "ternera.png",
-          "altDesc": "Ternera al gusto"
+          "img": "ternera.png"
         },
         "3": {
           "name": {
@@ -250,8 +240,7 @@
           "price": 20,
           "gluten": true,
           "lactose": true,
-          "img": "filete.png",
-          "altDesc": "Ternera al gusto"
+          "img": "filete.png"
         },
        "5": {
           "name": {
@@ -267,8 +256,7 @@
           "price": 20,
           "gluten": true,
           "lactose": true,
-          "img": "costillar.png",
-          "altDesc": "Costillar de cabrito"
+          "img": "costillar.png"
         }
       }
     },
@@ -298,8 +286,7 @@
           "price": 20,
           "gluten": true,
           "lactose": true,
-          "img": "delicia_chocolate.png",
-          "altDesc": "Delicia de chocolate con leche"
+          "img": "delicia_chocolate.png"
         },
         "2": {
           "name": {
@@ -315,8 +302,7 @@
           "price": 20,
           "gluten": true,
           "lactose": true,
-          "img": "delicia_bosque.png",
-          "altDesc": "Delicia del bosque"
+          "img": "delicia_bosque.png"
         },
         "3": {
           "name": {
@@ -332,8 +318,7 @@
           "price": 20,
           "gluten": true,
           "lactose": true,
-          "img": "chocoalmendrada.png",
-          "altDesc": "Chocolate con almendras"
+          "img": "chocoalmendrada.png"
         },
         "4": {
           "name": {
@@ -349,8 +334,7 @@
           "price": 20,
           "gluten": true,
           "lactose": true,
-          "img": "tres_leches.png",
-          "altDesc": "Tres leches"
+          "img": "tres_leches.png"
         }
       }
     },
@@ -380,8 +364,7 @@
           "price": 20,
           "gluten": true,
           "lactose": true,
-          "img": "crema_catalana.png",
-          "altDesc": "Crema catalana"
+          "img": "crema_catalana.png"
         }
       }
     }

@@ -7,7 +7,16 @@ $(document).ready(function() {
      if (before !== now && before !== 'empty') {
         showPopup('You should visit the new menu');
     }
+
+    $('.season-items').on('click', 'span', function(data) {
+        
+        //Si se pone texto en el span cambiar currentTarget por target
+        changeSeason(data.currentTarget.attributes[0].value);
+
+    });
+
     applyStyles(now);
+
 });
 // Checkeamos que exista la cookie
 function checkCookie(cname) {
