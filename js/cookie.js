@@ -7,7 +7,6 @@ setCookieSeason(10*30);
 $(document).ready(function() {
 
     getKnowUs(getLanguage());
-
      if (before !== now && before !== 'empty') {
         /*showPopup('You should visit the new menu');*/
         showPopup();
