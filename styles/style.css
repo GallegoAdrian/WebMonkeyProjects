@@ -75,8 +75,7 @@ h2{
 .bg{
 	background: rgba(255,255,255,1);
 	color: black;
-	z-index: 2;
-
+	z-index: 4;
 }
 .nbg{
 	background: rgba(255,255,255,0);
