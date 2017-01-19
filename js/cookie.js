@@ -3,25 +3,45 @@ var now = getSeason(avui.getDate(), avui.getMonth()+1);
 var before = checkCookie('temporada');
 setCookieSeason(10*30);
 
+(function($, myLanguageFunctions) {
 
-$(document).ready(function() {
+    $(document).ready(function() {
 
-    getKnowUs(getLanguage());
-     if (before !== now && before !== 'empty') {
-        /*showPopup('You should visit the new menu');*/
-        showPopup();
-    }
+        getCookieText(myLanguageFunctions.getLanguage());
+         if (before !== now && before !== 'empty') {
+            showPopup();
+        }
 
-    $('.season-items').on('click', 'span', function(data) {
-        
-        //Si se pone texto en el span cambiar currentTarget por target
-        changeSeason(data.currentTarget.attributes[0].value);
+        $('.season-items').on('click', 'span', function(data) {
+            changeSeason(data.currentTarget.attributes[0].value);
+        });
+
+        $('#myModalCookie').on('click', '.close-cookie', function(data) {
+            $('#myModalCookie').css('display','none');
+        });
+
+        applyStyles(now);
 
     });
 
-    applyStyles(now);
+    function getCookieText(language) {
 
-});
+        var fullurl = window.location.href;
+        var url = fullurl.substring(0, fullurl.lastIndexOf("/")+1)+'json/cookie.json';
+
+        $.getJSON(url, function (data) {
+
+            var cookie = '<span>'+myLanguageFunctions.getLanguageWord(data.cookie.message, language)+'</span>'+
+                        '<a href="menu.html">'+myLanguageFunctions.getLanguageWord(data.cookie.optionYes, language)+'</a>'+
+                        '<a class="close-cookie" href="#">'+myLanguageFunctions.getLanguageWord(data.cookie.optionNo, language)+'</a>';
+
+            $('#content-cookie').html(cookie);
+
+        });
+    }
+
+})(jQuery, myLanguageFunctions);
+
 // Checkeamos que exista la cookie
 function checkCookie(cname) {
     // comprobamos  que valor tiene para el nombre especifico de la cookie
@@ -73,7 +93,6 @@ function setCookieSeason(exdays) {
 
 // obtenemos la estación del año segun la fecha del sistema que obtenga la cookie
 function getSeason(day, month, callback){
-    // console.log(day+' | '+month);
 
     var season = "";
     switch(month){
@@ -111,46 +130,7 @@ console.log(season);*/
 function showPopup() {
     var modal = document.getElementById('myModalCookie');
     modal.style.display = "block";
-    
 }
-
-
-
-function getKnowUs(language) {
-
-    var fullurl = window.location.href;
-    var url = fullurl.substring(0, fullurl.lastIndexOf("/")+1)+'json/cookie.json';
-    var json = "";
-    $.getJSON(url, function (data) {
-        //var lang = '#'+idioma;
-        // // var short;
-        json = data;
-
-        var cookie = '<span>'+getSel(json.cookie.message, language)+'</span>'+
-                    '<a href="menu.html">'+getSel(json.cookie.optionYes, language)+'</a>'+
-                    '<a href="index.html">'+getSel(json.cookie.optionNo, language)+'</a>';
-
-        
-
-        $('#content-cookie').html(cookie);
-
-    });
-}
-
-function getSel(array, lang) {
-    if (lang == 'ca') {
-        return array.ca;
-    }
-    else if(lang == 'en'){
-        return array.en;
-    }
-    else{
-        return array.es;
-    }
-}
-
-
-
 
 
 function applyStyles(season){

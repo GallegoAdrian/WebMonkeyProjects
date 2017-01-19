@@ -21,16 +21,16 @@ function iconsWeather(icon){
 
 }
 
-function weatherOfDay(weatherDay,  weatherOfWeek , day, oWeatherPalamos){
+function weatherOfDay(weatherDay,  weatherOfWeek , day, oWeatherPalamos, lang){
 
-	if(getLanguage() == 'en'){
-		var lang = 'en-gb';
+	if(lang == 'en'){
+		var language = 'en-gb';
 	}else{
-		var lang = getLanguage();
+		var language = lang;
 	}
 
-	var date = moment.unix(oWeatherPalamos.dt).locale(lang).format('ll');
-	var hour = moment.unix(oWeatherPalamos.dt).locale(lang).format('LT');
+	var date = moment.unix(oWeatherPalamos.dt).locale(language).format('ll');
+	var hour = moment.unix(oWeatherPalamos.dt).locale(language).format('LT');
 
 
 	if(date.indexOf(day) > -1 && hour != '1:00' && hour != '4:00' && hour != '7:00'){

@@ -1,5 +1,64 @@
-/////////// Top Slider Menús//////////////////////
-getPage(getLanguage());
+(function($, myLanguageFunctions) {
+
+/*LANGUAGE: START*/
+
+getPage(myLanguageFunctions.getLanguage());
+
+function getPage(language){ 
+    var fullurl = window.location.href;
+    var url = fullurl.substring(0, fullurl.lastIndexOf("/")+1)+'json/menu.json';
+
+    $.getJSON(url, function(data) {
+
+      var menu = "";
+      var count = 0;
+      // title
+      $('.titletarget').text(myLanguageFunctions.getLanguageWord(data.page.title, language));
+        jQuery.each(data.menus, function(key, value) {
+          count++;
+          menu += getSquareMenu(value, language, count);
+        });
+        count++;
+        var season = getSeasons(data.season);
+        menu += getSquareMenu(season, language, count);
+
+      //$('#acordeontarget').append(acordeon);
+      $(".menutarget").append(menu);
+    });
+}
+
+
+function getSquareMenu(data, language, count, season){
+  var menu = '<div class="square-menus myBtnMenu menu'+count+'">'+
+    '<div class="info-content-menu menu">'+
+        '<h3>'+myLanguageFunctions.getLanguageWord(data.title, language)+'</h3>'+
+        '<p>'+myLanguageFunctions.getLanguageWord(data.description, language)+'</p>'+
+          '<ul>';
+          var i = 1;
+          while (i <= 3){
+            menu += '<li>···</li>';
+            jQuery.each(data.dishes[i], function(keys, values) {
+              menu += '<li>'+myLanguageFunctions.getLanguageWord(values, language)+'</li>';
+            });
+            i++;
+          }
+          menu += '<li>···</li>';
+          jQuery.each(data.dishes.drinks, function(keys, values) {
+            menu += '<li>'+myLanguageFunctions.getLanguageWord(values, language)+'</li>';
+          });
+          menu += '<li>···</li></ul>';
+      menu += '<span>'+data.dishes.price+' €</span>'+
+  '</div>'+
+'</div>';
+
+return menu;
+}
+
+
+})(jQuery, myLanguageFunctions);
+
+/*LANGUAGE: END*/
+
 $(document).ready( function() {
 // Cada seis segundos se ejecuta elswitchSliede() funtion.
 setInterval( "switchSlide()", 6000);
@@ -195,41 +254,6 @@ $(".modal-content-menu").on("click", "span.close2", function(){
               doc.save("menu.pdf");
       });
 
-/*LANGUAGE: START*/
-
-function getPage(language){ 
-    var fullurl = window.location.href;
-    var url = fullurl.substring(0, fullurl.lastIndexOf("/")+1)+'json/menu.json';
-    var json = "";
-    $.getJSON(url, function(data) {
-      json = data;
-      var menu = "";
-      var count = 0;
-      // title
-      $('.titletarget').text(getSel(json.page.title, language));
-        jQuery.each(json.menus, function(key, value) {
-          count++;
-          menu += getSquareMenu(value, language, count);
-        });
-        count++;
-        var season = getSeasons(json.season);
-        menu += getSquareMenu(season, language, count);
-
-      //$('#acordeontarget').append(acordeon);
-      $(".menutarget").append(menu);
-    });
-}
-function getSel(array, lang) {
-    if (lang == 'ca') {
-        return array.ca;
-    }
-    else if(lang == 'en'){
-        return array.en;
-    }
-    else{
-        return array.es;
-    }
-}
 function getSeasons (season){
   var month = moment().format("M"); 
   switch(month) {
@@ -255,30 +279,4 @@ function getSeasons (season){
         break;
     }
 }
-function getSquareMenu(data, language, count, season){
-  var menu = '<div class="square-menus myBtnMenu menu'+count+'">'+
-    '<div class="info-content-menu menu">'+
-        '<h3>'+getSel(data.title, language)+'</h3>'+
-        '<p>'+getSel(data.description, language)+'</p>'+
-          '<ul>';
-          var i = 1;
-          while (i <= 3){
-            menu += '<li>···</li>';
-            jQuery.each(data.dishes[i], function(keys, values) {
-              menu += '<li>'+getSel(values, language)+'</li>';
-            });
-            i++;
-          }
-          menu += '<li>···</li>';
-          jQuery.each(data.dishes.drinks, function(keys, values) {
-            menu += '<li>'+getSel(values, language)+'</li>';
-          });
-          menu += '<li>···</li></ul>';
-      menu += '<span>'+data.dishes.price+' €</span>'+
-  '</div>'+
-'</div>';
 
-return menu;
-}
-
-/*LANGUAGE: END*/
