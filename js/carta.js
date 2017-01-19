@@ -63,9 +63,10 @@ $(document).on('click', '.myImg', function(){
     //pon la descripción a la modal
     $('#caption').text(this.alt);
     //al clickar a la cruz, cierra la modal
-    $('#myModalCarta').on('click','.close-carta', function(){
-        $('#myModalCarta').css('display', 'none');
-    });
+});
+
+$('#myModalCarta').on('click','.close-carta', function(){
+    $('#myModalCarta').css('display', 'none');
 });
 
 function getSel(array, lang) {
