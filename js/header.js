@@ -1,4 +1,6 @@
 $(document).ready( function() {
+    $( "#form" ).on('click','#contact-send',function( event ) {
+    });
     getMenu(getLanguage());
 
     $('.menu-language').on('click', 'ul li a', function(data) {
@@ -13,7 +15,7 @@ $(document).ready( function() {
       else{
         window.location = urllang+'#'+$(this).val();
       }
-      location.reload();
+      location.reload(false);
 
     });
 
