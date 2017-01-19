@@ -79,7 +79,7 @@ function getKnowUs(language) {
                   '<h2 class="subtitles">'+getSel(json.page.staff.helperChef.name, language)+'</h2>'+
                   '<span>'+getSel(json.page.staff.helperChef.description, language)+'</span>'+
                 '</div>'+
-              '</div>';
+              '</div><h2 class="subtitles">Palamós</h2> <p> shoduashid ushdai udhasdi sadhu siudsh daisudhasiduashd asidu hsdusdha sidush disudh aisudhaiduah sid</p>';
 
         $('#descriptionKnowUs').html(knowUs);
         $('#personal').html(staff);
