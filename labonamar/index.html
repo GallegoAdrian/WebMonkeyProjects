@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>La Bona Mar</title>
+    
+    
+    <script type="text/javascript" src="js/moment-with-locales.js" ></script>
+    <link rel="shortcut icon" type="image/png" href="img/favicon.png"/>
+    <link rel="stylesheet" type="text/css" href="styles/style.css">
+    <link rel="stylesheet" type="text/css" href="styles/modal.css">
+    <link rel="stylesheet" type="text/css" href="styles/style_inicio.css">
+    <script type="text/javascript" src="js/jquery.js" ></script>
+    <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script> -->
+  </head>
+  <body>
+
+    <div class="container">
+      <div id="menutarget"></div>
+      <div id="myModal" class="modal">
+          <div class="modal-content">
+              <div class="weather-time" >
+                  <span class="close">×</span>
+                  <h1>PALAMÓS</h1>
+              </div>
+          </div>
+      </div>
+      <div id="myModalCookie" class="modal-cookie">
+          <div class="modal-content-cookie">
+              <div id="content-cookie"></div>
+          </div>
+      </div>
+      <div class="img-home">
+        <h1>La Bona Mar</h1>
+        <div id="arrow">
+          <img alt="Flecha hacia abajo" src="img/home/arrow.svg">
+        </div>
+      </div>
+       <!-- Ignasi  -->
+       <div class = "bottom-title">
+        <div id = "contenido-inicio">
+            <div id ="squ-horario">
+              <div id = "horario">   
+              <h2 class="timetarget">Horario</h2>
+                <table>
+                  <tr>
+                    <td class = "dia monday">Lunes</td>
+                    <td class = "hora closedtarget">Cerrado</td>
+                  </tr>
+                  <tr>
+                    <td class = "dia tuesday">Martes</td>
+                    <td class = "hora">13:00 - 17:00</td>
+                  </tr>
+                  <tr>
+                    <td class = "dia wednesday">Miércoles</td>
+                    <td class = "hora">13:00 - 17:00</td>
+                  </tr>
+                  <tr>
+                    <td class = "dia thursday">Jueves</td>
+                    <td class = "hora">13:00 - 17:00</td>
+                  </tr>
+                  <tr>
+                    <td class = "dia friday">Viernes</td>
+                    <td class = "hora">13:00 - 17:00 / 20:00 - 24:00</td>
+                  </tr>
+                  <tr>
+                    <td class = "dia saturday">Sábado</td>
+                    <td class = "hora">13:00 - 17:00 / 20:00 - 24:00</td>
+                  </tr>
+                  <tr>
+                    <td class = "dia sunday">Domingo</td>
+                    <td class = "hora">13:00 - 17:00</td>
+                  </tr>
+                </table>
+              </div>
+            </div>
+              <a href="conocenos.html">
+              </a>
+              <div id = "squ-marbona">
+                <a href="http://lagambapalamos.com/ca/" target="_blank"><img alt="Restaurante La Gamba" src="img/home/ad-crop.png"></a>
+              </div>
+              
+
+              <h2 class='promtarget'>Promocions</h2>
+               <div class="bannerinicio">       
+                <div id="slider">
+                  <div class="buttons">
+                    <div class="button buttonsel"><p hidden>1</p></div>
+                    <div class="button"><p hidden>2</p></div>
+                    <div class="button"><p hidden>3</p></div>
+                  </div>
+                  <a href="carta.html" class="slide"><img alt="Seleccion del Chef" src="img/home/chef-crop.jpg" /></a>
+                  <a href="menu.html" class="slide" style="display: none;"><img alt="Menu del Dia" src="img/home/menu-slider-crop.jpg"/></a>
+                  <a href="carta.html" class="slide" style="display: none;"><img alt="Ingredientes" src="img/home/ingredients-slider-crop1.jpg"/></a>
+                </div>
+              </div>
+
+              <div class="contarget">
+                
+
+              </div>
+
+              <div id = "squ-redes">
+                <div id = "redes">
+                  <img alt="Botón Facebook" src="img/home/facebook.png">
+                  <img alt="Botón Instagram" src="img/home/instagram.png">
+                  <img alt="Botón YouTube" src="img/home/youtube.png">
+                  <img alt="Botón Whatsapp" src="img/home/whatsapp.png">
+                  <img alt="Botón Twitter" src="img/home/twitter.png">
+                  <img alt="Botón Google Plus" src="img/home/google-plus.png">
+                </div>
+              </div>
+          </div>
+       </div>
+       <!-- Ignasi Final -->
+    </div>
+    <footer>
+       <div id="banner">
+          <img alt="Barco del Footer" id="boat" src="img/footer/boat.png">
+          <div id="language-items">
+            <nav class="menu-language">
+                <ul>
+                  <li><a class="ca" href="#ca">Català</a></li>
+                  <li><a class="es" href="#es">Español</a></li>
+                  <li><a class="en" href="#en">English</a></li>
+                </ul>
+              </nav>
+          </div>
+          <div class="season-items">
+              <span value="autumn"><img src="img/weatherIconsSvg/seasons/autumn.svg"></span>
+              <span value="winter"><img src="img/weatherIconsSvg/seasons/winter.svg"></span>
+              <span value="spring"><img src="img/weatherIconsSvg/seasons/spring.svg"></span>
+              <span value="summer"><img src="img/weatherIconsSvg/seasons/summer.svg"></span>
+          </div>
+       </div>
+    </footer>
+    <script type="text/javascript" src="utilities/utilitiesLanguage.js"></script>
+    <script type="text/javascript" src="js/header.js"></script>
+    <script type="text/javascript" src="utilities/utilities.js"></script>
+    <script type="text/javascript" src="js/connection.js"></script>
+    <script type="text/javascript" src="js/index.js"></script>
+    <script type="text/javascript" src="js/cookie.js"></script>
+  </body>
+</html>

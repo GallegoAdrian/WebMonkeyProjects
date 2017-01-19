@@ -1,0 +1,19 @@
+{
+  "cookie": {
+    "message": {
+        "ca": "Des de que vas entrar hi ha un nou menú de temporada. El vols veure?",
+        "es": "Desde que entraste hay un nuevo menú de temporada. ¿Quieres verlo?",
+        "en": "From the last time you entered there's a new season menu. Wanna see it?"
+      },
+      "optionYes": {
+        "ca": "Si",
+        "es": "Si",
+        "en": "Yes"
+      },
+      "optionNo": {
+        "ca": "No",
+        "es": "No",
+        "en": "No"
+      }
+    }
+}

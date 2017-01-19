@@ -1,0 +1,375 @@
+@font-face{
+	font-family: simsun;
+	src: url(../fonts/SimSun.ttf);
+}
+@font-face{
+	font-family: castellar;
+	src: url(../fonts/castellar.ttf);
+}
+@font-face{
+	font-family: kozgopro;
+	src: url(../fonts/KozGoPro.otf);
+}
+
+@font-face{
+	font-family: catherine;
+	src: url(../fonts/CatherinedeBeaumont.ttf);
+}
+
+@font-face{
+	font-family: behind;
+	src: url(../fonts/BehindScript.otf);
+}
+
+@font-face{
+	font-family: heaven;
+	src: url(../fonts/HeavenMattersPersonalUse.ttf);
+}
+
+@font-face{
+	font-family: lobster;
+	src: url(../fonts/Lobster-Regular.ttf);
+}
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center, dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	
+}
+
+body{
+	background-color: white;
+	font-family: kozgopro;
+	height: 5px;
+}
+::selection {
+  background: #ffbfa6; /* WebKit/Blink Browsers */
+}
+::-moz-selection {
+  background: #ffbfa6; /* Gecko Browsers */
+}
+.container{
+	width:1024px;
+	margin: 0 auto;
+/*	height:2000px;*/
+	background-color: #f5f5f5;
+}
+
+header{
+	text-align: right;
+	height: 75px;
+	position: fixed;
+	width: 1024px;
+	top: 0;
+}
+h2{
+	color: rgba(0, 0, 0, 0);
+	transition: color 1s ease;
+}
+.bg{
+	background: rgba(255,255,255,1);
+	color: black;
+	z-index: 4;
+}
+.nbg{
+	background: rgba(255,255,255,0);
+	color: white;
+	font-style: white;
+	background-image: url(../img/header/degradado.png);
+	z-index: 5;
+}
+.nbg a, .nbg p{
+	color: white;
+}
+.bg a, .bg p{
+	color: black;
+}
+
+.bg a:hover{
+	border-bottom: 1px solid #000;
+}
+
+
+#logo{
+	float: left;
+	color: white;
+}
+#logo img{
+	width: 60px;
+	float: left;
+	padding-top: 8px;
+	padding-left: 39px; 
+}
+#info{
+	float: right;
+	padding-top: 25px;
+	padding-left: 10px;
+	text-align: left;
+	line-height: 15px;
+	font-size: 12px;
+}
+
+nav{
+	position: relative;
+	display: inline-block;
+	margin-right: 33px;
+	margin-top: 14px;
+}
+
+nav ul li{
+	display: inline-block;
+	font-size: 1.5em;
+	padding: 1px .4em;
+}
+
+nav ul li a{
+	text-decoration: none;	
+	margin: 0 4px;
+	outline:0px;
+	border-bottom: 1px solid transparent;
+	-webkit-transition: border-bottom 1s ease;
+	-moz-transition: border-bottom 1s ease;
+	-o-transition: border-bottom 1s ease;
+	-ms-transition: border-bottom 1s ease;
+	transition: border-bottom 1s ease; 
+}
+
+nav ul li a:hover{
+	border-bottom: 1px solid #fff;
+}
+
+.active a {
+	border-bottom: 1px solid #fff;
+}
+
+.sun{
+	width: 35px;
+	float: right;
+	padding-top: 7px;
+	padding-left: 19px;
+	cursor: pointer;
+}
+
+.img-home{
+	display: flex;
+	flex-direction:column;
+	justify-content:space-around;
+	align-items:center;
+	text-transform: uppercase;
+	font-family: nSimsum;
+	height: 750px;
+	background-image: url(../img/home/slider.jpg);
+	background-repeat: no-repeat;
+	color: #07469f;
+	font-size: 43px;
+	
+}
+.img-home h1{
+	padding-top: 47px;
+	font-weight: normal;
+	transform: scaleY(1.5);
+}
+
+
+#arrow{
+ 	position:relative;
+	cursor: pointer;
+	margin-bottom: 100px;
+	-webkit-animation: 3s arrow infinite ease;
+	animation: 3s arrow infinite ease;
+}
+
+#arrow img{
+	height: 95px;
+}
+
+footer{
+	position: relative;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	top:-13px;
+	text-align: center;
+	min-width: 1024px;
+}
+
+div#banner{
+	width:100%;
+	height:200px;
+	margin:0 auto;
+	background-image: url(../img/footer/sea4.svg);
+	background-position: 120% 0px,0px 0px,0px 0px;
+	background-repeat: repeat-x; 
+	animation: animate-background linear 70s infinite;
+}
+
+.container .slider-menus{
+	height: 450px;
+	background-image: url(../img/menus/marisco.jpg);
+	background-repeat: no-repeat;
+	background-size: 100%;
+}
+
+.container-info{
+	padding: 10px;
+	font-size: 20px;
+	background-color: #f5f5f5;
+}
+
+.container-info h1{
+	text-align: center;
+}
+
+#pagetitle{
+    color: rgba(0, 0, 0, 0);
+    font-size: 60px;
+    font-weight: normal;
+    font-family: lobster;
+    text-align: center;
+}
+
+.season-items{
+	position: absolute;
+    bottom: 12px;
+	text-align: center;
+    width: 100%;
+}
+
+.season-items span{
+   cursor: pointer;
+   margin-left: 30px;
+}
+
+.season-items span img{
+   height: 35px;
+}
+
+.menu-language{
+	margin: 0;
+}
+
+.menu-language a{
+	color:#fff;
+	outline:0px;
+}
+
+.select-language{
+	border-bottom: 1px solid #fff;
+}
+
+#boat{
+	position: relative;
+	width:100px;
+	margin:-43px 0px 0px 0%;
+	animation: boat 5s infinite;
+}
+
+.modal-cookie {
+	display: none;
+	position: fixed;
+	z-index: 8;
+	padding-top: 50px;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 100%;
+	overflow: auto;
+	background-color: rgb(0,0,0);
+	background-color: rgba(0,0,0,0.4);
+}
+
+.modal-content-cookie {
+	position: relative;
+	margin: auto;
+	width: 400px;
+	text-align: center;
+    background-color: #fff;
+    padding: 15px;
+	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+	-webkit-animation-name: animatetop;
+	-webkit-animation-duration: 0.4s;
+	animation-name: animatetop;
+	animation-duration: 0.4s
+}
+
+.modal-content-cookie span{
+	display: block;
+}
+
+.modal-content-cookie a{
+    text-decoration: none;
+    color: #fff;
+    padding: 5px 30px;
+    background-color: #222;
+    margin-left: 22px;
+}
+
+@-webkit-keyframes animatetop {
+	from {top:-300px; opacity:0}
+	to {top:0; opacity:1}
+}
+
+@keyframes animatetop {
+	from {top:-100px; opacity:0}
+	to {top:0; opacity:1}
+}
+
+@keyframes animate-background{
+	from{background-position: -120% 0px,0px 0px,0px 0px;}
+	to{background-position: 0 0px,-1000px 0px,-500px 0px;}
+}
+
+/*@keyframes arrow{
+  from{background-position: -120% 0px,0px 0px,0px 0px;}
+  to{background-position: 0 0px,-1000px 0px,-500px 0px;}
+}*/
+
+@-webkit-keyframes arrow {
+    0%,100% {
+        top:10px;
+    }
+    50% {
+        top:30px;
+    }
+}
+@keyframes arrow {
+    0%,100% {
+        top:10px;
+    }
+    50% {
+        top:30px;
+    }
+}
+/* START SEASONS */
+.winter{
+	color: #717581;
+}
+.autumn{
+	color: #bb201e;
+}
+.summer{
+	color: #8f9ec7;
+}
+.spring{
+	color: #ff7a66;
+}
+/* END SEASONS */
+
+/*Animacion que carlos no quiere que pongamos
+@keyframes boat{
+    0%   {top:30px;-webkit-transform: rotate(-5deg);}
+    50%  {top:20px;-webkit-transform: rotate(3.5deg);}
+    100% {top:30px; -webkit-transform: rotate(-5deg);}
+}*/
+
