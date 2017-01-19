@@ -122,26 +122,13 @@
 	height: 550px;
 }
 #squ-redes{
-	height: 60px;
-	width: 500px;
-	float: right;
-	margin: 10px;
-	position: absolute;
-	bottom: 15px;
-	left: 166px;
-}
-#redes{	
-	background-color: #f5f5f5;
-	position: relative;
-	padding: 10px;
-	top: -1px;
-	left: -1px;
-	
+	width: 100%;
+	text-align: center;
 }
 
 #redes img{
 	height: 30px;
-	margin-left:42px;
+	margin: 0 21px;
 	margin-top: 5px;
 }
 .bannerinicio{

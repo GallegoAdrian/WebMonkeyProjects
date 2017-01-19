@@ -1,4 +1,41 @@
+<<<<<<< HEAD
 function getKnowUs(language) {
+=======
+$(document).ready( function() {
+
+$( "#form" ).on('click','#contact-send',function( event ) {
+  //event.preventDefault();
+  console.log('exec');
+  var email = $('#contact-email').val();
+  emailRegex = /^[-\w.%+]{1,64}@(?:[A-Z0-9-]{1,63}\.){1,125}[A-Z]{2,63}$/i;
+
+
+  if ($('#contact-name').val().trim() == "" || $('#contact-email').val().trim() == "" 
+    || $('#contact-message').val().trim() == "") {
+    $('#error-mail').css("display","none");
+    $('#success-message').css("display","none");
+    $('#error-message').css("display","block");
+  
+  }else{
+    
+    if (emailRegex.test(email)){
+      $('#error-message').css("display","none");
+      $('#error-mail').css("display","none");
+      $('#success-message').css("display","block");
+    } else {
+      $('#success-message').css("display","none");
+      $('#error-message').css("display","none")
+      $('#error-mail').css("display","block");
+
+  	}
+  }
+
+});
+
+});
+
+function getContact(language) {
+>>>>>>> d404ba86c11262de19a5f6ff90cf9d120ffbe7af
     var fullurl = window.location.href;
     var url = fullurl.substring(0, fullurl.lastIndexOf("/")+1)+'json/contact.json';
     
@@ -80,4 +117,4 @@ function getSel(array, lang) {
     }
 }
 
-getKnowUs(getLanguage());
+getContact(getLanguage());
